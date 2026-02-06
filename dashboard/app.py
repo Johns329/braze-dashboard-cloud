@@ -12,240 +12,233 @@ from datetime import datetime, timedelta
 # ============================================================================
 
 st.set_page_config(
-    page_title="Braze Governance Intelligence",
+    page_title="Toast Audience Studio | Governance",
     layout="wide",
-    page_icon="🛡️",
+    page_icon="📊",
     initial_sidebar_state="expanded",
 )
 
-# Enhanced Custom CSS - Cyber Security Theme
+# Custom CSS - Toast Audience Studio theme (for a seamless iframe embed)
 st.markdown(
     """
     <style>
-    /* Global Dark Theme */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+    :root {
+      --primary: #ff6a00;
+      --primary-hover: #e55f00;
+      --dark-slate: #0f172a;
+      --slate-800: #1e293b;
+      --slate-600: #475569;
+      --slate-400: #94a3b8;
+      --slate-200: #e2e8f0;
+      --surface: #ffffff;
+      --background: #f8fafc;
+      --danger: #ef4444;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --radius-lg: 16px;
+      --radius-md: 10px;
+      --radius-full: 9999px;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+    }
+
+    html, body, [class*="css"] {
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    /* Hide Streamlit chrome (especially noticeable in an iframe). */
+    #MainMenu { visibility: hidden; }
+    footer { visibility: hidden; }
+    header[data-testid="stHeader"] { visibility: hidden; height: 0; }
+    div[data-testid="stToolbar"] { visibility: hidden; height: 0; }
+
     .stApp {
-        background: linear-gradient(135deg, #0E1117 0%, #1a1f2e 100%);
+      background: var(--surface);
+      color: var(--dark-slate);
     }
-    
-    /* Sidebar Styling */
+
+    /* Layout */
+    .main .block-container {
+      padding-top: 1.25rem;
+      padding-bottom: 2.5rem;
+      max-width: 1400px;
+    }
+
+    /* Sidebar */
     section[data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #161B22 0%, #0d1117 100%);
-        border-right: 2px solid #1f6feb;
+      background: var(--surface);
+      border-right: 1px solid var(--slate-200);
     }
-    
+
     section[data-testid="stSidebar"] .block-container {
-        padding-top: 2rem;
+      padding-top: 1.25rem;
     }
-    
+
+    /* Headings */
+    h1, h2, h3 {
+      color: var(--dark-slate) !important;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      font-weight: 800 !important;
+      margin-bottom: 0.25rem !important;
+    }
+
+    h2 {
+      font-weight: 800 !important;
+      border-bottom: 1px solid var(--slate-200);
+      padding-bottom: 10px;
+    }
+
+    h3 {
+      font-weight: 700 !important;
+    }
+
     /* Card Containers */
     .governance-card {
-        background: linear-gradient(135deg, #1E2329 0%, #161b22 100%);
-        padding: 25px;
-        border-radius: 15px;
-        border: 1px solid #30363d;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-        margin-bottom: 20px;
-        transition: all 0.3s ease;
+      background: var(--surface);
+      padding: 20px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--slate-200);
+      box-shadow: var(--shadow);
+      margin-bottom: 16px;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
     }
-    
+
     .governance-card:hover {
-        border-color: #1f6feb;
-        box-shadow: 0 8px 24px rgba(31, 111, 235, 0.2);
+      border-color: rgba(255, 106, 0, 0.35);
+      box-shadow: 0 10px 18px -10px rgba(0, 0, 0, 0.12);
+      transform: translateY(-1px);
     }
-    
+
     /* Alert Boxes */
-    .critical-alert {
-        background: linear-gradient(135deg, #1a0f0f 0%, #2d1616 100%);
-        border-left: 4px solid #f85149;
-        padding: 20px;
-        border-radius: 10px;
-        margin: 15px 0;
-        box-shadow: 0 4px 12px rgba(248, 81, 73, 0.2);
-    }
-    
-    .warning-alert {
-        background: linear-gradient(135deg, #1a1510 0%, #2d2416 100%);
-        border-left: 4px solid #f0883e;
-        padding: 20px;
-        border-radius: 10px;
-        margin: 15px 0;
-        box-shadow: 0 4px 12px rgba(240, 136, 62, 0.2);
-    }
-    
-    .success-alert {
-        background: linear-gradient(135deg, #0f1a0f 0%, #162d16 100%);
-        border-left: 4px solid #3fb950;
-        padding: 20px;
-        border-radius: 10px;
-        margin: 15px 0;
-        box-shadow: 0 4px 12px rgba(63, 185, 80, 0.2);
-    }
-    
+    .critical-alert,
+    .warning-alert,
+    .success-alert,
     .info-alert {
-        background: linear-gradient(135deg, #0f1519 0%, #16212d 100%);
-        border-left: 4px solid #1f6feb;
-        padding: 20px;
-        border-radius: 10px;
-        margin: 15px 0;
-        box-shadow: 0 4px 12px rgba(31, 111, 235, 0.2);
+      background: var(--background);
+      border: 1px solid var(--slate-200);
+      border-left-width: 4px;
+      padding: 16px 18px;
+      border-radius: var(--radius-lg);
+      margin: 14px 0;
+      box-shadow: var(--shadow);
     }
-    
+
+    .critical-alert { border-left-color: var(--danger); }
+    .warning-alert { border-left-color: var(--warning); }
+    .success-alert { border-left-color: var(--success); }
+    .info-alert { border-left-color: var(--primary); }
+
     /* Metric Cards */
     div[data-testid="stMetric"] {
-        background: linear-gradient(135deg, #1E2329 0%, #161b22 100%);
-        padding: 20px;
-        border-radius: 12px;
-        border: 1px solid #30363d;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-        transition: all 0.3s ease;
+      background: var(--surface);
+      padding: 18px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--slate-200);
+      box-shadow: var(--shadow);
+      transition: border-color 0.2s ease, transform 0.2s ease;
     }
-    
+
     div[data-testid="stMetric"]:hover {
-        transform: translateY(-2px);
-        border-color: #1f6feb;
-        box-shadow: 0 6px 20px rgba(31, 111, 235, 0.3);
+      transform: translateY(-1px);
+      border-color: rgba(255, 106, 0, 0.35);
     }
-    
+
     div[data-testid="stMetric"] label {
-        color: #8b949e !important;
-        font-size: 0.85rem !important;
-        font-weight: 600 !important;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
+      color: var(--slate-600) !important;
+      font-size: 0.8rem !important;
+      font-weight: 600 !important;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
     }
-    
+
     div[data-testid="stMetric"] [data-testid="stMetricValue"] {
-        color: #1f6feb !important;
-        font-size: 2.2rem !important;
-        font-weight: 700 !important;
-        text-shadow: 0 0 10px rgba(31, 111, 235, 0.3);
+      color: var(--primary) !important;
+      font-size: 2.0rem !important;
+      font-weight: 800 !important;
     }
-    
-    div[data-testid="stMetric"] [data-testid="stMetricDelta"] {
-        font-size: 0.9rem !important;
-    }
-    
-    /* Headers */
-    h1 {
-        color: #ffffff !important;
-        font-size: 2.5rem !important;
-        font-weight: 800 !important;
-        text-shadow: 0 0 20px rgba(31, 111, 235, 0.3);
-        margin-bottom: 0.5rem !important;
-    }
-    
-    h2 {
-        color: #ffffff !important;
-        font-size: 1.8rem !important;
-        font-weight: 700 !important;
-        margin-top: 2rem !important;
-        border-bottom: 2px solid #1f6feb;
-        padding-bottom: 10px;
-    }
-    
-    h3 {
-        color: #c9d1d9 !important;
-        font-size: 1.3rem !important;
-        font-weight: 600 !important;
-    }
-    
-    /* DataFrames */
-    .dataframe {
-        background-color: #161b22 !important;
-        border: 1px solid #30363d !important;
-        border-radius: 8px !important;
-    }
-    
-    thead tr th {
-        background-color: #161b22 !important;
-        color: #1f6feb !important;
-        font-weight: 700 !important;
-        text-transform: uppercase;
-        font-size: 0.85rem !important;
-        border-bottom: 2px solid #1f6feb !important;
-    }
-    
-    tbody tr:hover {
-        background-color: #1c2128 !important;
-    }
-    
+
     /* Tabs */
     .stTabs [data-baseweb="tab-list"] {
-        gap: 8px;
-        background-color: #161b22;
-        padding: 10px;
-        border-radius: 10px;
+      gap: 8px;
+      background: var(--background);
+      padding: 8px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--slate-200);
     }
-    
+
     .stTabs [data-baseweb="tab"] {
-        background-color: #1c2128;
-        color: #8b949e;
-        border-radius: 8px;
-        padding: 10px 20px;
-        font-weight: 600;
-        border: 1px solid #30363d;
+      background: transparent;
+      color: var(--slate-600);
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-weight: 600;
+      border: 1px solid transparent;
     }
-    
+
     .stTabs [aria-selected="true"] {
-        background-color: #1f6feb !important;
-        color: #ffffff !important;
-        box-shadow: 0 4px 12px rgba(31, 111, 235, 0.4);
+      background: rgba(255, 106, 0, 0.12) !important;
+      color: var(--dark-slate) !important;
+      border-color: rgba(255, 106, 0, 0.25) !important;
     }
-    
+
     /* Buttons */
     .stButton > button {
-        background: linear-gradient(135deg, #1f6feb 0%, #1158c7 100%);
-        color: white;
-        border: none;
-        border-radius: 8px;
-        padding: 10px 24px;
-        font-weight: 600;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 12px rgba(31, 111, 235, 0.3);
+      background: linear-gradient(135deg, var(--primary) 0%, #ff9e42 100%);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 10px 18px;
+      font-weight: 700;
+      transition: background 0.2s ease, transform 0.2s ease;
+      box-shadow: 0 8px 16px -10px rgba(255, 106, 0, 0.6);
     }
-    
+
     .stButton > button:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(31, 111, 235, 0.5);
+      transform: translateY(-1px);
+      background: linear-gradient(135deg, var(--primary-hover) 0%, #ff8f2a 100%);
     }
-    
+
     /* Status Badges */
     .status-badge {
-        display: inline-block;
-        padding: 4px 12px;
-        border-radius: 12px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        margin: 2px;
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: var(--radius-full);
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin: 2px;
     }
-    
+
     .status-critical {
-        background-color: #f851491a;
-        color: #f85149;
-        border: 1px solid #f85149;
+      background: rgba(239, 68, 68, 0.12);
+      color: var(--danger);
+      border: 1px solid rgba(239, 68, 68, 0.35);
     }
-    
+
     .status-warning {
-        background-color: #f0883e1a;
-        color: #f0883e;
-        border: 1px solid #f0883e;
+      background: rgba(245, 158, 11, 0.14);
+      color: var(--warning);
+      border: 1px solid rgba(245, 158, 11, 0.35);
     }
-    
+
     .status-success {
-        background-color: #3fb9501a;
-        color: #3fb950;
-        border: 1px solid #3fb950;
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--success);
+      border: 1px solid rgba(16, 185, 129, 0.35);
     }
-    
+
     .status-info {
-        background-color: #1f6feb1a;
-        color: #1f6feb;
-        border: 1px solid #1f6feb;
+      background: rgba(255, 106, 0, 0.12);
+      color: var(--primary);
+      border: 1px solid rgba(255, 106, 0, 0.35);
     }
-    
+
     /* Progress bars */
     .stProgress > div > div > div {
-        background: linear-gradient(90deg, #1f6feb 0%, #58a6ff 100%);
+      background: linear-gradient(90deg, var(--primary) 0%, #ff9e42 100%);
     }
     </style>
 """,
@@ -464,7 +457,7 @@ def create_field_usage_heatmap(refs_df, assets_df, blocks_df):
             z=pivot.values,
             x=pivot.columns,
             y=pivot.index,
-            colorscale="Blues",
+            colorscale="Oranges",
             text=pivot.values,
             texttemplate="%{text}",
             textfont={"size": 10},
@@ -477,10 +470,13 @@ def create_field_usage_heatmap(refs_df, assets_df, blocks_df):
         xaxis_title="Asset Type",
         yaxis_title="Field Name",
         height=600,
-        plot_bgcolor="#161b22",
-        paper_bgcolor="#0d1117",
-        font=dict(color="#c9d1d9"),
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
+        font=dict(color="#0f172a"),
     )
+
+    fig.update_xaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
+    fig.update_yaxes(showgrid=False, zeroline=False)
 
     return fig
 
@@ -518,10 +514,10 @@ def create_usage_distribution_chart(refs_df):
     category_counts = category_counts.sort_values("category")
 
     color_map = {
-        "Critical (20+)": "#f85149",
-        "High (10-19)": "#f0883e",
-        "Medium (5-9)": "#58a6ff",
-        "Low (1-4)": "#3fb950",
+        "Critical (20+)": "#ef4444",
+        "High (10-19)": "#ff6a00",
+        "Medium (5-9)": "#f59e0b",
+        "Low (1-4)": "#10b981",
     }
 
     fig = px.bar(
@@ -540,10 +536,13 @@ def create_usage_distribution_chart(refs_df):
         xaxis_title="Usage Category",
         yaxis_title="Number of Fields",
         height=400,
-        plot_bgcolor="#161b22",
-        paper_bgcolor="#0d1117",
-        font=dict(color="#c9d1d9"),
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
+        font=dict(color="#0f172a"),
     )
+
+    fig.update_xaxes(showgrid=False, zeroline=False)
+    fig.update_yaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
 
     return fig
 
@@ -564,7 +563,7 @@ def create_top_fields_chart(refs_df, top_n=15):
         orientation="h",
         title=f"Top {top_n} Most Referenced Fields",
         color="references",
-        color_continuous_scale="Blues",
+        color_continuous_scale="Oranges",
         text="references",
     )
 
@@ -575,10 +574,13 @@ def create_top_fields_chart(refs_df, top_n=15):
         yaxis_title="",
         height=500,
         showlegend=False,
-        plot_bgcolor="#161b22",
-        paper_bgcolor="#0d1117",
-        font=dict(color="#c9d1d9"),
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
+        font=dict(color="#0f172a"),
     )
+
+    fig.update_xaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
+    fig.update_yaxes(showgrid=False, zeroline=False)
 
     return fig
 
@@ -607,7 +609,7 @@ def create_asset_timeline(assets_df):
         color="asset_type",
         title="Asset Activity Over Time",
         markers=True,
-        color_discrete_map={"Campaign": "#58a6ff", "Canvas": "#3fb950"},
+        color_discrete_map={"Campaign": "#ff6a00", "Canvas": "#1e293b"},
     )
 
     fig.update_layout(
@@ -615,11 +617,14 @@ def create_asset_timeline(assets_df):
         yaxis_title="Active Assets",
         hovermode="x unified",
         height=400,
-        plot_bgcolor="#161b22",
-        paper_bgcolor="#0d1117",
-        font=dict(color="#c9d1d9"),
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
+        font=dict(color="#0f172a"),
         legend=dict(title="Asset Type"),
     )
+
+    fig.update_xaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
+    fig.update_yaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
 
     return fig
 
@@ -629,8 +634,8 @@ def create_asset_timeline(assets_df):
 # ============================================================================
 
 with st.sidebar:
-    st.title("🛡️ Braze Governance")
-    st.markdown("**Intelligence Hub**")
+    st.title("Toast Audience Studio")
+    st.markdown("**Governance Dashboard**")
     st.markdown("---")
 
     # Navigation
@@ -789,7 +794,7 @@ if page == "🏠 Overview":
                 f"""
                 <div class="{alert_class}">
                     <h3 style="margin: 0 0 10px 0; font-size: 1.1rem;">{insight["icon"]} {insight["title"]}</h3>
-                    <p style="margin: 0; color: #c9d1d9;">{insight["message"]}</p>
+                    <p style="margin: 0; color: var(--slate-600);">{insight["message"]}</p>
                 </div>
             """,
                 unsafe_allow_html=True,
@@ -1362,13 +1367,13 @@ elif page == "📊 Analytics":
                             y=cumsum["cumulative_pct"],
                             mode="lines+markers",
                             name="Cumulative %",
-                            line=dict(color="#1f6feb", width=2),
+                            line=dict(color="#ff6a00", width=2),
                         )
                     )
                     fig.add_hline(
                         y=80,
                         line_dash="dash",
-                        line_color="#f0883e",
+                        line_color="#f59e0b",
                         annotation_text="80% Rule",
                     )
 
@@ -1377,10 +1382,12 @@ elif page == "📊 Analytics":
                         xaxis_title="Field Rank",
                         yaxis_title="Cumulative %",
                         height=400,
-                        plot_bgcolor="#161b22",
-                        paper_bgcolor="#0d1117",
-                        font=dict(color="#c9d1d9"),
+                        plot_bgcolor="rgba(0,0,0,0)",
+                        paper_bgcolor="rgba(0,0,0,0)",
+                        font=dict(color="#0f172a"),
                     )
+                    fig.update_xaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
+                    fig.update_yaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
                     st.plotly_chart(fig, use_container_width=True)
 
         with analytics_tab2:
@@ -1411,17 +1418,19 @@ elif page == "📊 Analytics":
                     y="asset_name",
                     size="weight",
                     color="weight",
-                    color_continuous_scale="Blues",
+                    color_continuous_scale="Oranges",
                     title="Top 20 Field-Asset Dependencies",
                 )
 
                 fig.update_layout(
                     height=600,
-                    plot_bgcolor="#161b22",
-                    paper_bgcolor="#0d1117",
-                    font=dict(color="#c9d1d9"),
+                    plot_bgcolor="rgba(0,0,0,0)",
+                    paper_bgcolor="rgba(0,0,0,0)",
+                    font=dict(color="#0f172a"),
                     xaxis={"tickangle": 45},
                 )
+                fig.update_xaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
+                fig.update_yaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
 
                 st.plotly_chart(fig, use_container_width=True)
             else:
@@ -1456,24 +1465,26 @@ elif page == "📊 Analytics":
                     y="count",
                     color="asset_type",
                     title="Weekly Activity Trend",
-                    color_discrete_map={"Campaign": "#58a6ff", "Canvas": "#3fb950"},
+                    color_discrete_map={"Campaign": "#ff6a00", "Canvas": "#1e293b"},
                 )
 
                 fig.update_layout(
                     height=400,
-                    plot_bgcolor="#161b22",
-                    paper_bgcolor="#0d1117",
-                    font=dict(color="#c9d1d9"),
+                    plot_bgcolor="rgba(0,0,0,0)",
+                    paper_bgcolor="rgba(0,0,0,0)",
+                    font=dict(color="#0f172a"),
                     hovermode="x unified",
                 )
+                fig.update_xaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
+                fig.update_yaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
 
                 st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
 st.markdown(
     """
-    <div style='text-align: center; color: #8b949e; padding: 20px;'>
-        <p>Braze Governance Intelligence Hub • Built with Streamlit</p>
+    <div style='text-align: center; color: #94a3b8; padding: 20px;'>
+        <p>Toast Audience Studio • Built with Streamlit</p>
         <p style='font-size: 0.8rem;'>Last ETL Run: Check data/tables for latest timestamps</p>
     </div>
 """,
