@@ -1,0 +1,9 @@
+field_name,field_type,is_custom,last_seen
+location_id,String,False,2023-10-25
+city,String,False,2023-10-25
+state,String,False,2023-10-25
+region,String,True,2023-10-25
+manager_email,String,True,2023-10-25
+store_hours,Object,True,2023-10-25
+is_open,Boolean,True,2023-10-25
+legacy_code,String,True,2023-01-01

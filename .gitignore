@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+.streamlit/secrets.toml
+
+# Optional: keep tables committed, ignore raw snapshots
+data/raw_snapshots/*.json

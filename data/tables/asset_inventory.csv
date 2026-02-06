@@ -1,0 +1,4 @@
+asset_id,asset_name,asset_type,subtype,status,last_edited
+cmp_eligibility_engine,Global Eligibility Calculator,Campaign,Webhook,Active,2023-10-26
+cnv_welcome_series,Welcome Series V2,Canvas,Push,Active,2023-10-27
+cnv_winback,Winback - 90 Days,Canvas,Email,Draft,2023-09-15

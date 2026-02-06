@@ -1,0 +1,7 @@
+ref_id,block_id,field_name,match_type,context_snippet,is_risk
+r1,6d7af058e258ec96c395a12e1ef839b8,location_id,lookup_key,where: 'location_id',False
+r2,6d7af058e258ec96c395a12e1ef839b8,is_open,dot_access,location.is_open,False
+r3,f266df87a87177a8a5bf747ffaa3fe9c,city,direct_lookup,items...[0].city,False
+r4,f266df87a87177a8a5bf747ffaa3fe9c,manager_email,direct_lookup,items...[0].manager_email,False
+r5,c77bb75225cca9b2af531a1d65a32751,legacy_code,direct_lookup,items...[0].legacy_code,True
+r6,c77bb75225cca9b2af531a1d65a32751,ghost_promo,direct_lookup,items...[0].ghost_promo,True

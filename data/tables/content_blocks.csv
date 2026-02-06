@@ -1,0 +1,10 @@
+block_id,asset_id,step_name,channel,location,liquid_content,content_hash
+6d7af058e258ec96c395a12e1ef839b8,cmp_eligibility_engine,Webhook Body,webhook,body,"{% assign location = catalog_items['Primary_Locations_Catalog'] | where: 'location_id', custom_attribute.${preferred_store_id} | first %}
+{% if location.is_open == true %}
+  {% assign eligible = true %}
+{% else %}
+  {% abort_message('Store closed') %}
+{% endif %}",b0959b4dc479103397b4d3aa5781d46a
+f266df87a87177a8a5bf747ffaa3fe9c,cnv_welcome_series,Message 1,push,body,"Hi {{ first_name }}, visit us at {{ catalog_items['Primary_Locations_Catalog'][0].city }}!
+Manager: {{ catalog_items['Primary_Locations_Catalog'][0].manager_email }}",e2aab6741aaf1bdf585f41691059c21c
+c77bb75225cca9b2af531a1d65a32751,cnv_winback,Winback Email,email,body,We miss you! Use code {{ catalog_items['Primary_Locations_Catalog'][0].legacy_code }}.,327aeaa575d4f3d93bb3b61c22f94114
