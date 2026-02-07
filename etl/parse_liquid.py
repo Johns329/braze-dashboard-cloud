@@ -4,7 +4,7 @@ import os
 import re
 import hashlib
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timezone
 import glob
 
 # --- CONFIG ---
@@ -40,6 +40,35 @@ def get_hash(text):
 def ensure_tables_dir():
     if not os.path.exists(TABLES_DIR):
         os.makedirs(TABLES_DIR)
+
+
+def write_refresh_meta():
+    """Write a small metadata file used by the embedded HTML dashboard.
+
+    This file is committed alongside the CSV tables so the dashboard can display
+    the last refresh timestamp directly from the GitHub data source.
+    """
+
+    ensure_tables_dir()
+    refreshed_at_utc = (
+        datetime.now(timezone.utc)
+        .replace(microsecond=0)
+        .isoformat()
+        .replace("+00:00", "Z")
+    )
+
+    path = os.path.join(TABLES_DIR, "refresh_meta.json")
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(
+            {"refreshed_at_utc": refreshed_at_utc},
+            f,
+            ensure_ascii=True,
+            sort_keys=True,
+            indent=2,
+        )
+        f.write("\n")
+    os.replace(tmp, path)
 
 
 def get_latest_file(pattern):
@@ -340,4 +369,5 @@ if __name__ == "__main__":
     print("Starting Local ETL...")
     fields = parse_catalog_schema()
     parse_assets(fields)
+    write_refresh_meta()
     print("Done.")

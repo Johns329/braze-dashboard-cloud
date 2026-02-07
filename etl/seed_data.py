@@ -1,7 +1,8 @@
 import pandas as pd
+import json
 import os
 import hashlib
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -226,6 +227,28 @@ Manager: {{ catalog_items['Primary_Locations_Catalog'][0].manager_email }}"""
     pd.DataFrame(deps_data).to_csv(
         os.path.join(TABLES_DIR, "dependencies.csv"), index=False
     )
+
+    # Refresh metadata (used by the embedded HTML dashboard)
+    refreshed_at_utc = (
+        datetime.now(timezone.utc)
+        .replace(microsecond=0)
+        .isoformat()
+        .replace("+00:00", "Z")
+    )
+    with open(
+        os.path.join(TABLES_DIR, "refresh_meta.json"),
+        "w",
+        encoding="utf-8",
+        newline="\n",
+    ) as f:
+        json.dump(
+            {"refreshed_at_utc": refreshed_at_utc},
+            f,
+            ensure_ascii=True,
+            sort_keys=True,
+            indent=2,
+        )
+        f.write("\n")
 
     print("Seed data generated successfully.")
 
