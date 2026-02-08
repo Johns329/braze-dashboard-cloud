@@ -837,7 +837,7 @@ if page == "🏠 Overview":
     # Visual Analytics
     st.header("📊 Usage Intelligence")
 
-    tab1, tab2, tab3 = st.tabs(["🔥 Top Fields", "📈 Distribution", "🗓️ Timeline"])
+    tab1, tab2 = st.tabs(["🔥 Top Fields", "📈 Distribution"])
 
     with tab1:
         top_chart = create_top_fields_chart(refs_df, top_n=15)
@@ -878,7 +878,7 @@ if page == "🏠 Overview":
                 use_container_width=True,
                 column_config={
                     "field_name": "Field",
-                    "Campaign": st.column_config.NumberColumn("Camps", format="%d"),
+                    "Campaign": st.column_config.NumberColumn("Campaigns", format="%d"),
                     "Canvas": st.column_config.NumberColumn("Canvas", format="%d"),
                     "Total": st.column_config.ProgressColumn(
                         "Impact",
@@ -899,37 +899,6 @@ if page == "🏠 Overview":
             st.plotly_chart(heatmap, use_container_width=True)
         else:
             st.info("No heatmap data available")
-
-    with tab3:
-        timeline = create_asset_timeline(assets_df)
-        if timeline:
-            st.plotly_chart(timeline, use_container_width=True)
-        else:
-            st.info("No timeline data available")
-
-        # Activity breakdown
-        if not assets_df.empty and "last_active" in assets_df.columns:
-            st.markdown("### 📅 Activity Breakdown")
-
-            assets_dated = assets_df.dropna(subset=["last_active"])
-
-            if not assets_dated.empty:
-                now = pd.Timestamp.now()
-                last_7d = assets_dated[
-                    assets_dated["last_active"] > (now - pd.Timedelta(days=7))
-                ]
-                last_30d = assets_dated[
-                    assets_dated["last_active"] > (now - pd.Timedelta(days=30))
-                ]
-                last_90d = assets_dated[
-                    assets_dated["last_active"] > (now - pd.Timedelta(days=90))
-                ]
-
-                col1, col2, col3, col4 = st.columns(4)
-                col1.metric("Last 7 Days", len(last_7d))
-                col2.metric("Last 30 Days", len(last_30d))
-                col3.metric("Last 90 Days", len(last_90d))
-                col4.metric("Total", len(assets_dated))
 
 # --- PAGE 2: FIELD INTELLIGENCE ---
 elif page == "🔍 Field Intelligence":
@@ -1046,14 +1015,6 @@ elif page == "🔍 Field Intelligence":
                 )
                 canvas_count = len(field_assets[field_assets["asset_type"] == "Canvas"])
                 col4.metric("Campaigns/Canvases", f"{campaign_count}/{canvas_count}")
-
-            # Show context snippets
-            st.markdown("#### 📝 Usage Examples")
-            if "context_snippet" in field_refs.columns:
-                samples = field_refs["context_snippet"].dropna().head(5)
-                for idx, snippet in enumerate(samples, 1):
-                    with st.expander(f"Example {idx}"):
-                        st.code(snippet, language="liquid")
 
 # --- PAGE 3: CATALOG FIELDS ---
 elif page == "👨‍🍳 Catalog Fields":
