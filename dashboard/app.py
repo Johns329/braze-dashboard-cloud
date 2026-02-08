@@ -660,10 +660,6 @@ def create_asset_timeline(assets_df):
 # ============================================================================
 
 with st.sidebar:
-    st.title("Toast Audience Studio")
-    st.markdown("**Governance Dashboard**")
-    st.markdown("---")
-
     # Date Filter
     st.markdown("### 📅 Activity Period")
 
@@ -765,44 +761,14 @@ with st.sidebar:
 # MAIN CONTENT
 # ============================================================================
 
-PAGES = ["🏠 Overview", "🔍 Field Intelligence", "🚨 Risk Center", "📊 Analytics"]
-PAGE_META = {
-    "🏠 Overview": {
-        "title": "🛡️ Governance Overview",
-        "subtitle": "**Real-time catalog health monitoring and governance intelligence**",
-    },
-    "🔍 Field Intelligence": {
-        "title": "🔍 Field Intelligence Center",
-        "subtitle": "**Deep dive into catalog field usage and dependencies**",
-    },
-    "🚨 Risk Center": {
-        "title": "🚨 Risk & Compliance Center",
-        "subtitle": "**Monitor and manage governance risks**",
-    },
-    "📊 Analytics": {
-        "title": "📊 Governance Analytics",
-        "subtitle": "**Advanced insights and trend analysis**",
-    },
-}
-
-
-def _nav_label(option: str) -> str:
-    parts = option.split(" ", 1)
-    return parts[1] if len(parts) == 2 else option
-
-
+PAGES = ["🏠 Overview", "🔍 Field Intelligence", "🚨 Risk Center"]
 current_page = st.session_state.get("tas_page", PAGES[0])
-meta = PAGE_META.get(current_page, PAGE_META[PAGES[0]])
-
-st.title(meta["title"])
-st.markdown(meta["subtitle"])
 
 page = st.pills(
     "Navigation",
     PAGES,
     selection_mode="single",
     default=current_page,
-    format_func=_nav_label,
     label_visibility="collapsed",
     key="tas_page",
 )
@@ -831,9 +797,9 @@ if page == "🏠 Overview":
             saturation = (
                 (used_fields / len(catalog_df) * 100) if len(catalog_df) > 0 else 0
             )
-            st.metric("Saturation", f"{saturation:.0f}%", help="Catalog utilization")
+            st.metric("Utilization", f"{saturation:.0f}%", help="Catalog utilization")
         else:
-            st.metric("Saturation", "N/A")
+            st.metric("Utilization", "N/A")
 
     with col4:
         st.metric("Catalog Fields", len(catalog_df), help="Total defined fields")
@@ -1338,197 +1304,6 @@ elif page == "🚨 Risk Center":
                     st.caption(
                         "⚠️ High coupling means changes to these fields require extensive testing"
                     )
-
-# --- PAGE 4: ANALYTICS ---
-elif page == "📊 Analytics":
-    if refs_df.empty or assets_df.empty:
-        st.warning("No analytics data available. Run ETL to populate analytics.")
-    else:
-        # Summary statistics
-        st.header("📈 Key Statistics")
-
-        col1, col2, col3, col4, col5 = st.columns(5)
-
-        total_refs = len(refs_df[refs_df["is_risk"] == False])
-        col1.metric("Total References", f"{total_refs:,}")
-
-        unique_fields = refs_df[refs_df["is_risk"] == False]["field_name"].nunique()
-        col2.metric("Unique Fields", unique_fields)
-
-        if not catalog_df.empty:
-            coverage = (
-                (unique_fields / len(catalog_df) * 100) if len(catalog_df) > 0 else 0
-            )
-            col3.metric("Catalog Coverage", f"{coverage:.1f}%")
-
-        avg_refs_per_field = total_refs / unique_fields if unique_fields > 0 else 0
-        col4.metric("Avg Refs/Field", f"{avg_refs_per_field:.1f}")
-
-        total_assets = len(assets_df)
-        col5.metric("Total Assets", total_assets)
-
-        st.markdown("---")
-
-        # Detailed analytics tabs
-        analytics_tab1, analytics_tab2, analytics_tab3 = st.tabs(
-            ["📊 Usage Patterns", "🔗 Dependencies", "📅 Trends"]
-        )
-
-        with analytics_tab1:
-            col1, col2 = st.columns(2)
-
-            with col1:
-                dist_chart = create_usage_distribution_chart(refs_df)
-                if dist_chart:
-                    st.plotly_chart(dist_chart, use_container_width=True)
-
-            with col2:
-                # Field concentration
-                if not refs_df[refs_df["is_risk"] == False].empty:
-                    field_refs = refs_df[refs_df["is_risk"] == False][
-                        "field_name"
-                    ].value_counts()
-
-                    # Calculate concentration
-                    top_10_refs = field_refs.head(10).sum()
-                    total_refs = field_refs.sum()
-                    concentration = (
-                        (top_10_refs / total_refs * 100) if total_refs > 0 else 0
-                    )
-
-                    st.markdown("### 🎯 Field Concentration")
-                    st.metric(
-                        "Top 10 Fields",
-                        f"{concentration:.1f}%",
-                        help="Percentage of total references from top 10 fields",
-                    )
-
-                    # Pareto chart
-                    cumsum = (
-                        field_refs.cumsum() / field_refs.sum() * 100
-                    ).reset_index()
-                    cumsum.columns = ["field_name", "cumulative_pct"]
-                    cumsum["rank"] = range(1, len(cumsum) + 1)
-
-                    fig = go.Figure()
-                    fig.add_trace(
-                        go.Scatter(
-                            x=cumsum["rank"],
-                            y=cumsum["cumulative_pct"],
-                            mode="lines+markers",
-                            name="Cumulative %",
-                            line=dict(color="#ff6a00", width=2),
-                        )
-                    )
-                    fig.add_hline(
-                        y=80,
-                        line_dash="dash",
-                        line_color="#f59e0b",
-                        annotation_text="80% Rule",
-                    )
-
-                    fig.update_layout(
-                        title="Cumulative Field Usage (Pareto)",
-                        xaxis_title="Field Rank",
-                        yaxis_title="Cumulative %",
-                        height=400,
-                        plot_bgcolor="rgba(0,0,0,0)",
-                        paper_bgcolor="rgba(0,0,0,0)",
-                        font=dict(color="#0f172a"),
-                    )
-                    fig.update_xaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
-                    fig.update_yaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
-                    st.plotly_chart(fig, use_container_width=True)
-
-        with analytics_tab2:
-            if not blocks_df.empty and not assets_df.empty:
-                st.markdown("### 🔗 Field-Asset Dependency Network")
-
-                # Build dependency matrix
-                joined = refs_df[refs_df["is_risk"] == False].merge(
-                    blocks_df[["block_id", "asset_id"]], on="block_id"
-                )
-                joined = joined.merge(
-                    assets_df[["asset_id", "asset_name"]], on="asset_id"
-                )
-
-                # Create network visualization data
-                dependency_matrix = (
-                    joined.groupby(["field_name", "asset_name"])
-                    .size()
-                    .reset_index(name="weight")
-                )
-
-                # Show top dependencies
-                top_deps = dependency_matrix.nlargest(20, "weight")
-
-                fig = px.scatter(
-                    top_deps,
-                    x="field_name",
-                    y="asset_name",
-                    size="weight",
-                    color="weight",
-                    color_continuous_scale="Oranges",
-                    title="Top 20 Field-Asset Dependencies",
-                )
-
-                fig.update_layout(
-                    height=600,
-                    plot_bgcolor="rgba(0,0,0,0)",
-                    paper_bgcolor="rgba(0,0,0,0)",
-                    font=dict(color="#0f172a"),
-                    xaxis={"tickangle": 45},
-                )
-                fig.update_xaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
-                fig.update_yaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
-
-                st.plotly_chart(fig, use_container_width=True)
-            else:
-                st.info("No dependency data available")
-
-        with analytics_tab3:
-            timeline = create_asset_timeline(assets_df)
-            if timeline:
-                st.plotly_chart(timeline, use_container_width=True)
-
-            # Additional trend metrics
-            if (
-                "last_active" in assets_df.columns
-                and not assets_df["last_active"].isna().all()
-            ):
-                st.markdown("### 📊 Activity Trends")
-
-                assets_dated = assets_df.dropna(subset=["last_active"]).copy()
-                assets_dated["week"] = (
-                    assets_dated["last_active"].dt.to_period("W").dt.start_time
-                )
-
-                weekly_activity = (
-                    assets_dated.groupby(["week", "asset_type"])
-                    .size()
-                    .reset_index(name="count")
-                )
-
-                fig = px.area(
-                    weekly_activity,
-                    x="week",
-                    y="count",
-                    color="asset_type",
-                    title="Weekly Activity Trend",
-                    color_discrete_map={"Campaign": "#ff6a00", "Canvas": "#1e293b"},
-                )
-
-                fig.update_layout(
-                    height=400,
-                    plot_bgcolor="rgba(0,0,0,0)",
-                    paper_bgcolor="rgba(0,0,0,0)",
-                    font=dict(color="#0f172a"),
-                    hovermode="x unified",
-                )
-                fig.update_xaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
-                fig.update_yaxes(showgrid=True, gridcolor="#e2e8f0", zeroline=False)
-
-                st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
 st.markdown(
