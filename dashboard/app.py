@@ -761,8 +761,15 @@ with st.sidebar:
 # MAIN CONTENT
 # ============================================================================
 
-PAGES = ["🏠 Overview", "🔍 Field Intelligence", "🚨 Risk Center"]
+PAGES = [
+    "🏠 Overview",
+    "🔍 Field Intelligence",
+    "👨‍🍳 Catalog Fields",
+    "🚨 Risk Center",
+]
 current_page = st.session_state.get("tas_page", PAGES[0])
+if current_page not in PAGES:
+    current_page = PAGES[0]
 
 page = st.pills(
     "Navigation",
@@ -1047,6 +1054,36 @@ elif page == "🔍 Field Intelligence":
                 for idx, snippet in enumerate(samples, 1):
                     with st.expander(f"Example {idx}"):
                         st.code(snippet, language="liquid")
+
+# --- PAGE 3: CATALOG FIELDS ---
+elif page == "👨‍🍳 Catalog Fields":
+    if catalog_df.empty or "field_name" not in catalog_df.columns:
+        st.warning("No catalog schema available. Run ETL to populate catalog fields.")
+    else:
+        raw_fields = catalog_df["field_name"].dropna().astype(str).str.strip()
+        fields = (
+            raw_fields[raw_fields.str.lower() != "id"]
+            .drop_duplicates()
+            .sort_values(kind="mergesort")
+        )
+        fields_df = pd.DataFrame({"Field": fields.values})
+
+        search = st.text_input(
+            "Search catalog fields",
+            placeholder="Type to filter fields...",
+        )
+
+        if search:
+            fields_df = fields_df[
+                fields_df["Field"].str.contains(search, case=False, na=False)
+            ]
+
+        st.caption(f"{len(fields_df):,} fields")
+        st.dataframe(
+            fields_df,
+            use_container_width=True,
+            hide_index=True,
+        )
 
 # --- PAGE 3: RISK CENTER ---
 elif page == "🚨 Risk Center":
