@@ -240,6 +240,32 @@ st.markdown(
     .stProgress > div > div > div {
       background: linear-gradient(90deg, var(--primary) 0%, #ff9e42 100%);
     }
+
+    /* Navigation pills (Streamlit st.pills) */
+    div[data-testid="stPills"] [role="listbox"] {
+      gap: 10px;
+    }
+
+    div[data-testid="stPills"] [role="option"] {
+      border-radius: var(--radius-full);
+      border: 1px solid var(--slate-200);
+      padding: 10px 14px;
+      font-weight: 650;
+      color: var(--slate-600);
+      background: var(--surface);
+      transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+    }
+
+    div[data-testid="stPills"] [role="option"][aria-selected="true"] {
+      background: rgba(255, 106, 0, 0.12);
+      border-color: rgba(255, 106, 0, 0.35);
+      color: var(--dark-slate);
+    }
+
+    div[data-testid="stPills"] [role="option"]:hover {
+      border-color: rgba(255, 106, 0, 0.35);
+      transform: translateY(-1px);
+    }
     </style>
 """,
     unsafe_allow_html=True,
@@ -638,15 +664,6 @@ with st.sidebar:
     st.markdown("**Governance Dashboard**")
     st.markdown("---")
 
-    # Navigation
-    page = st.radio(
-        "Navigation",
-        ["🏠 Overview", "🔍 Field Intelligence", "🚨 Risk Center", "📊 Analytics"],
-        label_visibility="collapsed",
-    )
-
-    st.markdown("---")
-
     # Date Filter
     st.markdown("### 📅 Activity Period")
 
@@ -748,11 +765,53 @@ with st.sidebar:
 # MAIN CONTENT
 # ============================================================================
 
+PAGES = ["🏠 Overview", "🔍 Field Intelligence", "🚨 Risk Center", "📊 Analytics"]
+PAGE_META = {
+    "🏠 Overview": {
+        "title": "🛡️ Governance Overview",
+        "subtitle": "**Real-time catalog health monitoring and governance intelligence**",
+    },
+    "🔍 Field Intelligence": {
+        "title": "🔍 Field Intelligence Center",
+        "subtitle": "**Deep dive into catalog field usage and dependencies**",
+    },
+    "🚨 Risk Center": {
+        "title": "🚨 Risk & Compliance Center",
+        "subtitle": "**Monitor and manage governance risks**",
+    },
+    "📊 Analytics": {
+        "title": "📊 Governance Analytics",
+        "subtitle": "**Advanced insights and trend analysis**",
+    },
+}
+
+
+def _nav_label(option: str) -> str:
+    parts = option.split(" ", 1)
+    return parts[1] if len(parts) == 2 else option
+
+
+current_page = st.session_state.get("tas_page", PAGES[0])
+meta = PAGE_META.get(current_page, PAGE_META[PAGES[0]])
+
+st.title(meta["title"])
+st.markdown(meta["subtitle"])
+
+page = st.pills(
+    "Navigation",
+    PAGES,
+    selection_mode="single",
+    default=current_page,
+    format_func=_nav_label,
+    label_visibility="collapsed",
+    key="tas_page",
+)
+
+if page is None:
+    page = current_page
+
 # --- PAGE 1: OVERVIEW ---
 if page == "🏠 Overview":
-    st.title("🛡️ Governance Overview")
-    st.markdown("**Real-time catalog health monitoring and governance intelligence**")
-
     # Calculate governance score (used for internal context; not shown as a card)
     score, status = calculate_governance_score(catalog_df, refs_df, assets_df)
 
@@ -901,9 +960,6 @@ if page == "🏠 Overview":
 
 # --- PAGE 2: FIELD INTELLIGENCE ---
 elif page == "🔍 Field Intelligence":
-    st.title("🔍 Field Intelligence Center")
-    st.markdown("**Deep dive into catalog field usage and dependencies**")
-
     if refs_df.empty or catalog_df.empty:
         st.warning(
             "No reference data available. Run ETL to populate field intelligence."
@@ -1028,9 +1084,6 @@ elif page == "🔍 Field Intelligence":
 
 # --- PAGE 3: RISK CENTER ---
 elif page == "🚨 Risk Center":
-    st.title("🚨 Risk & Compliance Center")
-    st.markdown("**Monitor and manage governance risks**")
-
     # Risk Overview
     st.header("⚠️ Active Risks")
 
@@ -1288,9 +1341,6 @@ elif page == "🚨 Risk Center":
 
 # --- PAGE 4: ANALYTICS ---
 elif page == "📊 Analytics":
-    st.title("📊 Governance Analytics")
-    st.markdown("**Advanced insights and trend analysis**")
-
     if refs_df.empty or assets_df.empty:
         st.warning("No analytics data available. Run ETL to populate analytics.")
     else:
