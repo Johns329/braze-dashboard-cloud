@@ -82,14 +82,19 @@
     .tas-nav-logo-icon {
       width: 36px;
       height: 36px;
-      background: linear-gradient(135deg, #ff6a00, #ff9e42);
+      background: transparent;
       border-radius: 8px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: white;
-      font-size: 20px;
-      font-weight: 700;
+      overflow: hidden;
+    }
+
+    .tas-nav-logo-icon img {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+      display: block;
     }
 
     .tas-nav-links {
@@ -274,15 +279,14 @@
   <nav class="tas-nav">
     <div class="tas-nav-inner">
       <a href="#" class="tas-nav-logo">
-        <div class="tas-nav-logo-icon">T</div>
-        <span>Toast Audience Studio</span>
+        <div class="tas-nav-logo-icon">
+          <img
+            src="https://braze-images.com/appboy/communication/assets/image_assets/images/692d09d378b60d0065789b06/original.png?1764559314"
+            alt=""
+          />
+        </div>
+        <span>Locations Catalog Dashboard</span>
       </a>
-      <ul class="tas-nav-links">
-        <li><a href="#" class="active">Analytics</a></li>
-        <li><a href="#">Targeting</a></li>
-        <li><a href="#">Campaigns</a></li>
-        <li><a href="#">Reports</a></li>
-      </ul>
     </div>
   </nav>
 
@@ -290,7 +294,6 @@
   <div class="main-container">
     <!-- Header -->
     <div class="header-section">
-      <h1>Locations Catalog Dashboard</h1>
       <p>Understand how your Braze catalog fields are being used across campaigns and canvases</p>
     </div>
 
