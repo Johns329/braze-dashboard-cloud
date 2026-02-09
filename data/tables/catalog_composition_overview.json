@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-02-09T21:40:23Z",
+  "input_file": "Primary_Locations_Catalog_78X9dpUO3QRggia58LGlAFDbLyabReeDAFaYP5gddl0.csv",
+  "file_size_bytes": 275625066,
+  "file_size_mib": 262.86,
+  "rows_linecount": 189243,
+  "good_rows": 189055,
+  "columns": 218,
+  "first_bad_rows": [],
+  "overall_filled_pct": 52.81,
+  "csv_kib_per_good_row": 1.4237,
+  "braze_kib_per_item_estimate": 2.72,
+  "csv_kib_per_row_observed": 1.422742337211544,
+  "braze_overhead_multiplier": 1.912,
+  "est_braze_mib_method_a": 502.18,
+  "est_braze_mb_method_a": 526.57,
+  "est_braze_mib_method_b": 502.53,
+  "est_braze_mb_method_b": 526.94,
+  "weight_proxy_total_mib": 208.55,
+  "top10_weight_proxy_pct": 36.6
+}

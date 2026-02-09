@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import networkx as nx
+import json
 import os
 from datetime import datetime, timedelta
 
@@ -307,6 +308,45 @@ def load_data():
             pd.DataFrame(),
             pd.DataFrame(),
         )
+
+
+@st.cache_data
+def load_catalog_composition_artifacts():
+    """Load precomputed catalog composition artifacts (small, committed files)."""
+    overview_path = os.path.join(TABLES_DIR, "catalog_composition_overview.json")
+    fill_path = os.path.join(TABLES_DIR, "catalog_composition_fill_rates.csv")
+    sparsest_path = os.path.join(TABLES_DIR, "catalog_composition_sparsest_15.csv")
+    most_filled_path = os.path.join(
+        TABLES_DIR, "catalog_composition_most_filled_15.csv"
+    )
+    strings_path = os.path.join(
+        TABLES_DIR, "catalog_composition_heaviest_strings_15.csv"
+    )
+    weights_path = os.path.join(TABLES_DIR, "catalog_composition_top_weights_25.csv")
+
+    if not os.path.exists(overview_path) or not os.path.exists(fill_path):
+        return None
+
+    with open(overview_path, "r", encoding="utf-8") as f:
+        overview = json.load(f)
+
+    fill_df = pd.read_csv(fill_path)
+
+    sparsest_df = pd.read_csv(sparsest_path) if os.path.exists(sparsest_path) else None
+    most_filled_df = (
+        pd.read_csv(most_filled_path) if os.path.exists(most_filled_path) else None
+    )
+    strings_df = pd.read_csv(strings_path) if os.path.exists(strings_path) else None
+    weights_df = pd.read_csv(weights_path) if os.path.exists(weights_path) else None
+
+    return {
+        "overview": overview,
+        "fill": fill_df,
+        "sparsest": sparsest_df,
+        "most_filled": most_filled_df,
+        "strings": strings_df,
+        "weights": weights_df,
+    }
 
 
 # Load data
@@ -765,6 +805,7 @@ PAGES = [
     "🏠 Overview",
     "🔍 Field Intelligence",
     "👨‍🍳 Catalog Fields",
+    "Catalog Composition",
     "🚨 Risk Center",
 ]
 current_page = st.session_state.get("tas_page", PAGES[0])
@@ -1046,7 +1087,176 @@ elif page == "👨‍🍳 Catalog Fields":
             hide_index=True,
         )
 
-# --- PAGE 3: RISK CENTER ---
+# --- PAGE 4: CATALOG COMPOSITION ---
+elif page == "Catalog Composition":
+    artifacts = load_catalog_composition_artifacts()
+    if artifacts is None:
+        st.warning(
+            "Catalog composition artifacts not found. Run the local builder to generate them."
+        )
+        st.code(
+            "python scripts/build_catalog_composition.py",
+            language="bash",
+        )
+    else:
+        overview = artifacts["overview"]
+        fill_df = artifacts["fill"]
+
+        cols = st.columns(5)
+        cols[0].metric("Items", f"{overview.get('good_rows', 0):,}")
+        cols[1].metric("Fields", f"{overview.get('columns', 0):,}")
+        cols[2].metric("Filled Cells", f"{overview.get('overall_filled_pct', 0):.2f}%")
+        cols[3].metric(
+            "Braze Size (est.)",
+            f"{overview.get('est_braze_mib_method_a', 0):.1f} MiB",
+        )
+        cols[4].metric("CSV Size", f"{overview.get('file_size_mib', 0):.1f} MiB")
+
+        st.caption(
+            "Braze Size (est.) uses a fixed calibration of 2.72 KiB/item and is directional, not exact."
+        )
+
+        tab_a, tab_b, tab_c = st.tabs(
+            ["Completeness", "Weight (Proxy)", "Heaviest Strings"]
+        )
+
+        with tab_a:
+            if (
+                artifacts.get("sparsest") is not None
+                and artifacts.get("most_filled") is not None
+            ):
+                left, right = st.columns(2)
+                with left:
+                    st.markdown("### Sparsest Fields")
+                    st.dataframe(
+                        artifacts["sparsest"],
+                        use_container_width=True,
+                        hide_index=True,
+                    )
+                with right:
+                    st.markdown("### Most-Filled Fields")
+                    st.dataframe(
+                        artifacts["most_filled"],
+                        use_container_width=True,
+                        hide_index=True,
+                    )
+
+            st.markdown("---")
+            q = st.text_input("Search fields", placeholder="Filter by field name...")
+            df = fill_df
+            if q:
+                df = df[
+                    df["field_name"].astype(str).str.contains(q, case=False, na=False)
+                ]
+
+            st.dataframe(
+                df.sort_values(["fill_rate_pct", "field_name"], ascending=[True, True]),
+                use_container_width=True,
+                hide_index=True,
+                column_config={
+                    "field_name": "Field",
+                    "fill_rate_pct": st.column_config.ProgressColumn(
+                        "Fill Rate %",
+                        format="%.2f",
+                        min_value=0.0,
+                        max_value=100.0,
+                    ),
+                    "non_empty_count": st.column_config.NumberColumn(
+                        "Non-Empty", format="%d"
+                    ),
+                    "empty_count": st.column_config.NumberColumn("Empty", format="%d"),
+                },
+                height=520,
+            )
+
+            with st.expander("Input Details"):
+                st.write(
+                    {
+                        "generated_at": overview.get("generated_at"),
+                        "input_file": overview.get("input_file"),
+                        "rows_linecount": overview.get("rows_linecount"),
+                        "good_rows": overview.get("good_rows"),
+                        "columns": overview.get("columns"),
+                        "first_bad_rows": overview.get("first_bad_rows"),
+                        "csv_kib_per_good_row": overview.get("csv_kib_per_good_row"),
+                    }
+                )
+
+        with tab_b:
+            weights = artifacts.get("weights")
+            if weights is None or weights.empty:
+                st.info("No weight artifacts available")
+            else:
+                st.markdown(
+                    f"Top 10 columns account for ~{overview.get('top10_weight_proxy_pct', 0):.2f}% of the weight proxy."
+                )
+                fig = px.bar(
+                    weights.sort_values("est_mib", ascending=True),
+                    x="est_mib",
+                    y="field_name",
+                    orientation="h",
+                    title="Top Columns by Estimated Byte Contribution (Proxy)",
+                    color="est_mib",
+                    color_continuous_scale="Oranges",
+                )
+                fig.update_layout(
+                    height=600,
+                    plot_bgcolor="rgba(0,0,0,0)",
+                    paper_bgcolor="rgba(0,0,0,0)",
+                    font=dict(color="#0f172a"),
+                    xaxis_title="Estimated MiB",
+                    yaxis_title="",
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+                st.dataframe(
+                    weights,
+                    use_container_width=True,
+                    hide_index=True,
+                    column_config={
+                        "field_name": "Field",
+                        "est_mib": st.column_config.NumberColumn(
+                            "Est MiB", format="%.2f"
+                        ),
+                        "pct_total": st.column_config.NumberColumn(
+                            "% Total", format="%.2f"
+                        ),
+                        "kind": "Kind (heuristic)",
+                        "non_empty_count": st.column_config.NumberColumn(
+                            "Non-Empty", format="%d"
+                        ),
+                    },
+                )
+
+                st.markdown("---")
+                st.caption(
+                    "Weight is a proxy based on summed string lengths and fixed per-value byte costs for non-strings."
+                )
+                st.caption(
+                    f"Braze size proxy overhead multiplier: {overview.get('braze_overhead_multiplier', 0)}x; Method B est: {overview.get('est_braze_mib_method_b', 0):.1f} MiB."
+                )
+
+        with tab_c:
+            strings = artifacts.get("strings")
+            if strings is None or strings.empty:
+                st.info("No string heaviness artifacts available")
+            else:
+                st.dataframe(
+                    strings,
+                    use_container_width=True,
+                    hide_index=True,
+                    column_config={
+                        "field_name": "Field",
+                        "avg_len": st.column_config.NumberColumn(
+                            "Avg Len", format="%.1f"
+                        ),
+                        "non_empty_count": st.column_config.NumberColumn(
+                            "Non-Empty", format="%d"
+                        ),
+                    },
+                )
+
+# --- PAGE 5: RISK CENTER ---
 elif page == "🚨 Risk Center":
     # Risk Overview
     st.header("⚠️ Active Risks")

@@ -1,0 +1,16 @@
+field_name,avg_len,non_empty_count
+products_purchased,210.2,187780
+id,36.0,189055
+toastorders_shard,36.0,189033
+ads_activation_date,24.0,2921
+ads_first_order_date,24.0,2921
+ads_provisioned_date,24.0,7008
+ads_purchased_date,24.0,7867
+any3po_provisioned_date,24.0,63593
+any3po_purchased_date,24.0,69459
+branded_mobile_app_activation_date,24.0,2708
+branded_mobile_app_first_usage_date,24.0,2932
+branded_mobile_app_purchased_date,24.0,5764
+cande_free_trial_start_date,24.0,12232
+catering_and_events_activation_date,24.0,8276
+catering_and_events_first_order_date,24.0,9314

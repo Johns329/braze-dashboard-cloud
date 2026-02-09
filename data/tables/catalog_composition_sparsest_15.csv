@@ -1,0 +1,16 @@
+field_name,fill_rate_pct,non_empty_count,empty_count
+is_finance_contact,0.0,0,189055
+is_service_contact,0.0,0,189055
+last_modified_timestamp,0.0,0,189055
+stp_purchased_date,0.0,0,189055
+skip_activation_date,0.09,164,188891
+skip_first_order_date,0.09,178,188877
+skip_provisioned_date,0.18,333,188722
+skip_purchased_date,0.25,481,188574
+tenth_cande_free_trial_order_date,0.27,501,188554
+fifth_cande_free_trial_order_date,0.5,939,188116
+sling_premium_plan_start_date,0.5,954,188101
+rma_requests_last_30_days,0.82,1559,187496
+first_cande_free_trial_order_date,1.29,2439,186616
+branded_mobile_app_activation_date,1.43,2708,186347
+ads_activation_date,1.55,2921,186134

@@ -8,3 +8,6 @@ __pycache__/
 
 # Optional: keep tables committed, ignore raw snapshots
 data/raw_snapshots/*.json
+
+# Local-only large exports
+data/latest_catalog/
