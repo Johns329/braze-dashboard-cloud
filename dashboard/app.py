@@ -1102,18 +1102,34 @@ elif page == "Catalog Composition":
         overview = artifacts["overview"]
         fill_df = artifacts["fill"]
 
+        total_fields = float(overview.get("columns", 0) or 0)
+        field_capacity_pct = (
+            round((total_fields / 1000.0) * 100.0) if total_fields else 0
+        )
+
+        braze_mib_est = float(overview.get("est_braze_mib_method_a", 0) or 0)
+        storage_capacity_pct = (
+            round((braze_mib_est / (2.0 * 1024.0)) * 100.0) if braze_mib_est else 0
+        )
+
         cols = st.columns(5)
         cols[0].metric("Items", f"{overview.get('good_rows', 0):,}")
         cols[1].metric("Fields", f"{overview.get('columns', 0):,}")
         cols[2].metric("Filled Cells", f"{overview.get('overall_filled_pct', 0):.2f}%")
         cols[3].metric(
-            "Braze Size (est.)",
-            f"{overview.get('est_braze_mib_method_a', 0):.1f} MiB",
+            "Field Capacity",
+            f"{field_capacity_pct:.0f}%",
+            help="Braze catalog limit: 1,000 columns. Percent = fields / 1000.",
         )
-        cols[4].metric("CSV Size", f"{overview.get('file_size_mib', 0):.1f} MiB")
+        cols[4].metric(
+            "Storage Capacity",
+            f"{storage_capacity_pct:.0f}%",
+            help="Braze catalog limit: 2 GB. Percent = Braze Size (est.) / 2 GB.",
+        )
 
         st.caption(
-            "Braze Size (est.) uses a fixed calibration of 2.72 KiB/item and is directional, not exact."
+            "Compliance limits: 2 GB max catalog size and 1,000 columns max. "
+            "Storage Capacity uses Braze Size (est.) with a fixed calibration of 2.72 KiB/item and is directional, not exact."
         )
 
         tab_a, tab_b, tab_c = st.tabs(
