@@ -805,7 +805,7 @@ PAGES = [
     "🏠 Overview",
     "🔍 Field Intelligence",
     "👨‍🍳 Catalog Fields",
-    "Catalog Composition",
+    "⚖️ Catalog Composition",
     "🚨 Risk Center",
 ]
 current_page = st.session_state.get("tas_page", PAGES[0])
@@ -1089,7 +1089,7 @@ elif page == "👨‍🍳 Catalog Fields":
         )
 
 # --- PAGE 4: CATALOG COMPOSITION ---
-elif page == "Catalog Composition":
+elif page == "⚖️ Catalog Composition":
     artifacts = load_catalog_composition_artifacts()
     if artifacts is None:
         st.warning(
