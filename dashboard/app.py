@@ -424,7 +424,7 @@ def generate_governance_insights(catalog_df, refs_df, assets_df):
                     "type": "warning",
                     "icon": "⚠️",
                     "title": "Low Catalog Utilization",
-                    "message": f"Only {saturation:.1f}% of catalog fields are in use. Consider cleaning unused fields.",
+                    "message": f"Only {saturation:.0f}% of catalog fields are in use. Consider cleaning unused fields.",
                     "count": total_fields - used_fields,
                 }
             )
@@ -434,7 +434,7 @@ def generate_governance_insights(catalog_df, refs_df, assets_df):
                     "type": "success",
                     "icon": "✅",
                     "title": "High Catalog Utilization",
-                    "message": f"{saturation:.1f}% of catalog fields are actively used. Great efficiency!",
+                    "message": f"{saturation:.0f}% of catalog fields are actively used. Great efficiency!",
                     "count": used_fields,
                 }
             )
@@ -1003,8 +1003,10 @@ elif page == "🔍 Field Intelligence":
             else:
                 return '<span class="status-badge status-success">VALID</span>'
 
+        display_df = field_analysis.drop(columns=["is_risk"], errors="ignore")
+
         st.dataframe(
-            field_analysis,
+            display_df,
             use_container_width=True,
             column_config={
                 "field_name": "Field Name",
@@ -1016,7 +1018,6 @@ elif page == "🔍 Field Intelligence":
                     if not field_analysis.empty
                     else 100,
                 ),
-                "is_risk": st.column_config.CheckboxColumn("Ghost"),
                 "in_catalog": st.column_config.CheckboxColumn("In Catalog"),
             },
             hide_index=True,
@@ -1115,7 +1116,7 @@ elif page == "Catalog Composition":
         cols = st.columns(5)
         cols[0].metric("Items", f"{overview.get('good_rows', 0):,}")
         cols[1].metric("Fields", f"{overview.get('columns', 0):,}")
-        cols[2].metric("Filled Cells", f"{overview.get('overall_filled_pct', 0):.2f}%")
+        cols[2].metric("Filled Cells", f"{overview.get('overall_filled_pct', 0):.0f}%")
         cols[3].metric(
             "Field Capacity",
             f"{field_capacity_pct:.0f}%",
@@ -1173,7 +1174,7 @@ elif page == "Catalog Composition":
                     "field_name": "Field",
                     "fill_rate_pct": st.column_config.ProgressColumn(
                         "Fill Rate %",
-                        format="%.2f",
+                        format="%.0f",
                         min_value=0.0,
                         max_value=100.0,
                     ),
@@ -1204,7 +1205,7 @@ elif page == "Catalog Composition":
                 st.info("No weight artifacts available")
             else:
                 st.markdown(
-                    f"Top 10 columns account for ~{overview.get('top10_weight_proxy_pct', 0):.2f}% of the weight proxy."
+                    f"Top 10 columns account for ~{overview.get('top10_weight_proxy_pct', 0):.0f}% of the weight proxy."
                 )
                 fig = px.bar(
                     weights.sort_values("est_mib", ascending=True),
@@ -1235,7 +1236,7 @@ elif page == "Catalog Composition":
                             "Est MiB", format="%.2f"
                         ),
                         "pct_total": st.column_config.NumberColumn(
-                            "% Total", format="%.2f"
+                            "% Total", format="%.0f"
                         ),
                         "kind": "Kind (heuristic)",
                         "non_empty_count": st.column_config.NumberColumn(
