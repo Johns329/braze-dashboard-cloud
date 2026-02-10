@@ -175,16 +175,21 @@ def parse_assets(known_fields):
         asset_id = asset.get("id", "unknown")
         asset_name = asset.get("name", "Unnamed")
 
-        # Determine "Last Active" date
+        # Determine activity timestamps
+        # Note: "last_active" may fall back to last_edited when there has been no send/entry.
+        last_sent = None
+        last_entry = None
         last_active = None
         if a_type == "Campaign":
-            last_active = asset.get("last_sent") or asset.get("stats", {}).get(
+            last_sent = asset.get("last_sent") or asset.get("stats", {}).get(
                 "last_sent"
             )
+            last_active = last_sent
         elif a_type == "Canvas":
-            last_active = asset.get("last_entry") or asset.get(
-                "canvas_summary", {}
-            ).get("last_entry")
+            last_entry = asset.get("last_entry") or asset.get("canvas_summary", {}).get(
+                "last_entry"
+            )
+            last_active = last_entry
 
         # Fallback to edited if never sent
         if not last_active:
@@ -199,6 +204,8 @@ def parse_assets(known_fields):
                 "status": "Active" if asset.get("status") != "Archived" else "Archived",
                 "last_edited": asset.get("last_edited_at", asset.get("updated_at")),
                 "last_active": last_active,
+                "last_sent": last_sent,
+                "last_entry": last_entry,
                 "tags": ",".join(asset.get("tags", [])),
             }
         )

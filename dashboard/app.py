@@ -292,10 +292,11 @@ def load_data():
 
         # Parse dates
         # Normalize to tz-naive UTC so downstream comparisons/grouping work consistently.
-        if "last_active" in assets.columns:
-            assets["last_active"] = pd.to_datetime(
-                assets["last_active"], errors="coerce", utc=True
-            ).dt.tz_convert(None)
+        for col in ["last_active", "last_sent", "last_entry", "last_edited"]:
+            if col in assets.columns:
+                assets[col] = pd.to_datetime(
+                    assets[col], errors="coerce", utc=True
+                ).dt.tz_convert(None)
 
         return catalog, assets, blocks, refs, deps
     except FileNotFoundError as e:
@@ -829,15 +830,64 @@ if page == "🏠 Overview":
     # Calculate governance score (used for internal context; not shown as a card)
     score, status = calculate_governance_score(catalog_df, refs_df, assets_df)
 
+    active_days = 30
+    active_cutoff = pd.Timestamp.utcnow() - pd.Timedelta(days=active_days)
+
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-        total_campaigns = len(assets_df[assets_df["asset_type"] == "Campaign"])
-        st.metric("Campaigns", total_campaigns, help="Active campaigns")
+        campaigns_df = (
+            assets_df[assets_df["asset_type"] == "Campaign"]
+            if (not assets_df.empty and "asset_type" in assets_df.columns)
+            else pd.DataFrame()
+        )
+        if not campaigns_df.empty and "status" in campaigns_df.columns:
+            campaigns_df = campaigns_df[campaigns_df["status"] != "Archived"]
+        if not campaigns_df.empty and "last_sent" in campaigns_df.columns:
+            active_campaigns = campaigns_df[
+                campaigns_df["last_sent"].notna()
+                & (campaigns_df["last_sent"] >= active_cutoff)
+            ]
+        elif not campaigns_df.empty and "last_active" in campaigns_df.columns:
+            active_campaigns = campaigns_df[
+                campaigns_df["last_active"].notna()
+                & (campaigns_df["last_active"] >= active_cutoff)
+            ]
+        else:
+            active_campaigns = pd.DataFrame()
+
+        st.metric(
+            "Campaigns",
+            len(active_campaigns),
+            help=f"Active = last_sent within {active_days} days",
+        )
 
     with col2:
-        total_canvases = len(assets_df[assets_df["asset_type"] == "Canvas"])
-        st.metric("Canvases", total_canvases, help="Active canvases")
+        canvases_df = (
+            assets_df[assets_df["asset_type"] == "Canvas"]
+            if (not assets_df.empty and "asset_type" in assets_df.columns)
+            else pd.DataFrame()
+        )
+        if not canvases_df.empty and "status" in canvases_df.columns:
+            canvases_df = canvases_df[canvases_df["status"] != "Archived"]
+        if not canvases_df.empty and "last_entry" in canvases_df.columns:
+            active_canvases = canvases_df[
+                canvases_df["last_entry"].notna()
+                & (canvases_df["last_entry"] >= active_cutoff)
+            ]
+        elif not canvases_df.empty and "last_active" in canvases_df.columns:
+            active_canvases = canvases_df[
+                canvases_df["last_active"].notna()
+                & (canvases_df["last_active"] >= active_cutoff)
+            ]
+        else:
+            active_canvases = pd.DataFrame()
+
+        st.metric(
+            "Canvases",
+            len(active_canvases),
+            help=f"Active = last_entry within {active_days} days",
+        )
 
     with col3:
         if not catalog_df.empty and not refs_df.empty:
@@ -851,6 +901,10 @@ if page == "🏠 Overview":
 
     with col4:
         st.metric("Catalog Fields", len(catalog_df), help="Total defined fields")
+
+    st.caption(
+        f"Active = activity in last {active_days} days (Campaigns: last_sent; Canvases: last_entry)"
+    )
 
     st.markdown("---")
 
