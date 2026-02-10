@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import networkx as nx
+import html
 import json
 import os
 from datetime import datetime, timedelta
@@ -112,6 +113,72 @@ st.markdown(
       border-color: rgba(255, 106, 0, 0.35);
       box-shadow: 0 10px 18px -10px rgba(0, 0, 0, 0.12);
       transform: translateY(-1px);
+    }
+
+    /* Overview metric cards (for long text values) */
+    .overview-metric-card {
+      background: var(--surface);
+      padding: 18px 20px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--slate-200);
+      box-shadow: var(--shadow);
+      height: 100%;
+    }
+
+    .overview-metric-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .overview-metric-label {
+      color: var(--slate-600);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.95rem;
+      line-height: 1.1;
+    }
+
+    .overview-metric-help {
+      width: 22px;
+      height: 22px;
+      border-radius: 9999px;
+      border: 2px solid rgba(71, 85, 105, 0.8);
+      color: rgba(71, 85, 105, 0.9);
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      line-height: 1;
+      user-select: none;
+    }
+
+    .overview-metric-value {
+      color: var(--primary);
+      font-weight: 800;
+      font-size: clamp(1.9rem, 2.6vw, 2.6rem);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      margin-bottom: 10px;
+    }
+
+    .overview-metric-delta {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: var(--radius-full);
+      background: rgba(16, 185, 129, 0.12);
+      color: #0f766e;
+      font-weight: 750;
+      font-size: 1rem;
+      line-height: 1;
     }
 
     /* Alert Boxes */
@@ -919,6 +986,34 @@ if page == "🏠 Overview":
     # Additional overview cards
     col5, col6, col7, col8 = st.columns(4)
 
+    def render_overview_text_card(label, value, delta=None, help_text=None):
+        label_html = html.escape(str(label))
+        value_html = html.escape(str(value))
+        help_html = (
+            f'<span class="overview-metric-help" title="{html.escape(str(help_text))}">?</span>'
+            if help_text
+            else ""
+        )
+        delta_html = (
+            f'<div class="overview-metric-delta">{html.escape(str(delta))}</div>'
+            if delta is not None
+            else ""
+        )
+
+        st.markdown(
+            f"""
+            <div class="overview-metric-card">
+              <div class="overview-metric-head">
+                <div class="overview-metric-label">{label_html}</div>
+                {help_html}
+              </div>
+              <div class="overview-metric-value">{value_html}</div>
+              {delta_html}
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
     artifacts = load_catalog_composition_artifacts()
     if artifacts is not None:
         overview = artifacts["overview"]
@@ -968,11 +1063,11 @@ if page == "🏠 Overview":
                     most_ref_field = str(counts.index[0])
                     most_ref_count = int(counts.iloc[0])
 
-        st.metric(
+        render_overview_text_card(
             "Most Referenced",
             most_ref_field,
             delta=f"{most_ref_count:,} refs" if most_ref_count is not None else None,
-            help="Most referenced catalog field across campaigns and canvases.",
+            help_text="Most referenced catalog field across campaigns and canvases.",
         )
 
     with col8:
@@ -994,13 +1089,13 @@ if page == "🏠 Overview":
                 if "est_mib" in df.columns and pd.notna(row.get("est_mib")):
                     heaviest_mib = float(row.get("est_mib"))
 
-        st.metric(
+        render_overview_text_card(
             "Heaviest Field",
             heaviest_field,
             delta=f"{heaviest_mib:.1f} MiB (est.)"
             if heaviest_mib is not None
             else None,
-            help="Largest field by estimated total storage in the catalog.",
+            help_text="Largest field by estimated total storage in the catalog.",
         )
 
     st.markdown("---")
