@@ -831,7 +831,9 @@ if page == "🏠 Overview":
     score, status = calculate_governance_score(catalog_df, refs_df, assets_df)
 
     active_days = 30
-    active_cutoff = pd.Timestamp.utcnow() - pd.Timedelta(days=active_days)
+    active_cutoff = pd.Timestamp.now(tz="UTC").tz_localize(None) - pd.Timedelta(
+        days=active_days
+    )
 
     col1, col2, col3, col4 = st.columns(4)
 
@@ -844,14 +846,18 @@ if page == "🏠 Overview":
         if not campaigns_df.empty and "status" in campaigns_df.columns:
             campaigns_df = campaigns_df[campaigns_df["status"] != "Archived"]
         if not campaigns_df.empty and "last_sent" in campaigns_df.columns:
+            last_sent_dt = pd.to_datetime(
+                campaigns_df["last_sent"], errors="coerce", utc=True
+            ).dt.tz_convert(None)
             active_campaigns = campaigns_df[
-                campaigns_df["last_sent"].notna()
-                & (campaigns_df["last_sent"] >= active_cutoff)
+                last_sent_dt.notna() & (last_sent_dt >= active_cutoff)
             ]
         elif not campaigns_df.empty and "last_active" in campaigns_df.columns:
+            last_active_dt = pd.to_datetime(
+                campaigns_df["last_active"], errors="coerce", utc=True
+            ).dt.tz_convert(None)
             active_campaigns = campaigns_df[
-                campaigns_df["last_active"].notna()
-                & (campaigns_df["last_active"] >= active_cutoff)
+                last_active_dt.notna() & (last_active_dt >= active_cutoff)
             ]
         else:
             active_campaigns = pd.DataFrame()
@@ -871,14 +877,18 @@ if page == "🏠 Overview":
         if not canvases_df.empty and "status" in canvases_df.columns:
             canvases_df = canvases_df[canvases_df["status"] != "Archived"]
         if not canvases_df.empty and "last_entry" in canvases_df.columns:
+            last_entry_dt = pd.to_datetime(
+                canvases_df["last_entry"], errors="coerce", utc=True
+            ).dt.tz_convert(None)
             active_canvases = canvases_df[
-                canvases_df["last_entry"].notna()
-                & (canvases_df["last_entry"] >= active_cutoff)
+                last_entry_dt.notna() & (last_entry_dt >= active_cutoff)
             ]
         elif not canvases_df.empty and "last_active" in canvases_df.columns:
+            last_active_dt = pd.to_datetime(
+                canvases_df["last_active"], errors="coerce", utc=True
+            ).dt.tz_convert(None)
             active_canvases = canvases_df[
-                canvases_df["last_active"].notna()
-                & (canvases_df["last_active"] >= active_cutoff)
+                last_active_dt.notna() & (last_active_dt >= active_cutoff)
             ]
         else:
             active_canvases = pd.DataFrame()
