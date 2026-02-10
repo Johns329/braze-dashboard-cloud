@@ -4,6 +4,10 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
 .streamlit/secrets.toml
 
 # Optional: keep tables committed, ignore raw snapshots
