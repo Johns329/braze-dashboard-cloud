@@ -930,7 +930,7 @@ if page == "🏠 Overview":
             active_campaigns = pd.DataFrame()
 
         st.metric(
-            "Campaigns",
+            "Active Campaigns",
             len(active_campaigns),
             help=f"Active = last_sent within {active_days} days",
         )
@@ -961,7 +961,7 @@ if page == "🏠 Overview":
             active_canvases = pd.DataFrame()
 
         st.metric(
-            "Canvases",
+            "Active Canvases",
             len(active_canvases),
             help=f"Active = last_entry within {active_days} days",
         )
