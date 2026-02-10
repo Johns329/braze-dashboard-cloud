@@ -138,7 +138,7 @@ st.markdown(
       font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      font-size: 0.95rem;
+      font-size: 0.8rem;
       line-height: 1.1;
     }
 
