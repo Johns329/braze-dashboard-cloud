@@ -135,7 +135,7 @@ st.markdown(
 
     .overview-metric-label {
       color: var(--slate-600);
-      font-weight: 700;
+      font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       font-size: 0.95rem;
@@ -160,13 +160,23 @@ st.markdown(
     .overview-metric-value {
       color: var(--primary);
       font-weight: 800;
-      font-size: clamp(1.9rem, 2.6vw, 2.6rem);
+      font-size: clamp(1.6rem, 2.2vw, 2.2rem);
       line-height: 1.05;
       letter-spacing: -0.02em;
       white-space: normal;
       overflow-wrap: anywhere;
       word-break: break-word;
       margin-bottom: 10px;
+    }
+
+    .overview-metric-value--small {
+      font-size: clamp(1.35rem, 1.9vw, 1.9rem);
+      line-height: 1.08;
+    }
+
+    .overview-metric-value--xsmall {
+      font-size: clamp(1.2rem, 1.7vw, 1.7rem);
+      line-height: 1.1;
     }
 
     .overview-metric-delta {
@@ -988,7 +998,8 @@ if page == "🏠 Overview":
 
     def render_overview_text_card(label, value, delta=None, help_text=None):
         label_html = html.escape(str(label))
-        value_html = html.escape(str(value))
+        value_s = str(value)
+        value_html = html.escape(value_s)
         help_html = (
             f'<span class="overview-metric-help" title="{html.escape(str(help_text))}">?</span>'
             if help_text
@@ -1000,6 +1011,13 @@ if page == "🏠 Overview":
             else ""
         )
 
+        value_len = len(value_s)
+        value_class = "overview-metric-value"
+        if value_len >= 24:
+            value_class += " overview-metric-value--xsmall"
+        elif value_len >= 16 or ("_" in value_s and value_len >= 11):
+            value_class += " overview-metric-value--small"
+
         st.markdown(
             f"""
             <div class="overview-metric-card">
@@ -1007,7 +1025,7 @@ if page == "🏠 Overview":
                 <div class="overview-metric-label">{label_html}</div>
                 {help_html}
               </div>
-              <div class="overview-metric-value">{value_html}</div>
+              <div class="{value_class}">{value_html}</div>
               {delta_html}
             </div>
             """,
