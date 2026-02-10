@@ -916,6 +916,93 @@ if page == "🏠 Overview":
         f"Active = activity in last {active_days} days (Campaigns: last_sent; Canvases: last_entry)"
     )
 
+    # Additional overview cards
+    col5, col6, col7, col8 = st.columns(4)
+
+    artifacts = load_catalog_composition_artifacts()
+    if artifacts is not None:
+        overview = artifacts["overview"]
+
+        total_fields = float(overview.get("columns", 0) or 0)
+        field_capacity_pct = (
+            round((total_fields / 1000.0) * 100.0) if total_fields else 0
+        )
+
+        braze_mib_est = float(overview.get("est_braze_mib_method_a", 0) or 0)
+        storage_capacity_pct = (
+            round((braze_mib_est / (2.0 * 1024.0)) * 100.0) if braze_mib_est else 0
+        )
+    else:
+        overview = None
+        field_capacity_pct = None
+        storage_capacity_pct = None
+
+    with col5:
+        st.metric(
+            "Field Capacity",
+            f"{field_capacity_pct:.0f}%" if field_capacity_pct is not None else "N/A",
+            help="Braze catalog limit: 1,000 columns. Percent = fields / 1000.",
+        )
+
+    with col6:
+        st.metric(
+            "Storage Capacity",
+            f"{storage_capacity_pct:.0f}%"
+            if storage_capacity_pct is not None
+            else "N/A",
+            help="Braze catalog limit: 2 GB. Percent = Braze Size (est.) / 2 GB.",
+        )
+
+    with col7:
+        most_ref_field = "N/A"
+        most_ref_count = None
+        if (
+            not refs_df.empty
+            and "field_name" in refs_df.columns
+            and "is_risk" in refs_df.columns
+        ):
+            valid_refs = refs_df[refs_df["is_risk"] == False]
+            if not valid_refs.empty:
+                counts = valid_refs["field_name"].value_counts()
+                if not counts.empty:
+                    most_ref_field = str(counts.index[0])
+                    most_ref_count = int(counts.iloc[0])
+
+        st.metric(
+            "Most Referenced",
+            most_ref_field,
+            delta=f"{most_ref_count:,} refs" if most_ref_count is not None else None,
+            help="Most referenced catalog field across campaigns and canvases.",
+        )
+
+    with col8:
+        heaviest_field = "N/A"
+        heaviest_mib = None
+        if artifacts is not None and artifacts.get("weights") is not None:
+            weights_df = artifacts["weights"]
+            if (
+                weights_df is not None
+                and not weights_df.empty
+                and "field_name" in weights_df.columns
+            ):
+                df = weights_df.copy()
+                if "est_mib" in df.columns:
+                    df["est_mib"] = pd.to_numeric(df["est_mib"], errors="coerce")
+                    df = df.sort_values("est_mib", ascending=False)
+                row = df.iloc[0]
+                heaviest_field = str(row.get("field_name") or "N/A")
+                if "est_mib" in df.columns and pd.notna(row.get("est_mib")):
+                    heaviest_mib = float(row.get("est_mib"))
+
+        st.metric(
+            "Heaviest Field",
+            heaviest_field,
+            delta=f"{heaviest_mib:.1f} MiB (est.)"
+            if heaviest_mib is not None
+            else None,
+            help="Largest field by estimated total storage in the catalog.",
+        )
+
     st.markdown("---")
 
     # Key Insights
