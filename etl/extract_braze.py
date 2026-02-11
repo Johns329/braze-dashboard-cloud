@@ -137,7 +137,7 @@ def fetch_details_concurrent(
     return results, failures
 
 
-def main():
+def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument(
         "--env-file",
@@ -166,7 +166,7 @@ def main():
         print(
             "Please set it in your environment or creates a .env file (if using python-dotenv)."
         )
-        return
+        return 1
 
     rest_ep = os.environ.get("BRAZE_REST_ENDPOINT", "https://rest.iad-05.braze.com")
 
@@ -271,6 +271,8 @@ def main():
         json.dump(manifest, f, indent=2)
     print(f"Wrote manifest to {manifest_file}")
 
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
