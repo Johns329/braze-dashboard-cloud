@@ -22,6 +22,8 @@ set "DO_COMMIT=1"
 set "DO_PUSH=1"
 set "ENV_FILE="
 set "SHOW_HELP=0"
+set "DID_PUSHD=0"
+set "EXITCODE=0"
 
 rem Allow override via env var; default matches your local layout.
 set "EXPORTER_DIR=C:\Toast\braze_catalog_exporter"
@@ -38,6 +40,7 @@ if "!SHOW_HELP!"=="1" exit /b 0
 call :banner
 
 pushd "%DASHBOARD_DIR%" >nul
+set "DID_PUSHD=1"
 
 call :step 1 6 "Validate environment"
 call :need_cmd git
@@ -73,7 +76,7 @@ call "!EXPORTER_DIR!\export_primary_locations_catalog.bat"
 if errorlevel 1 call :die "Catalog export failed. See exporter output above."
 
 set "LATEST_EXPORT="
-for /f "usebackq delims=" %%F in (`powershell -NoProfile -Command "(Get-ChildItem -Path '%EXPORTER_DIR%\\exports' -Filter 'Primary_Locations_Catalog_*.csv' -File | Sort-Object LastWriteTime -Descending | Select-Object -First 1 -ExpandProperty FullName)"`) do set "LATEST_EXPORT=%%F"
+call :find_latest_export
 if "!LATEST_EXPORT!"=="" call :die "Could not find an exported catalog CSV in !EXPORTER_DIR!\exports"
 call :ok "Latest export: !LATEST_EXPORT!"
 
@@ -110,7 +113,7 @@ if "%DO_COMMIT%"=="0" (
 )
 
 set "STAMP="
-for /f "usebackq delims=" %%T in (`powershell -NoProfile -Command "Get-Date -AsUTC -Format 'yyyy-MM-dd HH:mm:ss UTC'"`) do set "STAMP=%%T"
+for /f "usebackq delims=" %%T in (`powershell -NoProfile -Command "(Get-Date).ToUniversalTime().ToString('yyyy-MM-dd HH:mm:ss ''UTC''')"`) do set "STAMP=%%T"
 set "MSG=Refresh dashboard data (!STAMP!)"
 call :info "Commit: !MSG!"
 git commit -m "!MSG!" -- "data/tables"
@@ -134,10 +137,15 @@ if errorlevel 1 call :die "git push failed"
 call :ok "Pushed"
 
 :done
-popd >nul
+if "!DID_PUSHD!"=="1" popd >nul
 echo.
 echo(!C_BOLD!!C_GREEN!All done.!C_RESET!
 exit /b 0
+
+
+:abort
+if "!DID_PUSHD!"=="1" popd >nul
+exit /b !EXITCODE!
 
 
 :parse_args
@@ -233,5 +241,15 @@ exit /b 0
 echo.
 echo(!C_BOLD!!C_RED![error]!C_RESET! %~1
 echo(!C_DIM!Stopped. No changes were pushed unless step 6 completed successfully.!C_RESET!
-popd >nul 2>nul
-exit /b 1
+set "EXITCODE=1"
+goto abort
+
+
+:find_latest_export
+set "EXP_DIR=!EXPORTER_DIR!\exports"
+if not exist "!EXP_DIR!" exit /b 0
+for /f "delims=" %%F in ('dir /b /a:-d /o:-d "!EXP_DIR!\Primary_Locations_Catalog_*.csv" 2^>nul') do (
+  set "LATEST_EXPORT=!EXP_DIR!\%%F"
+  goto :eof
+)
+exit /b 0
