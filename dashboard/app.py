@@ -9,6 +9,9 @@ import json
 import os
 from datetime import datetime, timedelta
 
+
+AUTO_REFRESH_SECONDS = 120
+
 # ============================================================================
 # PAGE CONFIG & STYLING
 # ============================================================================
@@ -19,6 +22,17 @@ st.set_page_config(
     page_icon="📊",
     initial_sidebar_state="expanded",
 )
+
+# Auto-refresh the app every 2 minutes.
+try:
+    from streamlit_autorefresh import st_autorefresh
+
+    st_autorefresh(interval=AUTO_REFRESH_SECONDS * 1000, key="tas_autorefresh")
+except ModuleNotFoundError:
+    st.caption(
+        "Auto-refresh disabled (missing dependency: streamlit-autorefresh). "
+        "Install it to enable 2-minute refresh."
+    )
 
 # Custom CSS - Toast Audience Studio theme (for a seamless iframe embed)
 st.markdown(
@@ -357,7 +371,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TABLES_DIR = os.path.join(BASE_DIR, "data", "tables")
 
 
-@st.cache_data
+@st.cache_data(ttl=AUTO_REFRESH_SECONDS)
 def load_data():
     """Load all governance data tables."""
     try:
@@ -388,7 +402,7 @@ def load_data():
         )
 
 
-@st.cache_data
+@st.cache_data(ttl=AUTO_REFRESH_SECONDS)
 def load_catalog_composition_artifacts():
     """Load precomputed catalog composition artifacts (small, committed files)."""
     overview_path = os.path.join(TABLES_DIR, "catalog_composition_overview.json")
