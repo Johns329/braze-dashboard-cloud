@@ -82,7 +82,13 @@ if not "!CACHED_EXPORT!"=="" (
 ) else (
   if not exist "!EXPORTER_DIR!\export_primary_locations_catalog.bat" call :die "Exporter not found: !EXPORTER_DIR!\export_primary_locations_catalog.bat"
   call :info "Exporter dir: !EXPORTER_DIR!"
+
+  rem Enable resume for this fetch only (1 hour window).
+  set "BRAZE_CATALOG_EXPORT_RESUME=1"
+  set "BRAZE_CATALOG_EXPORT_RESUME_MAX_AGE_S=3600"
   call "!EXPORTER_DIR!\export_primary_locations_catalog.bat"
+  set "BRAZE_CATALOG_EXPORT_RESUME="
+  set "BRAZE_CATALOG_EXPORT_RESUME_MAX_AGE_S="
   if errorlevel 1 call :die "Catalog export failed. See exporter output above."
 
   set "LATEST_EXPORT="
