@@ -3,7 +3,8 @@ setlocal EnableExtensions EnableDelayedExpansion
 
 rem Master refresh script for Streamlit dashboard.
 rem - Runs Braze snapshot extract + parse (writes data\tables\*.csv/json)
-rem - Runs Primary_Locations_Catalog exporter (external repo)
+rem - Uses cached Primary_Locations_Catalog when available (data\latest_catalog)
+rem   otherwise runs Primary_Locations_Catalog exporter (external repo)
 rem - Builds catalog composition artifacts (writes data\tables\catalog_composition_*)
 rem - Commits + pushes ONLY data\tables\ outputs (leaves other changes untouched)
 
@@ -69,16 +70,34 @@ python etl\parse_liquid.py
 if errorlevel 1 call :die "Parse failed. See output above."
 call :ok "Parse complete"
 
-call :step 4 6 "Export Primary_Locations_Catalog (external exporter)"
-if not exist "!EXPORTER_DIR!\export_primary_locations_catalog.bat" call :die "Exporter not found: !EXPORTER_DIR!\export_primary_locations_catalog.bat"
-call :info "Exporter dir: !EXPORTER_DIR!"
-call "!EXPORTER_DIR!\export_primary_locations_catalog.bat"
-if errorlevel 1 call :die "Catalog export failed. See exporter output above."
+call :step 4 6 "Export Primary_Locations_Catalog (cached when PST-today exists)"
 
-set "LATEST_EXPORT="
-call :find_latest_export
-if "!LATEST_EXPORT!"=="" call :die "Could not find an exported catalog CSV in !EXPORTER_DIR!\exports"
-call :ok "Latest export: !LATEST_EXPORT!"
+set "CACHED_EXPORT="
+call :find_cached_today_export
+
+if not "!CACHED_EXPORT!"=="" (
+  set "LATEST_EXPORT=!CACHED_EXPORT!"
+  call :warn "Cached catalog found for PST-today; skipping Braze catalog API fetch."
+  call :ok "Using cached export: !LATEST_EXPORT!"
+) else (
+  if not exist "!EXPORTER_DIR!\export_primary_locations_catalog.bat" call :die "Exporter not found: !EXPORTER_DIR!\export_primary_locations_catalog.bat"
+  call :info "Exporter dir: !EXPORTER_DIR!"
+  call "!EXPORTER_DIR!\export_primary_locations_catalog.bat"
+  if errorlevel 1 call :die "Catalog export failed. See exporter output above."
+
+  set "LATEST_EXPORT="
+  call :find_latest_export
+  if "!LATEST_EXPORT!"=="" call :die "Could not find an exported catalog CSV in !EXPORTER_DIR!\exports"
+  call :ok "Latest export: !LATEST_EXPORT!"
+
+  rem Best-effort cache copy so subsequent runs can skip the fetch.
+  copy /y "!LATEST_EXPORT!" "data\latest_catalog\" >nul 2>nul
+  if errorlevel 1 (
+    call :warn "Could not copy export to data\latest_catalog (continuing)."
+  ) else (
+    call :info "Cached to: data\latest_catalog\"
+  )
+)
 
 call :step 5 6 "Build catalog composition artifacts"
 call :info "Reads: !LATEST_EXPORT!"
@@ -251,5 +270,17 @@ if not exist "!EXP_DIR!" exit /b 0
 for /f "delims=" %%F in ('dir /b /a:-d /o:-d "!EXP_DIR!\Primary_Locations_Catalog_*.csv" 2^>nul') do (
   set "LATEST_EXPORT=!EXP_DIR!\%%F"
   goto :eof
+)
+exit /b 0
+
+
+:find_cached_today_export
+set "CACHED_EXPORT="
+set "CACHE_DIR=!DASHBOARD_DIR!\data\latest_catalog"
+if not exist "!CACHE_DIR!" exit /b 0
+
+rem Find most-recent Primary_Locations_Catalog* CSV modified on today's PST date.
+for /f "usebackq delims=" %%F in (`powershell -NoProfile -Command "$dir='!CACHE_DIR!'; $pattern='Primary_Locations_Catalog*.csv'; try { $tz=[TimeZoneInfo]::FindSystemTimeZoneById('Pacific Standard Time') } catch { $tz=[TimeZoneInfo]::Local }; $today=[TimeZoneInfo]::ConvertTimeFromUtc((Get-Date).ToUniversalTime(), $tz).Date; $f=Get-ChildItem -LiteralPath $dir -Filter $pattern -File -ErrorAction SilentlyContinue ^| Where-Object { [TimeZoneInfo]::ConvertTimeFromUtc($_.LastWriteTimeUtc, $tz).Date -eq $today } ^| Sort-Object LastWriteTimeUtc -Descending ^| Select-Object -First 1; if ($f) { $f.FullName }"`) do (
+  set "CACHED_EXPORT=%%F"
 )
 exit /b 0
