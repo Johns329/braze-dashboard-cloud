@@ -1,330 +1,328 @@
 asset_id,asset_name,asset_type,subtype,status,last_edited,last_active,last_sent,last_entry,tags
-cb7e8264-3d7b-45bd-9cf2-2d610fbf850c,EMAIL QA Campaign,Campaign,Standard,Active,2025-11-03T15:35:24+00:00,2025-11-03T15:35:24+00:00,,,
+e16ce600-bce8-4de0-be47-e3040cca1bcd,Online Ordering Calendly Link Click Tracking,Campaign,Standard,Active,2025-11-03T15:11:35+00:00,2022-09-08T15:00:00Z,2022-09-08T15:00:00Z,,
 0bf2aaba-d860-4fd8-935c-bd755756cf69,Test - Ciarán initial release test campaign,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2023-03-06T15:57:58+00:00,2023-03-06T15:57:58+00:00,,
 f0d123dd-ccfe-44b3-ac00-a47e8651f497,Online Ordering Adoption - Emerging SMB - Segment A,Campaign,Standard,Active,2026-01-06T04:07:55+00:00,2026-01-05T16:50:31+00:00,2026-01-05T16:50:31+00:00,,"Adoption,Online_Ordering,Paused1108"
 6f64af85-f147-458d-81da-9e5b90dff4ef,Test Mode Warning,Campaign,Standard,Active,2025-11-03T15:35:25+00:00,2025-11-03T15:35:25+00:00,,,
 26c35a79-526b-4fad-85a1-77d5da9168cf,Online Ordering Adoption - Growth SMB - Segment B,Campaign,Standard,Active,2025-11-10T13:49:06+00:00,2023-04-05T04:01:32+00:00,2023-04-05T04:01:32+00:00,,"Adoption,Online_Ordering,Paused1108"
-6196ca3d-4487-4a1e-9a9b-6cec951719a5,MVP UAT SMS Optin,Campaign,Standard,Active,2025-11-03T15:11:35+00:00,2025-11-03T15:11:35+00:00,,,
-e2d1562c-9252-40eb-b648-95d0dd442c1f,IPWarming-Round2-Day2,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2022-09-23T14:00:36+00:00,2022-09-23T14:00:36+00:00,,IP Warming
-65cfb30b-6f06-482f-9de2-ed9ea26dbdb9,IPWarming-Round2-Day4,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2022-09-26T15:00:12+00:00,2022-09-26T15:00:12+00:00,,IP Warming
-e16ce600-bce8-4de0-be47-e3040cca1bcd,Online Ordering Calendly Link Click Tracking,Campaign,Standard,Active,2025-11-03T15:11:35+00:00,2022-09-08T15:00:00Z,2022-09-08T15:00:00Z,,
 82f2f682-90b7-4c3d-80ca-a52e8fe1bb4b,IPWarming-Round2-Day3,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2022-09-25T18:00:16+00:00,2022-09-25T18:00:16+00:00,,IP Warming
-072204f9-4d10-4bc5-bb69-71d4c36639c1,IPWarming-Round2-Day1,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2022-09-22T18:15:19+00:00,2022-09-22T18:15:19+00:00,,IP Warming
+e2d1562c-9252-40eb-b648-95d0dd442c1f,IPWarming-Round2-Day2,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2022-09-23T14:00:36+00:00,2022-09-23T14:00:36+00:00,,IP Warming
+6196ca3d-4487-4a1e-9a9b-6cec951719a5,MVP UAT SMS Optin,Campaign,Standard,Active,2025-11-03T15:11:35+00:00,2025-11-03T15:11:35+00:00,,,
 0b66874a-d5d7-408f-8483-557187f45a03,IPWarming-Round2-Day5,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2022-09-27T15:00:14+00:00,2022-09-27T15:00:14+00:00,,IP Warming
-708d8098-1531-4345-bdab-14495c653eb1,Online Ordering Adoption - RSM Assigned - Segment C,Campaign,Standard,Active,2025-12-29T04:00:28+00:00,2025-12-28T05:01:23+00:00,2025-12-28T05:01:23+00:00,,"Adoption,Online_Ordering,Paused1108"
+65cfb30b-6f06-482f-9de2-ed9ea26dbdb9,IPWarming-Round2-Day4,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2022-09-26T15:00:12+00:00,2022-09-26T15:00:12+00:00,,IP Warming
 c91060e9-033b-486a-b059-50e788d30adc,Kolben's IPM Creative Preview Campaign,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2024-08-21T19:00:00Z,2024-08-21T19:00:00Z,,
-70402504-237c-4cde-a14d-87dee818432c,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P2,Campaign,Standard,Active,2025-11-03T15:35:28+00:00,2025-11-03T15:35:28+00:00,,,"Outage Comms,Outage Loop,OutageP2 - Update,Template - DO NOT EDIT"
 cd372dc9-d42a-4ab8-8e9a-9a1e2a5b00ba,ShardP2,Campaign,Standard,Active,2025-11-03T15:35:24+00:00,2025-11-03T15:35:24+00:00,,,DELETE
+708d8098-1531-4345-bdab-14495c653eb1,Online Ordering Adoption - RSM Assigned - Segment C,Campaign,Standard,Active,2025-12-29T04:00:28+00:00,2025-12-28T05:01:23+00:00,2025-12-28T05:01:23+00:00,,"Adoption,Online_Ordering,Paused1108"
 906f3658-9b7a-4913-a0ca-d2b79ee874df,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P1,Campaign,Standard,Active,2025-11-03T15:35:28+00:00,2025-11-03T15:35:28+00:00,,,"Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
 d5570b75-d291-42f0-bac8-13a52db7d3bc,[23.02.09]-Outage-Payment-[CHASE/ETC]-P2-Resolution,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2023-02-09T22:12:04+00:00,2023-02-09T22:12:04+00:00,,"Outage Comms,OutageP2 - Update"
-8dd9f837-348b-4a84-b80b-c39511912224,[yy.mm.dd]-Outage-ToastSys-[SHARD#]-P1,Campaign,Standard,Active,2025-11-03T15:35:28+00:00,2025-11-03T15:35:28+00:00,,,"Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
+70402504-237c-4cde-a14d-87dee818432c,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P2,Campaign,Standard,Active,2025-11-03T15:35:28+00:00,2025-11-03T15:35:28+00:00,,,"Outage Comms,Outage Loop,OutageP2 - Update,Template - DO NOT EDIT"
 a2d6408d-ca61-4a2c-b5cd-173df4f70c02,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P3,Campaign,Standard,Active,2025-11-03T15:35:28+00:00,2025-11-03T15:35:28+00:00,,,"Outage Comms,OutageP3 - Resolved,Template - DO NOT EDIT"
+8dd9f837-348b-4a84-b80b-c39511912224,[yy.mm.dd]-Outage-ToastSys-[SHARD#]-P1,Campaign,Standard,Active,2025-11-03T15:35:28+00:00,2025-11-03T15:35:28+00:00,,,"Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
 82b391c2-11a0-4fa0-af1c-eb309321d010,[yy.mm.dd]-Outage-ToastSys-[SHARD#]-P2,Campaign,Standard,Active,2025-11-03T15:35:28+00:00,2025-11-03T15:35:28+00:00,,,"Outage Comms,Outage Loop,OutageP2 - Update,Template - DO NOT EDIT"
-b323c4fe-ee02-4ceb-8f6d-18180a26d06c,[UAT] 23.01.25-Outage-Payment-[CHASE/ETC]-P2-Monitoring,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-01-26T15:18:34+00:00,2023-01-26T15:18:34+00:00,,"Outage Comms,OutageP2 - Update,UAT"
-6ec39af5-90ec-4e8a-970f-3ce259319dd9,[UAT] 23.01.25-Outage-Payment-[CHASE/ETC]-P1,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2023-01-25T17:59:33+00:00,2023-01-25T17:59:33+00:00,,"Outage Comms,OutageP1 - Acknowledgement,UAT"
-ea0e47c8-0ff9-4521-9e6a-175eaf127bca,[yy.mm.dd]-Outage-ToastSys-[SHARD#]-P3,Campaign,Standard,Active,2025-11-03T15:35:29+00:00,2025-11-03T15:35:29+00:00,,,"Outage Comms,OutageP3 - Resolved,Template - DO NOT EDIT"
-2172d457-a042-4838-864c-d4206129b59c,[UAT] 23.01.25-Outage-Payment-[CHASE/ETC]-P2,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2023-01-26T13:00:00Z,2023-01-26T13:00:00Z,,"Outage Comms,Outage Loop,OutageP2 - Update,UAT"
 0adc750f-1845-4694-af88-888cf9b7113d,[yy.mm.dd]-Outage-ToastSys-[SHARD#]-P2-Resolution,Campaign,Standard,Active,2025-11-03T15:35:28+00:00,2025-11-03T15:35:28+00:00,,,"Outage Comms,OutageP2 - Update,Template - DO NOT EDIT"
-d1714af4-8aa2-4e69-b68d-a4238fd137b3,[UAT] 23.01.26-Outage-Payment-[CHASE/ETC]-P1,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-01-26T13:02:30+00:00,2023-01-26T13:02:30+00:00,,"Outage Comms,OutageP1 - Acknowledgement,UAT"
+ea0e47c8-0ff9-4521-9e6a-175eaf127bca,[yy.mm.dd]-Outage-ToastSys-[SHARD#]-P3,Campaign,Standard,Active,2025-11-03T15:35:29+00:00,2025-11-03T15:35:29+00:00,,,"Outage Comms,OutageP3 - Resolved,Template - DO NOT EDIT"
+6ec39af5-90ec-4e8a-970f-3ce259319dd9,[UAT] 23.01.25-Outage-Payment-[CHASE/ETC]-P1,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2023-01-25T17:59:33+00:00,2023-01-25T17:59:33+00:00,,"Outage Comms,OutageP1 - Acknowledgement,UAT"
 da8496c8-1d51-4c3e-9795-f090c4a401db,[UAT] 23.01.25-Outage-Payment-[CHASE/ETC]-P3,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-01-26T15:18:53+00:00,2023-01-26T15:18:53+00:00,,"Outage Comms,OutageP3 - Resolved,UAT"
-04b1bd07-c7b2-4f04-b4fb-46ef1929f163,[yyyy-mm-dd]-Outage-Payment-[CHASE/ETC]-P1 Legal,Campaign,Standard,Active,2025-11-03T15:35:31+00:00,2025-11-03T15:35:31+00:00,,,
-3265adb1-8895-41a1-b8e2-742d9eea0a4e,[yy.mm.dd]-Outage-ToastSys-[SHARD#]-P0Legal,Campaign,Standard,Active,2025-11-03T15:35:30+00:00,2025-11-03T15:35:30+00:00,,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
-a1e88a4f-945a-410f-bc36-e140151deb6b,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P2 - Online Ordering Removed,Campaign,Standard,Active,2025-11-03T15:35:29+00:00,2025-11-03T15:35:29+00:00,,,DELETE
-d1c28583-0ced-4875-bad4-09e7345e1260,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P0Legal,Campaign,Standard,Active,2025-11-03T15:35:29+00:00,2025-11-03T15:35:29+00:00,,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
+2172d457-a042-4838-864c-d4206129b59c,[UAT] 23.01.25-Outage-Payment-[CHASE/ETC]-P2,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2023-01-26T13:00:00Z,2023-01-26T13:00:00Z,,"Outage Comms,Outage Loop,OutageP2 - Update,UAT"
+d1714af4-8aa2-4e69-b68d-a4238fd137b3,[UAT] 23.01.26-Outage-Payment-[CHASE/ETC]-P1,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-01-26T13:02:30+00:00,2023-01-26T13:02:30+00:00,,"Outage Comms,OutageP1 - Acknowledgement,UAT"
+b323c4fe-ee02-4ceb-8f6d-18180a26d06c,[UAT] 23.01.25-Outage-Payment-[CHASE/ETC]-P2-Monitoring,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-01-26T15:18:34+00:00,2023-01-26T15:18:34+00:00,,"Outage Comms,OutageP2 - Update,UAT"
 29ad873d-26d1-461a-ac2b-fa526659353a,DELETE ME,Campaign,Standard,Active,2025-11-03T15:35:29+00:00,2025-11-03T15:35:29+00:00,,,DELETE
+cb7e8264-3d7b-45bd-9cf2-2d610fbf850c,EMAIL QA Campaign,Campaign,Standard,Active,2025-11-03T15:35:24+00:00,2025-11-03T15:35:24+00:00,,,
+04b1bd07-c7b2-4f04-b4fb-46ef1929f163,[yyyy-mm-dd]-Outage-Payment-[CHASE/ETC]-P1 Legal,Campaign,Standard,Active,2025-11-03T15:35:31+00:00,2025-11-03T15:35:31+00:00,,,
+d1c28583-0ced-4875-bad4-09e7345e1260,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P0Legal,Campaign,Standard,Active,2025-11-03T15:35:29+00:00,2025-11-03T15:35:29+00:00,,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
+3265adb1-8895-41a1-b8e2-742d9eea0a4e,[yy.mm.dd]-Outage-ToastSys-[SHARD#]-P0Legal,Campaign,Standard,Active,2025-11-03T15:35:30+00:00,2025-11-03T15:35:30+00:00,,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
 812db057-c070-4024-b45a-a47e9ece3259,DELETE ME,Campaign,Standard,Active,2025-11-03T15:35:30+00:00,2025-11-03T15:35:30+00:00,,,DELETE
 38def3ba-b569-4e2d-981d-00d722e35623,DELETE ME,Campaign,Standard,Active,2025-11-03T15:35:30+00:00,2025-11-03T15:35:30+00:00,,,DELETE
-4b2bc6ca-7949-40d8-a986-60e819d00fae,DELETE ME,Campaign,Standard,Active,2025-11-03T15:35:29+00:00,2025-11-03T15:35:29+00:00,,,DELETE
-1d8f1ef2-4eae-465e-b3fb-8ef15934232d,[23.02.09]-Outage-Payment-[CHASE/ETC]-P1Legal,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-02-09T22:10:31+00:00,2023-02-09T22:10:31+00:00,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement"
-b1b2e9b5-a9f0-4ecc-81ef-e7e090c1c57a,[23.02.09]-Outage-Payment-CHASE]-P2,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2025-11-03T14:42:41+00:00,,,"Outage Comms,Outage Loop,OutageP2 - Update"
-804934e7-2f76-429f-9929-859020201987,DELETE ME,Campaign,Standard,Active,2025-11-03T15:35:30+00:00,2025-11-03T15:35:30+00:00,,,DELETE
+a1e88a4f-945a-410f-bc36-e140151deb6b,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P2 - Online Ordering Removed,Campaign,Standard,Active,2025-11-03T15:35:29+00:00,2025-11-03T15:35:29+00:00,,,DELETE
 8251b446-ecfa-4ed0-8646-ab21626a6361,DELETE ME,Campaign,Standard,Active,2025-11-03T15:35:30+00:00,2025-11-03T15:35:30+00:00,,,DELETE
+804934e7-2f76-429f-9929-859020201987,DELETE ME,Campaign,Standard,Active,2025-11-03T15:35:30+00:00,2025-11-03T15:35:30+00:00,,,DELETE
 bd3b6648-1139-4a53-b843-80f792bf4c62,[23.02.09]-Outage-Payment-CHASE-P1,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2023-02-09T22:10:48+00:00,2023-02-09T22:10:48+00:00,,"Outage Comms,OutageP1 - Acknowledgement"
+b1b2e9b5-a9f0-4ecc-81ef-e7e090c1c57a,[23.02.09]-Outage-Payment-CHASE]-P2,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2025-11-03T14:42:41+00:00,,,"Outage Comms,Outage Loop,OutageP2 - Update"
 a32760e4-45ff-4787-adac-4e0c6b2112e5,[23.02.09]-Outage-Payment-[CHASE/ETC]-P3,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2023-02-09T22:14:40+00:00,2023-02-09T22:14:40+00:00,,"Outage Comms,OutageP3 - Resolved"
-f9c689e5-7b29-4ab7-8d63-564232bcf252,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P2-Resolution,Campaign,Standard,Active,2025-11-03T15:35:30+00:00,2025-11-03T15:35:30+00:00,,,"Outage Comms,OutageP2 - Update,Template - DO NOT EDIT"
 e3aa5b43-8131-4d6e-a31e-1d7b4dfc63de,[23.03.20]-Outage-Payment-[CHASE/ETC]-P1,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2023-03-20T14:32:48+00:00,2023-03-20T14:32:48+00:00,,"Outage Comms,OutageP1 - Acknowledgement"
+f9c689e5-7b29-4ab7-8d63-564232bcf252,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P2-Resolution,Campaign,Standard,Active,2025-11-03T15:35:30+00:00,2025-11-03T15:35:30+00:00,,,"Outage Comms,OutageP2 - Update,Template - DO NOT EDIT"
+13639abd-4c08-496d-9d62-723ecfa9dd64,[23.03.20]-Outage-Payment-[CHASE/ETC]-P2,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2025-11-03T14:42:41+00:00,,,"Outage Comms,Outage Loop,OutageP2 - Update"
 92cbd24f-da15-425b-bfd2-6280ece31c8f,[23.03.20]-Outage-Payment-[CHASE/ETC]-P1Legal,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-03-20T14:33:11+00:00,2023-03-20T14:33:11+00:00,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement"
-6b1f4286-1fd4-4994-82da-4c696eb2dce1,[23.03.20]-Outage-Payment-[CHASE/ETC]-P3,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2023-03-20T14:41:04+00:00,2023-03-20T14:41:04+00:00,,"Outage Comms,OutageP3 - Resolved"
 e8792564-b16a-438e-b3ed-bec0ead6fce0,[23.03.20]-Outage-Payment-[CHASE/ETC]-P2-Resolution,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2023-03-20T14:40:12+00:00,2023-03-20T14:40:12+00:00,,"Outage Comms,OutageP2 - Update"
 a089b04c-4729-4b0a-a024-bd0057012fba,POS 3.0 pilot campaign - Message 3,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2023-04-15T03:00:00Z,2023-04-15T03:00:00Z,,
+6b1f4286-1fd4-4994-82da-4c696eb2dce1,[23.03.20]-Outage-Payment-[CHASE/ETC]-P3,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2023-03-20T14:41:04+00:00,2023-03-20T14:41:04+00:00,,"Outage Comms,OutageP3 - Resolved"
+4b2bc6ca-7949-40d8-a986-60e819d00fae,DELETE ME,Campaign,Standard,Active,2025-11-03T15:35:29+00:00,2025-11-03T15:35:29+00:00,,,DELETE
 e63c5446-bff8-4e6c-9a52-5964cf94e159,POS 3.0 pilot campaign - Message 4,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2023-04-30T04:00:00Z,2023-04-30T04:00:00Z,,
 4331c761-ecee-4c60-94fb-f22b744ac897,POS 3.0 pilot campaign - Message 5,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-04-25T04:00:00Z,2023-04-25T04:00:00Z,,
-13639abd-4c08-496d-9d62-723ecfa9dd64,[23.03.20]-Outage-Payment-[CHASE/ETC]-P2,Campaign,Standard,Active,2025-11-03T14:42:41+00:00,2025-11-03T14:42:41+00:00,,,"Outage Comms,Outage Loop,OutageP2 - Update"
 1a647597-3e2e-43aa-b7a3-c83f19c1c86e,POS 3.0 pilot campaign - Message 6,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-05-02T02:00:00Z,2023-05-02T02:00:00Z,,
-119d4d19-9b3a-4219-8893-0a75fc030125,Retired - POS 3.0 pilot campaign - Message 8,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-05-16T20:00:00Z,2023-05-16T20:00:00Z,,
 c304c057-bb28-4653-af4a-b0b5159a87fe,POS 3.0 pilot campaign - Message 7,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-05-05T04:00:00Z,2023-05-05T04:00:00Z,,
+119d4d19-9b3a-4219-8893-0a75fc030125,Retired - POS 3.0 pilot campaign - Message 8,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-05-16T20:00:00Z,2023-05-16T20:00:00Z,,
 df74a275-8d55-4b86-8067-647aa75a9c77,POS Elo V1  EOL campaign,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-05-09T02:00:00Z,2023-05-09T02:00:00Z,,
-a30554d1-c81b-4841-b298-0e13d2d6ab76,[23/06/06]-Outage-Payment-[CHASE/ETC]-P0Legal,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-06-06T15:09:42+00:00,2023-06-06T15:09:42+00:00,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement"
-5bea79a6-8421-4f1a-a01b-a9d2e343f49e,23.04.19-Outage-Payment-Chase-P1,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-04-19T18:16:53+00:00,2023-04-19T18:16:53+00:00,,"Outage Comms,OutageP1 - Acknowledgement"
-283a671c-b09f-418c-a712-6b304c68daac,[23.04.26]-Outage-ToastSys-[SHARD3]-P0Legal,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-04-26T19:11:53+00:00,2023-04-26T19:11:53+00:00,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement"
+072204f9-4d10-4bc5-bb69-71d4c36639c1,IPWarming-Round2-Day1,Campaign,Standard,Active,2025-11-03T15:11:36+00:00,2022-09-22T18:15:19+00:00,2022-09-22T18:15:19+00:00,,IP Warming
 d0c26d2b-df6e-4695-a489-63eebc13a85a,DELETE,Campaign,Standard,Active,2025-11-03T15:35:30+00:00,2025-11-03T15:35:30+00:00,,,DELETE
+5bea79a6-8421-4f1a-a01b-a9d2e343f49e,23.04.19-Outage-Payment-Chase-P1,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-04-19T18:16:53+00:00,2023-04-19T18:16:53+00:00,,"Outage Comms,OutageP1 - Acknowledgement"
+a30554d1-c81b-4841-b298-0e13d2d6ab76,[23/06/06]-Outage-Payment-[CHASE/ETC]-P0Legal,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-06-06T15:09:42+00:00,2023-06-06T15:09:42+00:00,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement"
+283a671c-b09f-418c-a712-6b304c68daac,[23.04.26]-Outage-ToastSys-[SHARD3]-P0Legal,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-04-26T19:11:53+00:00,2023-04-26T19:11:53+00:00,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement"
 fc3454d9-db66-46de-aa7c-7f116836af03,23.04.24-Outage-Payment-[CHASE/ETC]-P1,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2025-11-03T14:42:42+00:00,,,"Outage Comms,OutageP1 - Acknowledgement"
-23dd27fa-6bab-4cd7-b19e-4c5619ce034a,POS 3.0 pilot campaign - Message 7.1,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-05-08T06:00:00Z,2023-05-08T06:00:00Z,,
-2d079202-3ad8-4bb0-99f7-efb1b8b157f6,[23.04.26]-Outage-ToastSys-[SHARD#]-P1,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-04-26T19:20:30+00:00,2023-04-26T19:20:30+00:00,,"Outage Comms,OutageP1 - Acknowledgement"
 5ea32ca3-9203-4a76-a4dc-6eb7efc1b836,23.05.03-Outage-ToastSys-[SHARD#]-P1 Test,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-05-03T18:45:31+00:00,2023-05-03T18:45:31+00:00,,"Outage Comms,OutageP1 - Acknowledgement"
-389c4d33-3b5e-4006-9007-f0bdad10fb49,POS 3.0 pilot campaign - Message 7.2,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2025-11-03T14:42:42+00:00,,,
+2d079202-3ad8-4bb0-99f7-efb1b8b157f6,[23.04.26]-Outage-ToastSys-[SHARD#]-P1,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-04-26T19:20:30+00:00,2023-04-26T19:20:30+00:00,,"Outage Comms,OutageP1 - Acknowledgement"
+23dd27fa-6bab-4cd7-b19e-4c5619ce034a,POS 3.0 pilot campaign - Message 7.1,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-05-08T06:00:00Z,2023-05-08T06:00:00Z,,
 13fea477-4106-4192-bcd6-43a21fdf1710,POS 3.0 pilot campaign - Message 7.3,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-05-09T06:00:00Z,2023-05-09T06:00:00Z,,
+389c4d33-3b5e-4006-9007-f0bdad10fb49,POS 3.0 pilot campaign - Message 7.2,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2025-11-03T14:42:42+00:00,,,
 9116ce75-c055-479e-bf7f-3269e2e4d70a,POS 3.0 pilot campaign - Message 8,Campaign,Standard,Active,2025-11-03T14:42:42+00:00,2023-05-23T04:00:00Z,2023-05-23T04:00:00Z,,
+1d8f1ef2-4eae-465e-b3fb-8ef15934232d,[23.02.09]-Outage-Payment-[CHASE/ETC]-P1Legal,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-02-09T22:10:31+00:00,2023-02-09T22:10:31+00:00,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement"
 2860363b-6e29-40e3-9bcb-b4dbdc6e44bb,[23.05.11]-Outage-Payment-[CHASE/ETC]-P0Legal,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-05-11T18:38:59+00:00,2023-05-11T18:38:59+00:00,,"Legal SMS,Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
 ce8cc593-686b-4082-9da2-018e5b7fce3d,[23.05.11]-Outage-Payment-[CHASE/ETC]-P1 TEST,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-05-11T18:42:24+00:00,2023-05-11T18:42:24+00:00,,"Outage Comms,OutageP1 - Acknowledgement"
 2214a625-43be-4411-b6e4-512c0f2b4327,[23.05.11]-Outage-Payment-[CHASE/ETC]-P2 TEST,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-05-11T18:44:39+00:00,2023-05-11T18:44:39+00:00,,"Outage Comms,Outage Loop,OutageP2 - Update"
-6fd56935-38de-4af8-b646-ccc6dd95df71,[23.05.11]-Outage-Payment-[CHASE/ETC]-P3 TEST,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-05-11T18:52:35+00:00,2023-05-11T18:52:35+00:00,,"Outage Comms,OutageP3 - Resolved"
 e746ac17-81d3-486b-b9bd-4f3410df4da4,[23.05.11]-Outage-Payment-[CHASE/ETC]-P2-Resolution TEST,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-05-11T18:47:22+00:00,2023-05-11T18:47:22+00:00,,"Outage Comms,OutageP2 - Update"
-1726b623-ccf0-4d76-ad4a-0579062df9e0,POS 3.0 pilot campaign - Message 7 (Version 2),Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-05-16T05:00:00Z,2023-05-16T05:00:00Z,,
+6fd56935-38de-4af8-b646-ccc6dd95df71,[23.05.11]-Outage-Payment-[CHASE/ETC]-P3 TEST,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-05-11T18:52:35+00:00,2023-05-11T18:52:35+00:00,,"Outage Comms,OutageP3 - Resolved"
 b66ed466-57ee-40bf-aa3a-8b03f768ca84,Message to Service & Maintenance Contact Release Alpha Group,Campaign,Standard,Active,2025-11-03T15:35:24+00:00,2025-11-03T15:35:24+00:00,,,
 7649d21d-7f8f-4538-9e70-c4f9a3a07ded,TEST Email Click Tracking - Kari,Campaign,Standard,Active,2025-11-03T15:11:37+00:00,2023-05-17T16:44:36+00:00,2023-05-17T16:44:36+00:00,,UAT
+1726b623-ccf0-4d76-ad4a-0579062df9e0,POS 3.0 pilot campaign - Message 7 (Version 2),Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-05-16T05:00:00Z,2023-05-16T05:00:00Z,,
 6b4498b3-63fd-4afb-ac50-da88b7bebd18,[23.06.06]-Outage-Payment-[CHASE/ETC]-P1,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-06-06T15:13:14+00:00,2023-06-06T15:13:14+00:00,,"Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
 677f8602-1fd8-4375-b87d-145addab66c3,[23.06.06-Outage-Payment-[CHASE/ETC]-P2,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-06-06T15:16:22+00:00,2023-06-06T15:16:22+00:00,,"Outage Comms,Outage Loop,OutageP2 - Update"
-f821dcec-4e17-479e-8715-ae19bad8a839,Copy of POS 3.0 pilot campaign - Message 8,Campaign,Standard,Active,2025-11-03T15:35:25+00:00,2025-11-03T15:35:25+00:00,,,
 630d4386-76db-446f-80ec-2acc4583332e,[23.06.06]-Outage-Payment-[CHASE/ETC]-P2-Resolution,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-06-06T15:18:15+00:00,2023-06-06T15:18:15+00:00,,"Outage Comms,OutageP2 - Update"
 ff6d9d0a-3237-4d22-9df1-5703f904c0e2,[23.06.06]-Outage-Payment-[CHASE/ETC]-P3,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-06-06T15:25:54+00:00,2023-06-06T15:25:54+00:00,,"Outage Comms,OutageP3 - Resolved"
-ef24f7b2-3ac3-4bce-bbfa-d409adf63e14,Outage Comms Live Announcement: Service & Maintenance Contact Release Alpha Group,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-06-15T13:20:25+00:00,2023-06-15T13:20:25+00:00,,Outage Comms
-dfe2772e-990f-4fb2-97af-beee08c26225,Outage Comms Live Announcement: All finance contacts except Alpha,Campaign,Standard,Active,2025-11-03T15:35:24+00:00,2025-11-03T15:35:24+00:00,,,Outage Comms
 e9ae446b-2131-42f5-9b6e-9d64711e63c7,POS Elo V1 Campaign 2,Campaign,Standard,Active,2025-11-03T15:11:38+00:00,2023-07-05T06:00:00Z,2023-07-05T06:00:00Z,,
+f821dcec-4e17-479e-8715-ae19bad8a839,Copy of POS 3.0 pilot campaign - Message 8,Campaign,Standard,Active,2025-11-03T15:35:25+00:00,2025-11-03T15:35:25+00:00,,,
+dfe2772e-990f-4fb2-97af-beee08c26225,Outage Comms Live Announcement: All finance contacts except Alpha,Campaign,Standard,Active,2025-11-03T15:35:24+00:00,2025-11-03T15:35:24+00:00,,,Outage Comms
+ef24f7b2-3ac3-4bce-bbfa-d409adf63e14,Outage Comms Live Announcement: Service & Maintenance Contact Release Alpha Group,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-06-15T13:20:25+00:00,2023-06-15T13:20:25+00:00,,Outage Comms
 53f54fe1-3d5d-4f85-8733-38bda49c4e5f,Toast Capital Application Abandon Retargeting,Campaign,Standard,Active,2025-11-03T15:35:23+00:00,2025-11-03T15:35:23+00:00,,,
 1d3409a0-6534-4346-b7cc-4cc6a2a92e13,Outage Comms Live Announcement: Service & Maintenance Contact Release Alpha Group - Control,Campaign,Standard,Active,2025-11-03T15:11:38+00:00,2023-06-15T14:15:36+00:00,2023-06-15T14:15:36+00:00,,Outage Comms
 b28f196c-db65-4248-a83e-55da66b0d1a1,Copy of POS Elo V1 Campaign 2,Campaign,Standard,Active,2025-11-03T15:11:38+00:00,2023-06-28T11:00:00Z,2023-06-28T11:00:00Z,,
 b6e457bd-90b0-46f1-9508-2f9763d7c68f,New Campaign,Campaign,Standard,Active,2025-11-03T15:35:23+00:00,2025-11-03T15:35:23+00:00,,,
 1a99bab0-a8f9-4d3f-9be1-526d98aea0e2,Message to Community Demand Generation Audience,Campaign,Standard,Active,2025-11-03T15:35:31+00:00,2025-11-03T15:35:31+00:00,,,
-0c5dd6b0-4f21-4259-9309-c681a61c5a60,POS 3.0 pilot campaign - Toast Go 2 updates,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-08-17T05:00:00Z,2023-08-17T05:00:00Z,,
 497702ef-171c-457e-bf05-9a0ba4f86da6,POS 3.0 GA rollout - Message 1,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-10-05T19:00:00Z,2023-10-05T19:00:00Z,,
 a1872a80-b646-4479-aff3-a67602490022,New POS experience - handheld updates feedback,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-08-01T21:00:00Z,2023-08-01T21:00:00Z,,
+0c5dd6b0-4f21-4259-9309-c681a61c5a60,POS 3.0 pilot campaign - Toast Go 2 updates,Campaign,Standard,Active,2025-11-03T14:42:43+00:00,2023-08-17T05:00:00Z,2023-08-17T05:00:00Z,,
 b7dc15fb-7492-4d85-ac50-348330178b47,POS 3.0 campaign - Toast Go 2 updates,Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-09-29T13:00:00Z,2023-09-29T13:00:00Z,,
-f27d8cca-2e5e-4ced-af2c-b8492c851327,Message to S&M Contacts,Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-08-22T18:56:08+00:00,2023-08-22T18:56:08+00:00,,
 4c994c64-8f41-4bee-a66e-dd6f4afaa6b5,Message to S&M Contacts - Control Group,Campaign,Standard,Active,2025-11-03T15:11:38+00:00,2023-08-22T19:40:12+00:00,2023-08-22T19:40:12+00:00,,
-756a9b3c-3e31-4e7d-85db-fcea548bfa9e,Open View Campaign - Nov '23,Campaign,Standard,Active,2025-11-03T15:35:25+00:00,2025-11-03T15:35:25+00:00,,,
+f27d8cca-2e5e-4ced-af2c-b8492c851327,Message to S&M Contacts,Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-08-22T18:56:08+00:00,2023-08-22T18:56:08+00:00,,
 09016297-d0ee-4b4c-95e8-335eef8b6583,POS Elo V1 Campaign 3 - 09/06/23,Campaign,Standard,Active,2025-11-03T15:11:38+00:00,2023-09-20T06:00:00Z,2023-09-20T06:00:00Z,,
+94f65d15-4ff7-4be3-a2cf-af4761f15cdc,[Elo only] POS Elo V1 Campaign 4A - 09/28/23,Campaign,Standard,Active,2025-11-03T15:35:26+00:00,2025-11-03T15:35:26+00:00,,,
 235495cb-89ac-4a48-9889-08e49144c626,[TG1 Cx] POS Elo V1 Campaign 4B - 09/15/23,Campaign,Standard,Active,2025-11-03T15:35:25+00:00,2025-11-03T15:35:25+00:00,,,
 81272f86-2970-4c95-a1f1-289d8dfc0213,Copy of POS 3.0 GA rollout - Message 1,Campaign,Standard,Active,2025-11-03T15:35:26+00:00,2025-11-03T15:35:26+00:00,,,
-94f65d15-4ff7-4be3-a2cf-af4761f15cdc,[Elo only] POS Elo V1 Campaign 4A - 09/28/23,Campaign,Standard,Active,2025-11-03T15:35:26+00:00,2025-11-03T15:35:26+00:00,,,
-09322ee2-b161-45e1-a750-324386b5b9ba,Aida's testing Elo V1 sunset,Campaign,Standard,Active,2025-11-03T15:11:39+00:00,2023-10-03T19:00:00Z,2023-10-03T19:00:00Z,,
+756a9b3c-3e31-4e7d-85db-fcea548bfa9e,Open View Campaign - Nov '23,Campaign,Standard,Active,2025-11-03T15:35:25+00:00,2025-11-03T15:35:25+00:00,,,
 db9110a8-a649-4d06-89d5-f85a307f18f8,End of Support ELO V1 - 16A ELOV1 10-3 (S&M Contact),Campaign,Standard,Active,2025-11-03T15:35:24+00:00,2025-11-03T15:35:24+00:00,,,
-6e398fa5-dd59-4e83-88e0-91511dbac856,POS 3.0 GA rollout - Adoption phase is coming,Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-10-11T06:00:00Z,2023-10-11T06:00:00Z,,
+09322ee2-b161-45e1-a750-324386b5b9ba,Aida's testing Elo V1 sunset,Campaign,Standard,Active,2025-11-03T15:11:39+00:00,2023-10-03T19:00:00Z,2023-10-03T19:00:00Z,,
 9f422f40-f962-4c70-bc34-cda9679b30e2,POS 3.0 GA rollout - New POS is here (adoption phase),Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-10-28T16:00:00Z,2023-10-28T16:00:00Z,,
+88ecef0c-3b25-4ef1-bfe7-3d09c87495e4,"POS 3.0 - Check Detail updates, 10 inch",Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-12-06T07:00:00Z,2023-12-06T07:00:00Z,,"Adoption,Online_Ordering,Paused1108"
 908321cb-3fef-4e2b-8868-082280e386d3,POS Elo V1 Campaign 4 - 10/20/23,Campaign,Standard,Active,2025-11-03T15:11:39+00:00,2023-12-01T07:00:00Z,2023-12-01T07:00:00Z,,"Adoption,Online_Ordering,Paused1108"
 b6a28563-49b7-4185-82fe-bf02bb4903bf,POS 3.0 - Check Detail updates,Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-12-06T17:00:00Z,2023-12-06T17:00:00Z,,"Adoption,Online_Ordering,Paused1108"
 d1ac02d1-1e56-41c4-85e3-866cfd51d4f6,Spark Promo S&M Test,Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-10-24T19:31:06+00:00,2023-10-24T19:31:06+00:00,,
-88ecef0c-3b25-4ef1-bfe7-3d09c87495e4,"POS 3.0 - Check Detail updates, 10 inch",Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-12-06T07:00:00Z,2023-12-06T07:00:00Z,,"Adoption,Online_Ordering,Paused1108"
 70b418da-619b-4a78-a686-c298e51f2d66,New POS experience date change,Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-11-11T18:00:00Z,2023-11-11T18:00:00Z,,"Adoption,Online_Ordering,Paused1108"
-66d70ed6-58b8-42c4-bb71-28b623148fbc,POS Elo V1 shutdown - KDS testing,Campaign,Standard,Active,2025-11-03T15:11:40+00:00,2023-11-27T19:00:00Z,2023-11-27T19:00:00Z,,
 c4140816-4e53-46f4-a79a-3608542047b8,POS Elo V1 shutdown - 11/6/23,Campaign,Standard,Active,2025-11-03T15:11:40+00:00,2023-12-23T03:00:00Z,2023-12-23T03:00:00Z,,"Adoption,Online_Ordering,Paused1108"
-856d97ea-51f2-4da0-8b73-13434feecc66,2-Way SMS Test: Initial Message,Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-12-05T16:49:38+00:00,2023-12-05T16:49:38+00:00,,
+66d70ed6-58b8-42c4-bb71-28b623148fbc,POS Elo V1 shutdown - KDS testing,Campaign,Standard,Active,2025-11-03T15:11:40+00:00,2023-11-27T19:00:00Z,2023-11-27T19:00:00Z,,
 b6f69fbe-a086-40dd-931b-89a201236cce,"POS 3.0 GA rollout - RMM message, preview NPE",Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-12-11T05:00:00Z,2023-12-11T05:00:00Z,,
-f78a1f83-2faa-4440-af54-13208c162565,Copy of POS 3.0 - Check Detail updates,Campaign,Standard,Active,2025-11-03T15:35:26+00:00,2025-11-03T15:35:26+00:00,,,"Adoption,Online_Ordering,Paused1108"
 fa449abc-a73e-4392-9132-352f280cbcd9,"POS 3.0 GA rollout - MM/ENT message, preview NPE",Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-12-13T02:00:00Z,2023-12-13T02:00:00Z,,
+856d97ea-51f2-4da0-8b73-13434feecc66,2-Way SMS Test: Initial Message,Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-12-05T16:49:38+00:00,2023-12-05T16:49:38+00:00,,
+f78a1f83-2faa-4440-af54-13208c162565,Copy of POS 3.0 - Check Detail updates,Campaign,Standard,Active,2025-11-03T15:35:26+00:00,2025-11-03T15:35:26+00:00,,,"Adoption,Online_Ordering,Paused1108"
 2a1df102-3d0c-4ae1-b6d5-9a5826b4e2d5,POS Elo V1 shutdown - 12/11/23,Campaign,Standard,Active,2025-11-03T15:11:40+00:00,2024-01-22T13:00:00Z,2024-01-22T13:00:00Z,,
-95007569-00db-4822-b223-551190b674d7,"POS 3.0 - 2.69 product updates, Table Service",Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2023-12-20T07:00:00Z,2023-12-20T07:00:00Z,,
+6e398fa5-dd59-4e83-88e0-91511dbac856,POS 3.0 GA rollout - Adoption phase is coming,Campaign,Standard,Active,2025-11-03T14:42:44+00:00,2023-10-11T06:00:00Z,2023-10-11T06:00:00Z,,
 bfd69839-c231-4c9b-ba69-20aca4854d37,"POS 3.0 - 2.69 product updates, Quick Order",Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2023-12-26T18:00:00Z,2023-12-26T18:00:00Z,,
-2ea6905d-6010-432e-a910-3d8acce2d25c,Copy of POS Elo V1 shutdown - 11/6/23,Campaign,Standard,Active,2025-11-03T15:35:26+00:00,2025-11-03T15:35:26+00:00,,,"Adoption,Online_Ordering,Paused1108"
-631bbfb8-22f7-40dc-b2c3-c8fc9ec0bcec,POS 3.0 GA rollout - Forced cutover is coming,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-02-02T21:00:00Z,2024-02-02T21:00:00Z,,
 cfcb3ee1-6d03-4941-949c-9f89239c3db1,POS Elo V1 shutdown - 011724,Campaign,Standard,Active,2025-11-03T15:11:40+00:00,2024-01-30T22:00:00Z,2024-01-30T22:00:00Z,,
-f3cbb7de-8bf2-4d8c-88a6-7fbfa7fb47ef,POS 3.0 - Order By Seat - segment 1,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-29T15:00:00Z,2024-01-29T15:00:00Z,,
-9ace16ec-a771-4901-aea5-aee123b09a26,POS 3.0 - Order By Seat - segment 2,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-29T15:00:00Z,2024-01-29T15:00:00Z,,
+2ea6905d-6010-432e-a910-3d8acce2d25c,Copy of POS Elo V1 shutdown - 11/6/23,Campaign,Standard,Active,2025-11-03T15:35:26+00:00,2025-11-03T15:35:26+00:00,,,"Adoption,Online_Ordering,Paused1108"
 6ba7a6b8-a40f-4b00-978c-fcc7bf281887,Order By Seat (optional) - segment 1,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-27T23:00:00Z,2024-01-27T23:00:00Z,,
-f76a911b-770b-45d5-81f7-0cc139af4ef6,POS 3.0 - Order By Seat - segment 3,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-29T15:00:00Z,2024-01-29T15:00:00Z,,
-d9bfbd1c-6f21-4a09-bf32-3d861cbcece5,Order By Seat (optional) - segment 2,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-27T21:00:00Z,2024-01-27T21:00:00Z,,
-b24ffa84-4492-4af5-b35a-35cfd2f1644e,Order By Seat (optional) - segment 4,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-27T23:00:00Z,2024-01-27T23:00:00Z,,
-e6eb2c94-e8bd-4c67-ab9f-cda6d4653faa,Order By Seat (optional) - segment 5,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-27T21:00:00Z,2024-01-27T21:00:00Z,,
+95007569-00db-4822-b223-551190b674d7,"POS 3.0 - 2.69 product updates, Table Service",Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2023-12-20T07:00:00Z,2023-12-20T07:00:00Z,,
+9ace16ec-a771-4901-aea5-aee123b09a26,POS 3.0 - Order By Seat - segment 2,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-29T15:00:00Z,2024-01-29T15:00:00Z,,
 6d347379-fb22-4613-8346-a7960e8afc67,Order By Seat (optional) - segment 3,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-27T21:00:00Z,2024-01-27T21:00:00Z,,
+b24ffa84-4492-4af5-b35a-35cfd2f1644e,Order By Seat (optional) - segment 4,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-27T23:00:00Z,2024-01-27T23:00:00Z,,
+d9bfbd1c-6f21-4a09-bf32-3d861cbcece5,Order By Seat (optional) - segment 2,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-27T21:00:00Z,2024-01-27T21:00:00Z,,
+f76a911b-770b-45d5-81f7-0cc139af4ef6,POS 3.0 - Order By Seat - segment 3,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-29T15:00:00Z,2024-01-29T15:00:00Z,,
+e6eb2c94-e8bd-4c67-ab9f-cda6d4653faa,Order By Seat (optional) - segment 5,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-27T21:00:00Z,2024-01-27T21:00:00Z,,
 d31fc44a-4ba9-4ebb-b364-ff4bb2d14588,Order By Seat (optional) - segment 6,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-27T21:00:00Z,2024-01-27T21:00:00Z,,
 1b94d0a7-5df4-47e7-8052-db29bfd25385,POS 3.0 GA rollout - Forced cutover is tomorrow,Campaign,Standard,Active,2025-11-03T14:42:46+00:00,2024-01-31T01:00:00Z,2024-01-31T01:00:00Z,,
-71814d99-e116-484b-9142-fd311a0abf58,POS 3.0 GA rollout - Forced cutover is here,Campaign,Standard,Active,2025-11-03T14:42:46+00:00,2024-02-02T21:00:00Z,2024-02-02T21:00:00Z,,
-b84b7ab0-e017-4a6a-adc4-b1e0b159f3e8,Haley's IPM Creative Preview Campaign,Campaign,Standard,Active,2025-11-03T14:42:46+00:00,2024-02-27T20:06:12+00:00,2024-02-27T20:06:12+00:00,,
 177d5a8d-51e7-43f9-a162-5712fa819c2d,POS 3.0 GA rollout - Forced cutover is here,Campaign,Standard,Active,2025-11-03T14:42:46+00:00,2024-01-29T20:00:00Z,2024-01-29T20:00:00Z,,
+71814d99-e116-484b-9142-fd311a0abf58,POS 3.0 GA rollout - Forced cutover is here,Campaign,Standard,Active,2025-11-03T14:42:46+00:00,2024-02-02T21:00:00Z,2024-02-02T21:00:00Z,,
 87a1b873-17df-4501-b546-6ad959a29cb8,PDP Control Group Stamp,Campaign,Standard,Active,2025-11-03T15:11:40+00:00,2025-08-12T04:02:00+00:00,2025-08-12T04:02:00+00:00,,
+f3cbb7de-8bf2-4d8c-88a6-7fbfa7fb47ef,POS 3.0 - Order By Seat - segment 1,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-01-29T15:00:00Z,2024-01-29T15:00:00Z,,
 79881f85-edd9-a4de-871a-3c264d41f84f,Braze to MKTO Unsub,Campaign,Standard,Active,2025-11-03T14:42:46+00:00,2024-03-05T14:00:00Z,2024-03-05T14:00:00Z,,
+e81c33a3-6096-4bf4-99d4-30a46167fdf5,SMS Consent Management,Campaign,Standard,Active,2026-02-17T14:05:52+00:00,2026-02-17T14:05:52+00:00,2026-02-17T14:05:52+00:00,,
 cf5e8a2c-1e95-46b6-a58d-b42b84cde982,Braze to MKTO Unsub_final,Campaign,Standard,Active,2025-11-03T15:35:31+00:00,2025-11-03T15:35:31+00:00,,,
 d4f12b0a-8759-4798-a6e9-f3db4b8f9de9,TG2 3/13/24 Promo Content Card,Campaign,Standard,Active,2025-11-03T15:11:41+00:00,2024-03-20T03:00:00Z,2024-03-20T03:00:00Z,,
-e81c33a3-6096-4bf4-99d4-30a46167fdf5,SMS Consent Management,Campaign,Standard,Active,2026-02-12T14:05:25+00:00,2026-02-12T14:05:25+00:00,2026-02-12T14:05:25+00:00,,
-6ad3de1c-de05-4fc5-abe7-8584ea3fe694,Activation & Adoption for SMS,Campaign,Standard,Active,2026-02-05T06:15:24+00:00,2026-02-05T06:15:24+00:00,2026-02-05T06:15:24+00:00,,
-0b9ee7b2-3ce4-448b-87cb-e8d4edbfbe1e,Onboarding for SMS Management,Campaign,Standard,Active,2026-02-05T06:28:21+00:00,2026-02-05T06:28:19+00:00,2026-02-05T06:28:19+00:00,,
-7fd80b47-749b-43ad-8757-d2d458ed2c5f,nested_to_flat,Campaign,Standard,Active,2025-11-10T13:54:38+00:00,2026-02-08T22:00:00Z,2026-02-08T22:00:00Z,,
-b3f56f94-2773-4513-9590-d82a3f582783,1st Time Shop Visitor Promo - Content Card 4/17/24,Campaign,Standard,Active,2025-11-03T15:35:23+00:00,2025-11-03T15:35:23+00:00,,,
-d730f563-8565-4327-abfc-e59293028c2d,Toast Shop Inactive Cohort - TG2 Promo Test,Campaign,Standard,Active,2025-11-03T15:35:31+00:00,2025-11-03T15:35:31+00:00,,,
+0b9ee7b2-3ce4-448b-87cb-e8d4edbfbe1e,Onboarding for SMS Management,Campaign,Standard,Active,2026-02-13T04:21:13+00:00,2026-02-05T06:28:19+00:00,2026-02-05T06:28:19+00:00,,
+6ad3de1c-de05-4fc5-abe7-8584ea3fe694,Activation & Adoption for SMS,Campaign,Standard,Active,2026-02-13T04:21:13+00:00,2026-02-05T06:15:24+00:00,2026-02-05T06:15:24+00:00,,
 ec5c319e-ebc4-4e9d-bbe1-53ea227b3265,Error Alert Campaign Demo Request Toast Payroll,Campaign,Standard,Active,2025-11-03T15:11:42+00:00,2025-11-03T15:11:42+00:00,,,
+b3f56f94-2773-4513-9590-d82a3f582783,1st Time Shop Visitor Promo - Content Card 4/17/24,Campaign,Standard,Active,2025-11-03T15:35:23+00:00,2025-11-03T15:35:23+00:00,,,
 c81bf6e0-b163-406e-be36-2f11e5e35de6,POS Toast Go 1 EOL campaign - Message 2,Campaign,Standard,Active,2025-11-03T15:11:42+00:00,2024-05-22T21:00:00Z,2024-05-22T21:00:00Z,,
-6959df53-2d1d-48fa-b3d8-17885d7dc94e,POS Toast Go 1 EOL campaign - Message 3,Campaign,Standard,Active,2025-11-03T15:11:42+00:00,2024-05-29T13:00:00Z,2024-05-29T13:00:00Z,,
-a9ec2050-f0b9-4748-997f-e0d1a836d27b,Toast Go 2 Backfill,Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2024-05-13T22:38:16+00:00,2024-05-13T22:38:16+00:00,,
-07e47953-60db-4fd6-8ffd-c9593ad99865,POS Toast Go 1 EOL campaign - Message 4,Campaign,Standard,Active,2025-11-03T15:11:42+00:00,2024-06-03T05:00:00Z,2024-06-03T05:00:00Z,,
+d730f563-8565-4327-abfc-e59293028c2d,Toast Shop Inactive Cohort - TG2 Promo Test,Campaign,Standard,Active,2025-11-03T15:35:31+00:00,2025-11-03T15:35:31+00:00,,,
+7fd80b47-749b-43ad-8757-d2d458ed2c5f,nested_to_flat,Campaign,Standard,Active,2025-11-10T13:54:38+00:00,2026-02-08T22:00:00Z,2026-02-08T22:00:00Z,,
+b84b7ab0-e017-4a6a-adc4-b1e0b159f3e8,Haley's IPM Creative Preview Campaign,Campaign,Standard,Active,2025-11-03T14:42:46+00:00,2024-02-27T20:06:12+00:00,2024-02-27T20:06:12+00:00,,
+631bbfb8-22f7-40dc-b2c3-c8fc9ec0bcec,POS 3.0 GA rollout - Forced cutover is coming,Campaign,Standard,Active,2025-11-03T14:42:45+00:00,2024-02-02T21:00:00Z,2024-02-02T21:00:00Z,,
 3efee029-ce51-4f0d-9842-0380404f5862,POS Toast Go Done Button Change Announcement,Campaign,Standard,Active,2025-11-03T15:11:42+00:00,2024-05-27T23:00:00Z,2024-05-27T23:00:00Z,,
-de9923f4-0fa1-452f-a0bb-9184d5019294,TG2 Done button move,Campaign,Standard,Active,2025-11-03T15:35:26+00:00,2025-11-03T15:35:26+00:00,,,
+a9ec2050-f0b9-4748-997f-e0d1a836d27b,Toast Go 2 Backfill,Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2024-05-13T22:38:16+00:00,2024-05-13T22:38:16+00:00,,
+6959df53-2d1d-48fa-b3d8-17885d7dc94e,POS Toast Go 1 EOL campaign - Message 3,Campaign,Standard,Active,2025-11-03T15:11:42+00:00,2024-05-29T13:00:00Z,2024-05-29T13:00:00Z,,
 6e37c860-afd0-4b83-8427-953d3bba2f45,POS Toast Go Done Button Change Announcement - 04/28,Campaign,Standard,Active,2025-11-03T15:11:42+00:00,2024-06-12T15:00:00Z,2024-06-12T15:00:00Z,,
+de9923f4-0fa1-452f-a0bb-9184d5019294,TG2 Done button move,Campaign,Standard,Active,2025-11-03T15:35:26+00:00,2025-11-03T15:35:26+00:00,,,
+07e47953-60db-4fd6-8ffd-c9593ad99865,POS Toast Go 1 EOL campaign - Message 4,Campaign,Standard,Active,2025-11-03T15:11:42+00:00,2024-06-03T05:00:00Z,2024-06-03T05:00:00Z,,
 6573f8a6-cb3d-4620-92f1-d6925f323024,POS Toast Go Done Button Change Announcement - 06/05,Campaign,Standard,Active,2025-11-03T15:11:42+00:00,2024-06-15T01:00:00Z,2024-06-15T01:00:00Z,,
-a8e4d000-db19-4840-85b9-efb6534f9f31,"New Campaign - June 5, 2024",Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2025-11-03T14:42:36+00:00,,,
 0d123d30-0518-42ef-b6ef-cee092217e2f,POS Toast Go Done Button Change Announcement - 06/17,Campaign,Standard,Active,2025-11-03T15:11:43+00:00,2024-07-20T21:00:00Z,2024-07-20T21:00:00Z,,
 d019194a-580b-452c-bb92-1e349db48ae1,POS Toast Go Done Button Change Announcement - 06/13,Campaign,Standard,Active,2025-11-03T15:11:43+00:00,2024-07-23T22:00:00Z,2024-07-23T22:00:00Z,,
-3476ea69-739e-42c2-b860-445a785a8b22,"New Campaign - June 5, 2024",Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2025-11-03T14:42:36+00:00,,,
-83cd4dc1-1fc6-4088-82fa-1640e984bf16,POS Toast Go Done Button Change Announcement - 06/10,Campaign,Standard,Active,2025-11-03T15:11:43+00:00,2024-06-29T17:00:00Z,2024-06-29T17:00:00Z,,
-d3dc69b7-f1ef-4015-af3a-6a9fc56e5f38,entry_state_catering,Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2024-06-14T18:48:55+00:00,2024-06-14T18:48:55+00:00,,
+a8e4d000-db19-4840-85b9-efb6534f9f31,"New Campaign - June 5, 2024",Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2025-11-03T14:42:36+00:00,,,
 0dd95472-9082-48a9-bb5e-7aa0f94a42ce,entry_state_catering_v2,Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2024-06-14T19:21:34+00:00,2024-06-14T19:21:34+00:00,,
-a512fc8c-83fd-415a-b145-12bdda6d446d,Braze_Capital,Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2024-06-23T02:00:00Z,2024-06-23T02:00:00Z,,
+3476ea69-739e-42c2-b860-445a785a8b22,"New Campaign - June 5, 2024",Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2025-11-03T14:42:36+00:00,,,
+d3dc69b7-f1ef-4015-af3a-6a9fc56e5f38,entry_state_catering,Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2024-06-14T18:48:55+00:00,2024-06-14T18:48:55+00:00,,
 5a2bc668-483e-4b83-9b16-d3a8ea536a90,Event Initiate,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-06-21T22:58:43+00:00,2024-06-21T22:58:43+00:00,,
-13fdc7ac-5b88-4aae-a83c-29e25095044a,Braze_Capital_v3,Campaign,Standard,Active,2025-11-10T13:54:39+00:00,2026-02-12T21:00:00Z,2026-02-12T21:00:00Z,,
+32515620-6824-4e37-9909-eb2def454ff1,Upsell_Capital_v3,Campaign,Standard,Active,2025-11-10T13:54:39+00:00,2026-02-17T19:00:00Z,2026-02-17T19:00:00Z,,
+13fdc7ac-5b88-4aae-a83c-29e25095044a,Braze_Capital_v3,Campaign,Standard,Active,2025-11-10T13:54:39+00:00,2026-02-17T19:00:00Z,2026-02-17T19:00:00Z,,
 b0fa9fdf-0631-4680-af64-7b20ddca3609,Braze_Capital_v2,Campaign,Standard,Active,2025-11-03T15:11:43+00:00,2024-06-24T01:00:00Z,2024-06-24T01:00:00Z,,
-32515620-6824-4e37-9909-eb2def454ff1,Upsell_Capital_v3,Campaign,Standard,Active,2025-11-10T13:54:39+00:00,2026-02-12T22:00:00Z,2026-02-12T22:00:00Z,,
+9426400d-c8c9-463c-a3f6-50873d2e4ff8,Financial Product Page View Retargeting_PQO,Campaign,Standard,Active,2025-11-10T13:54:39+00:00,2026-02-17T19:00:00Z,2026-02-17T19:00:00Z,,
 95e2360a-499b-4dc9-ae69-31f377967ea8,Copy of marketing_activation,Campaign,Standard,Active,2025-11-03T15:11:43+00:00,2024-07-14T23:56:23+00:00,2024-07-14T23:56:23+00:00,,
-6509ac70-193d-42bb-baf5-03d3e537de7d,marketing_activation,Campaign,Standard,Active,2025-11-03T15:11:43+00:00,2024-07-12T03:25:01+00:00,2024-07-12T03:25:01+00:00,,
-9426400d-c8c9-463c-a3f6-50873d2e4ff8,Financial Product Page View Retargeting_PQO,Campaign,Standard,Active,2025-11-10T13:54:39+00:00,2026-02-12T22:00:00Z,2026-02-12T22:00:00Z,,
-e3726012-f676-4742-9469-c3a42283af6d,3. Abandon Cart Tracker_User_Attribute,Campaign,Standard,Active,2025-11-03T15:11:43+00:00,2024-08-03T04:00:00Z,2024-08-03T04:00:00Z,,operational
-5f5f760f-396b-4e03-ac0c-24e3b87881ed,Exit | Financial Product Page View Retargeting,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-07-29T02:06:54+00:00,2024-07-29T02:06:54+00:00,,
-49f691a0-6294-45cd-9788-10308593ec85,operational_email_opt_out,Campaign,Standard,Active,2026-02-05T03:19:21+00:00,2026-02-12T21:00:00Z,2026-02-12T21:00:00Z,,operational
-4cafbcb3-b9b3-4ec1-a172-c551b1fe8cbb,event catch,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-03T05:00:00Z,2024-08-03T05:00:00Z,,
 22f289c1-ea86-49ee-91a2-a5ea6196b7fb,2. Trigger Abandon Cart Tracker,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-03T19:00:00Z,2024-08-03T19:00:00Z,,operational
+5f5f760f-396b-4e03-ac0c-24e3b87881ed,Exit | Financial Product Page View Retargeting,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-07-29T02:06:54+00:00,2024-07-29T02:06:54+00:00,,
+49f691a0-6294-45cd-9788-10308593ec85,operational_email_opt_out,Campaign,Standard,Active,2026-02-05T03:19:21+00:00,2026-02-17T18:00:00Z,2026-02-17T18:00:00Z,,operational
+a512fc8c-83fd-415a-b145-12bdda6d446d,Braze_Capital,Campaign,Standard,Active,2025-11-03T14:42:36+00:00,2024-06-23T02:00:00Z,2024-06-23T02:00:00Z,,
 71db47c5-d7e4-44e3-b731-4702972c9682,PDP Control Group Stamp_backfill,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-11T01:42:45+00:00,2024-08-11T01:42:45+00:00,,
 b003b516-90df-48d8-ac2e-74ccf4d4cae5,Abandon Cart Tracker,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-15T00:00:00Z,2024-08-15T00:00:00Z,,operational
+4cafbcb3-b9b3-4ec1-a172-c551b1fe8cbb,event catch,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-03T05:00:00Z,2024-08-03T05:00:00Z,,
 141be598-9cd9-4199-a980-f387d3f4f555,Convert Sting Numerical Values,Campaign,Standard,Active,2025-11-03T15:35:32+00:00,2025-11-03T15:35:32+00:00,,,
-a0c4b3b3-8179-4c39-ac81-7039e51b6579,2. Trigger Abandon Cart Tracker_v2,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-15T00:00:00Z,2024-08-15T00:00:00Z,,operational
-ee8772f3-4775-41ad-8611-2a660d0dcec4,1. Fire Test Event | Abandon Cart Tracker_v1,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-15T00:57:07+00:00,2024-08-15T00:57:07+00:00,,operational
 e8bb2dc8-e8e2-46c8-917b-0dc16022d875,1. Fire Test Event | Abandon Cart Tracker_v2,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-25T03:57:10+00:00,2024-08-25T03:57:10+00:00,,operational
 aa32d455-0d25-45af-aa5e-45ccfa3de1f2,2. Trigger Abandon Cart Tracker_v3,Campaign,Standard,Active,2025-11-03T15:35:32+00:00,2025-11-03T15:35:32+00:00,,,operational
 516fdc84-1940-4d73-b70b-e3f812c99831,3. Abandon Cart Tracker_User_Attribute_v1,Campaign,Standard,Active,2025-11-03T15:35:32+00:00,2025-11-03T15:35:32+00:00,,,operational
+ee8772f3-4775-41ad-8611-2a660d0dcec4,1. Fire Test Event | Abandon Cart Tracker_v1,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-15T00:57:07+00:00,2024-08-15T00:57:07+00:00,,operational
+83cd4dc1-1fc6-4088-82fa-1640e984bf16,POS Toast Go Done Button Change Announcement - 06/10,Campaign,Standard,Active,2025-11-03T15:11:43+00:00,2024-06-29T17:00:00Z,2024-06-29T17:00:00Z,,
 87fd9ec4-544d-4f33-9a89-e70ef61de62b,Copy of Abandon Cart Tracker,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-24T19:00:00Z,2024-08-24T19:00:00Z,,operational
-0beb2c22-0324-4cbf-b030-83a7cdd9b090,Attribute Cleanup in Braze,Campaign,Standard,Active,2025-11-03T15:11:45+00:00,2024-08-23T21:32:42+00:00,2024-08-23T21:32:42+00:00,,operational
 a9c9da7c-37ad-4328-8f56-859dd6df2f0e,Abandon Cart Tracker_v3,Campaign,Standard,Active,2025-11-03T15:11:45+00:00,2024-08-24T02:00:00Z,2024-08-24T02:00:00Z,,operational
+0beb2c22-0324-4cbf-b030-83a7cdd9b090,Attribute Cleanup in Braze,Campaign,Standard,Active,2025-11-03T15:11:45+00:00,2024-08-23T21:32:42+00:00,2024-08-23T21:32:42+00:00,,operational
 1b417c2c-51ea-477e-a77d-39a88edcc513,Abandon Cart Tracker_v4,Campaign,Standard,Active,2025-11-03T15:11:45+00:00,2024-08-25T07:00:00Z,2024-08-25T07:00:00Z,,operational
 bf37f511-eda8-4b64-a1b5-226374ac7cfc,abndn_track,Campaign,Standard,Active,2025-11-03T15:11:45+00:00,2025-11-03T15:11:45+00:00,,,
+6509ac70-193d-42bb-baf5-03d3e537de7d,marketing_activation,Campaign,Standard,Active,2025-11-03T15:11:43+00:00,2024-07-12T03:25:01+00:00,2024-07-12T03:25:01+00:00,,
+d33ef7bf-735b-4455-bdbb-b654005f4d06,Copy of 2. Trigger Abandon Cart Tracker_v2,Campaign,Standard,Active,2025-11-03T15:35:32+00:00,2025-11-03T15:35:32+00:00,,,operational
 5656fdc4-7714-4c85-9c2f-eb1c5664a38c,POS TG2 check actions announcement 09/03/24,Campaign,Standard,Active,2025-11-03T15:11:45+00:00,2024-09-16T20:00:00Z,2024-09-16T20:00:00Z,,
 6669b75b-46ef-42ac-b541-487ab5f93c05,Copy of 1. Fire Test Event | Abandon Cart Tracker_v2,Campaign,Standard,Active,2025-11-03T15:35:32+00:00,2025-11-03T15:35:32+00:00,,,operational
 f1e84688-9ea7-47a9-a699-8802a840ba7e,POS Check Actions Feedback 09/11,Campaign,Standard,Active,2025-11-03T15:11:45+00:00,2024-09-25T04:00:00Z,2024-09-25T04:00:00Z,,
-d33ef7bf-735b-4455-bdbb-b654005f4d06,Copy of 2. Trigger Abandon Cart Tracker_v2,Campaign,Standard,Active,2025-11-03T15:35:32+00:00,2025-11-03T15:35:32+00:00,,,operational
-e5f64ae9-99eb-4d51-ad54-1d9dfcf55f00,operational_transformation_parent_account_has_payroll,Campaign,Standard,Active,2025-11-03T15:11:45+00:00,2024-09-21T00:47:05+00:00,2024-09-21T00:47:05+00:00,,
 24877030-064a-42ef-abce-f4a924ee6ff5,POS Don't wait to pay - 17/09,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-09-21T01:00:00Z,2024-09-21T01:00:00Z,,
+a0c4b3b3-8179-4c39-ac81-7039e51b6579,2. Trigger Abandon Cart Tracker_v2,Campaign,Standard,Active,2025-11-03T15:11:44+00:00,2024-08-15T00:00:00Z,2024-08-15T00:00:00Z,,operational
+e3726012-f676-4742-9469-c3a42283af6d,3. Abandon Cart Tracker_User_Attribute,Campaign,Standard,Active,2025-11-03T15:11:43+00:00,2024-08-03T04:00:00Z,2024-08-03T04:00:00Z,,operational
 93a9b6a8-6710-4854-81b9-43f3804ed7ba,find location object array count,Campaign,Standard,Active,2025-11-03T15:11:45+00:00,2024-09-21T01:23:03+00:00,2024-09-21T01:23:03+00:00,,
+9ebdec4b-715e-4162-9e54-0eb85f910203,backfill_operational_email_opt_out,Campaign,Standard,Active,2025-11-03T15:11:46+00:00,2024-09-21T06:07:21+00:00,2024-09-21T06:07:21+00:00,,
 35a03818-0d50-4b8d-817f-672ca0347cd8,POS TG2 check actions announcement 09/24/24,Campaign,Standard,Active,2025-11-03T15:11:46+00:00,2024-10-01T02:00:00Z,2024-10-01T02:00:00Z,,
 2ad250dc-27db-4b43-88d7-99ddcf061bd4,Order by Seat Education Campaign 9/25/24,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-11-05T19:00:00Z,2024-11-05T19:00:00Z,,
-9ebdec4b-715e-4162-9e54-0eb85f910203,backfill_operational_email_opt_out,Campaign,Standard,Active,2025-11-03T15:11:46+00:00,2024-09-21T06:07:21+00:00,2024-09-21T06:07:21+00:00,,
-77517681-570c-4a9f-8592-e1b8c015c688,Order by Seat Education Campaign 10/3/24,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-10-10T17:00:00Z,2024-10-10T17:00:00Z,,
 cd844797-1374-4339-a89c-75de95e5a194,Order by Seat Education Campaign 10/4/24,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-10-11T06:00:00Z,2024-10-11T06:00:00Z,,
 fd2e50f0-3cb1-46f0-9690-03c1446c979d,POS Check Actions Feedback 10/7,Campaign,Standard,Active,2025-11-03T15:11:46+00:00,2024-10-22T04:00:00Z,2024-10-22T04:00:00Z,,
-867c0885-81a4-46ed-9b17-71772a7ed9c7,Combine Checks Test Kitchen Announcement 10/15,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-10-23T06:00:00Z,2024-10-23T06:00:00Z,,
 508e6dc0-5616-4eba-a4f9-8ec0a76c0117,Order by Seat Education Campaign 10/8/24,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-10-20T14:00:00Z,2024-10-20T14:00:00Z,,
-866ab58b-736f-4a3d-a2d5-4ac951cb8e99,String | Integer,Campaign,Standard,Active,2025-11-03T15:11:46+00:00,2024-10-20T21:34:13+00:00,2024-10-20T21:34:13+00:00,,
 f622dcf4-c424-4a93-9ee9-cde5b955f0b2,POS TG2 check actions announcement 10/14/24,Campaign,Standard,Active,2025-11-03T15:11:46+00:00,2024-10-19T21:00:00Z,2024-10-19T21:00:00Z,,
-6749b39d-bad0-4926-b9ee-82067477a663,Webhook_Operational,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-10-22T17:46:42+00:00,2024-10-22T17:46:42+00:00,,
+867c0885-81a4-46ed-9b17-71772a7ed9c7,Combine Checks Test Kitchen Announcement 10/15,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-10-23T06:00:00Z,2024-10-23T06:00:00Z,,
+e5f64ae9-99eb-4d51-ad54-1d9dfcf55f00,operational_transformation_parent_account_has_payroll,Campaign,Standard,Active,2025-11-03T15:11:45+00:00,2024-09-21T00:47:05+00:00,2024-09-21T00:47:05+00:00,,
+866ab58b-736f-4a3d-a2d5-4ac951cb8e99,String | Integer,Campaign,Standard,Active,2025-11-03T15:11:46+00:00,2024-10-20T21:34:13+00:00,2024-10-20T21:34:13+00:00,,
 e1704106-f3fe-4bd4-9bcd-ab2b7ba1e308,operational_event_tracker,Campaign,Standard,Active,2025-11-03T15:11:46+00:00,2024-10-26T03:00:00Z,2024-10-26T03:00:00Z,,
 724a41f1-c168-46e9-bad9-b07ed0972202,operational_unsubcribe,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-10-29T04:00:00Z,2024-10-29T04:00:00Z,,
 1d6b61b9-bdf4-45a7-bac6-bd56eb30a116,TDS Switchover Campaign,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-11-12T05:00:00Z,2024-11-12T05:00:00Z,,
 bce01461-f892-4a55-8bd1-6449cf973521,POS TG2 more space announcement 11/4,Campaign,Standard,Active,2025-11-03T15:11:46+00:00,2024-11-01T16:00:00Z,2024-11-01T16:00:00Z,,
-33c8a96a-7fb4-4cd6-91f9-dc87e61290e2,EMV Preauth Enablement,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-12-07T21:00:00Z,2024-12-07T21:00:00Z,,
-b2472f6e-c237-428d-a21a-822ed92671b7,"New Campaign - November 7, 2024",Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2025-11-03T15:11:47+00:00,,,
 4537bae1-4a50-4882-bbd2-fe5c8ef11b0d,"New Campaign - November 4, 2024",Campaign,Standard,Active,2025-11-03T15:11:46+00:00,2024-11-05T00:57:29+00:00,2024-11-05T00:57:29+00:00,,
+33c8a96a-7fb4-4cd6-91f9-dc87e61290e2,EMV Preauth Enablement,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-12-07T21:00:00Z,2024-12-07T21:00:00Z,,
+77517681-570c-4a9f-8592-e1b8c015c688,Order by Seat Education Campaign 10/3/24,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-10-10T17:00:00Z,2024-10-10T17:00:00Z,,
+b2472f6e-c237-428d-a21a-822ed92671b7,"New Campaign - November 7, 2024",Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2025-11-03T15:11:47+00:00,,,
 e99a7705-20ad-48f5-9775-e83e192f8ba0,Copy of Error Alert Campaign Demo Request Toast Payroll,Campaign,Standard,Active,2025-11-03T15:35:32+00:00,2025-11-03T15:35:32+00:00,,,
-7f633d88-e481-4d5a-a282-fe7907f7d361,EMV Preauth Enablement_ Week 2,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-11-30T21:00:00Z,2024-11-30T21:00:00Z,,
 98f1b0c5-7d2e-4aa7-96ee-4c71d6a1021c,TDS Switchover Campaign 11_12,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2025-11-03T14:42:38+00:00,,,
-b61b9240-05fd-4127-9684-c387156d225f,POS TG2 more space announcement 11/6,Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2024-11-21T05:00:00Z,2024-11-21T05:00:00Z,,
+7f633d88-e481-4d5a-a282-fe7907f7d361,EMV Preauth Enablement_ Week 2,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-11-30T21:00:00Z,2024-11-30T21:00:00Z,,
 15fcc14b-90f3-4b13-9c32-3995807776e4,Operational_Email_Eraser,Campaign,Standard,Active,2025-11-03T15:35:33+00:00,2025-11-03T15:35:33+00:00,,,
-a1fa8730-0458-4ec3-9a90-0f8ad62badec,Operational_Log_Alerts,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-12-05T15:48:40+00:00,2024-12-05T15:48:40+00:00,,
-5f9e769f-49ba-42e0-b5f1-dbe1432ec1b8,Copy of POS Chat Campaign 2 TEST,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-12-09T16:00:00Z,2024-12-09T16:00:00Z,,
+b61b9240-05fd-4127-9684-c387156d225f,POS TG2 more space announcement 11/6,Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2024-11-21T05:00:00Z,2024-11-21T05:00:00Z,,
 ebfbcbde-1c19-4b67-9e75-77ba2a36cec0,POS Chat Campaign,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-12-09T15:00:00Z,2024-12-09T15:00:00Z,,
+a1fa8730-0458-4ec3-9a90-0f8ad62badec,Operational_Log_Alerts,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-12-05T15:48:40+00:00,2024-12-05T15:48:40+00:00,,
+6749b39d-bad0-4926-b9ee-82067477a663,Webhook_Operational,Campaign,Standard,Active,2025-11-03T14:42:37+00:00,2024-10-22T17:46:42+00:00,2024-10-22T17:46:42+00:00,,
+f852670f-b4a0-47b8-8c79-30f3dcba18e6,Toast Community | Partial Completion,Campaign,Standard,Active,2025-11-10T13:54:39+00:00,2026-02-17T05:00:00Z,2026-02-17T05:00:00Z,,
 30f1d721-ad63-4e47-a6e0-95a077557735,TDS Switchover Campaign 12_3,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-12-11T23:00:00Z,2024-12-11T23:00:00Z,,
-f852670f-b4a0-47b8-8c79-30f3dcba18e6,Toast Community | Partial Completion,Campaign,Standard,Active,2025-11-10T13:54:39+00:00,2026-02-12T05:00:00Z,2026-02-12T05:00:00Z,,
 6d831989-eabd-48c1-b0aa-496764233a1d,TDS Switchover Campaign 12_16,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-12-20T07:00:00Z,2024-12-20T07:00:00Z,,
+5f9e769f-49ba-42e0-b5f1-dbe1432ec1b8,Copy of POS Chat Campaign 2 TEST,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2024-12-09T16:00:00Z,2024-12-09T16:00:00Z,,
 fb46bc53-dddf-4088-87dc-1925be68f4ba,MyToast W2 Campaign_withoutimage,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2025-01-17T21:00:00Z,2025-01-17T21:00:00Z,,
-0d2e9da1-1cdb-4219-85fb-ef4fb3476b0f,operational_unsubcribe_custom_attribute,Campaign,Standard,Active,2026-02-12T05:03:08+00:00,2026-02-12T05:02:58+00:00,2026-02-12T05:02:58+00:00,,
+0d2e9da1-1cdb-4219-85fb-ef4fb3476b0f,operational_unsubcribe_custom_attribute,Campaign,Standard,Active,2026-02-17T05:03:30+00:00,2026-02-17T05:03:30+00:00,2026-02-17T05:03:30+00:00,,
+1ef11ef4-0c5d-43b2-a9b9-338662b84974,Copy of MyToast W2 Campaign_withoutimage,Campaign,Standard,Active,2025-11-03T15:35:27+00:00,2025-11-03T15:35:27+00:00,,,
+d3eb0d3e-dab4-467c-b207-72ef5525b163,MyToast W2 Campaign_withoutimage_phase2,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2025-02-03T07:00:00Z,2025-02-03T07:00:00Z,,
 d18aa798-b19f-43eb-8a5c-81638b2f5616,Copy of Toast Community | Partial Completion,Campaign,Standard,Active,2025-11-03T15:35:33+00:00,2025-11-03T15:35:33+00:00,,,
 8c8d1771-9b37-4a35-8be0-0e71dff17d99,Copy of POS Chat Campaign,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-02-21T08:00:00Z,2025-02-21T08:00:00Z,,
 bf5565c0-039a-4467-a249-eec0a405984f,Fire Purchase Event for Toast Retail,Campaign,Standard,Active,2025-11-10T13:54:39+00:00,2025-07-07T20:00:00Z,2025-07-07T20:00:00Z,,
-1ef11ef4-0c5d-43b2-a9b9-338662b84974,Copy of MyToast W2 Campaign_withoutimage,Campaign,Standard,Active,2025-11-03T15:35:27+00:00,2025-11-03T15:35:27+00:00,,,
-d3eb0d3e-dab4-467c-b207-72ef5525b163,MyToast W2 Campaign_withoutimage_phase2,Campaign,Standard,Active,2025-11-03T14:42:38+00:00,2025-02-03T07:00:00Z,2025-02-03T07:00:00Z,,
 2a05ae06-0e69-47d9-8b24-0dc2ec6b1328,EMV Preauth Enablement_Feb 2025,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-02-22T15:00:00Z,2025-02-22T15:00:00Z,,
 90f51caa-185f-43b1-96ae-1226d344d018,"New Campaign - February 7, 2025",Campaign,Standard,Active,2025-11-03T15:35:33+00:00,2025-11-03T15:35:33+00:00,,,
-5713eb28-d7ef-4fd1-893d-983ca042bfc0,mkto to braze suppression,Campaign,Standard,Active,2025-11-03T15:35:33+00:00,2025-11-03T15:35:33+00:00,,,
 cd56869a-243c-40e3-b627-d995a00adfb4,EMV Pre-auth incident messaging,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-02-27T04:00:00Z,2025-02-27T04:00:00Z,,
 2e2f2aa8-8006-41ed-bb53-645ccf763360,Transform GUID,Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2025-02-27T18:18:44+00:00,2025-02-27T18:18:44+00:00,,
 bb406c84-6d20-4e79-ab3a-ce7d0f38c48a,Toast Tables Digital Chits,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-02-26T06:00:00Z,2025-02-26T06:00:00Z,,
+8df039cc-cb16-492f-bbee-638bdb5275ac,blank_webhook_locations,Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2025-03-10T23:10:03+00:00,2025-03-10T23:10:03+00:00,,
 10c80d48-e154-4476-b1df-31a2c8d6ed7c,Toast Tables Digital Chits Round 2,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-03-18T02:00:00Z,2025-03-18T02:00:00Z,,
 5c1ba9d4-e699-4f39-bfd0-847141b2f470,Toast Tables Digital Chits Round 3,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-03-24T19:00:00Z,2025-03-24T19:00:00Z,,
-8df039cc-cb16-492f-bbee-638bdb5275ac,blank_webhook_locations,Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2025-03-10T23:10:03+00:00,2025-03-10T23:10:03+00:00,,
-bd75c097-5270-4f2f-81cf-25efef7175b4,EMV Pre-auth incident fix,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-02-28T20:00:00Z,2025-02-28T20:00:00Z,,
-78698d07-941e-497f-938e-545738f34ac5,payload_max,Campaign,Standard,Active,2025-10-29T15:25:42+00:00,2025-10-29T15:25:42+00:00,,,
 74024f89-d842-4526-870c-223a8e03dcef,Toast Cash POS Spend Workflow,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-04-17T15:00:00Z,2025-04-17T15:00:00Z,,
-52d0ed9b-12de-41b6-ab50-93ef31aaf713,Copy of Toast Cash POS Spend Workflow,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-04-10T13:00:00Z,2025-04-10T13:00:00Z,,
+78698d07-941e-497f-938e-545738f34ac5,payload_max,Campaign,Standard,Active,2025-10-29T15:25:42+00:00,2025-10-29T15:25:42+00:00,,,
 b90dcb32-e340-4c66-9f53-5b9d38eafbf4,Copy of Toast Cash POS Spend Workflow,Campaign,Standard,Active,2025-11-03T15:35:27+00:00,2025-11-03T15:35:27+00:00,,,
-52a2998a-cb4d-4ef1-b509-db4874d914db,TDS Order Management,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-11-03T14:42:39+00:00,,,
+52d0ed9b-12de-41b6-ab50-93ef31aaf713,Copy of Toast Cash POS Spend Workflow,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-04-10T13:00:00Z,2025-04-10T13:00:00Z,,
 785876b2-d7d5-4066-af9f-0b6b18c1922a,Order Ready Update,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-05-28T08:00:00Z,2025-05-28T08:00:00Z,,
 d3a1846d-8a82-411c-8f5c-47cd5995bbbc,Copy of TDS Order Management,Campaign,Standard,Active,2025-11-03T15:35:27+00:00,2025-11-03T15:35:27+00:00,,,
+e85323c9-624b-4556-963a-42ec1a539582,MagTek EOL,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-04T22:00:00Z,2025-06-04T22:00:00Z,,
 9526f069-63e2-40bb-92c3-8623b2201c14,Toast Tables Digital Chits 5/27,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-03T04:00:00Z,2025-06-03T04:00:00Z,,
 eac999fa-cd2f-4cb9-b6e4-9d792f95fe3b,Upsells Awareness - Seeded,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-23T05:00:00Z,2025-06-23T05:00:00Z,,
-20fd274f-9719-4a3b-a5ac-67e3ff9df719,Team Chat on MyToast Awareness,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-30T21:00:00Z,2025-06-30T21:00:00Z,,
-b6b457eb-c506-4992-8c72-01c28da19bd2,Upsells Awareness,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-13T16:00:00Z,2025-06-13T16:00:00Z,,
-e85323c9-624b-4556-963a-42ec1a539582,MagTek EOL,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-04T22:00:00Z,2025-06-04T22:00:00Z,,
 87a3c6e0-38c1-4b13-97af-1f982324b3fa,Copy of Toast Tables Digital Chits 6/12 1B,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-19T05:00:00Z,2025-06-19T05:00:00Z,,
-94dac759-f18a-4ba6-8d7a-0610232a51fa,Shift Sentiment Survey in MyToast,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-30T23:00:00Z,2025-06-30T23:00:00Z,,
 879e3d9c-cdb3-475c-af63-197b4185eda8,Toast Tables Digital Chits 6/12 1A,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-19T17:00:00Z,2025-06-19T17:00:00Z,,
-7393be35-954a-4896-a3da-4c82119bbc4f,Check Actions Overflow Menu (Updated),Campaign,Standard,Active,2025-11-03T15:35:27+00:00,2025-11-03T15:35:27+00:00,,,
-f710ab11-b2c6-4435-82c1-c38fc565607f,MyToast TTM Campaign,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-07-21T21:00:00Z,2025-07-21T21:00:00Z,,
-030195a5-fb54-4bd9-926a-1423ab2f0573,MagTek EOL_phase 2,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-18T22:00:00Z,2025-06-18T22:00:00Z,,
-596c9c7f-3de6-4a5a-bd17-72d751a37fcd,Cash Drawers Redesign,Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2025-08-08T14:00:00Z,2025-08-08T14:00:00Z,,
+20fd274f-9719-4a3b-a5ac-67e3ff9df719,Team Chat on MyToast Awareness,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-30T21:00:00Z,2025-06-30T21:00:00Z,,
+94dac759-f18a-4ba6-8d7a-0610232a51fa,Shift Sentiment Survey in MyToast,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-30T23:00:00Z,2025-06-30T23:00:00Z,,
 1af31706-2425-4d33-80c5-8ea5d33b4833,Check Actions Overflow Menu 6/30 - 7/6,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-07-18T18:00:00Z,2025-07-18T18:00:00Z,,
+7393be35-954a-4896-a3da-4c82119bbc4f,Check Actions Overflow Menu (Updated),Campaign,Standard,Active,2025-11-03T15:35:27+00:00,2025-11-03T15:35:27+00:00,,,
+030195a5-fb54-4bd9-926a-1423ab2f0573,MagTek EOL_phase 2,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-18T22:00:00Z,2025-06-18T22:00:00Z,,
+5713eb28-d7ef-4fd1-893d-983ca042bfc0,mkto to braze suppression,Campaign,Standard,Active,2025-11-03T15:35:33+00:00,2025-11-03T15:35:33+00:00,,,
+bd75c097-5270-4f2f-81cf-25efef7175b4,EMV Pre-auth incident fix,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-02-28T20:00:00Z,2025-02-28T20:00:00Z,,
+b6b457eb-c506-4992-8c72-01c28da19bd2,Upsells Awareness,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-06-13T16:00:00Z,2025-06-13T16:00:00Z,,
+f710ab11-b2c6-4435-82c1-c38fc565607f,MyToast TTM Campaign,Campaign,Standard,Active,2025-11-03T14:42:40+00:00,2025-07-21T21:00:00Z,2025-07-21T21:00:00Z,,
 98a02f16-63f7-44ab-b49c-cbdf1f8755dd,Copy of Cash Drawers Redesign,Campaign,Standard,Active,2025-11-10T21:55:06+00:00,2025-09-17T15:00:00Z,2025-09-17T15:00:00Z,,
+596c9c7f-3de6-4a5a-bd17-72d751a37fcd,Cash Drawers Redesign,Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2025-08-08T14:00:00Z,2025-08-08T14:00:00Z,,
 74e60122-8837-418b-a8fb-20bb3ff857ba,ipm test,Campaign,Standard,Active,2025-10-29T15:25:45+00:00,2025-09-04T19:00:00Z,2025-09-04T19:00:00Z,,
 fd37d2d3-20db-485c-9fd2-bf0fa001774a,content_ipm_test,Campaign,Standard,Active,2025-10-29T15:25:45+00:00,2025-09-01T21:00:00Z,2025-09-01T21:00:00Z,,
 79a5d47f-f252-4ff6-970e-f3c148a03423,Zero Copy,Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2025-09-06T01:32:48+00:00,2025-09-06T01:32:48+00:00,,
 24d8e5a1-b1dc-42ff-9a3a-45b63f3559e1,Copy of Zero Copy,Campaign,Standard,Active,2025-11-03T15:11:47+00:00,2025-09-09T20:53:44+00:00,2025-09-09T20:53:44+00:00,,
-439b1da5-7e31-42b5-83cb-b700c85b5eaf,Remove Collapsible Header Campaign,Campaign,Standard,Active,2025-11-03T15:11:48+00:00,2025-09-22T01:00:00Z,2025-09-22T01:00:00Z,,
 c1089259-0306-4c3c-bf65-0922968d1079,Zero  Copy Method,Campaign,Standard,Active,2025-11-03T15:11:48+00:00,2025-09-11T19:10:31+00:00,2025-09-11T19:10:31+00:00,,
 b4cebdd0-197b-4732-813f-466a103b3d06,Braze Segment,Campaign,Standard,Active,2025-11-03T15:11:48+00:00,2025-09-11T19:52:11+00:00,2025-09-11T19:52:11+00:00,,
+52a2998a-cb4d-4ef1-b509-db4874d914db,TDS Order Management,Campaign,Standard,Active,2025-11-03T14:42:39+00:00,2025-11-03T14:42:39+00:00,,,
+439b1da5-7e31-42b5-83cb-b700c85b5eaf,Remove Collapsible Header Campaign,Campaign,Standard,Active,2025-11-03T15:11:48+00:00,2025-09-22T01:00:00Z,2025-09-22T01:00:00Z,,
 e30bfd10-bd10-42ae-b0ab-ff154367ecd2,New Cash Drawer Experience - 09/19/25,Campaign,Standard,Active,2025-10-29T15:25:45+00:00,2025-10-07T03:00:00Z,2025-10-07T03:00:00Z,,
 a397d4f3-63d3-490f-9b28-cd1e9599d024,location counter,Campaign,Standard,Active,2025-10-29T15:25:45+00:00,2025-09-25T19:18:10+00:00,2025-09-25T19:18:10+00:00,,
 5fecb781-a95a-4250-bcca-a1b5d9eafa45,Transformation: toast_now_app_downloaded_timestamp,Campaign,Standard,Active,2025-10-29T15:25:45+00:00,2025-10-29T15:25:45+00:00,,,
-eff246e9-86eb-4e4b-b045-7da69e7c5e5c,Add Location Count,Campaign,Standard,Active,2025-10-29T15:25:45+00:00,2025-09-25T18:51:59+00:00,2025-09-25T18:51:59+00:00,,
-5f4fc10b-3d45-4add-8772-ea1234735e32,IPM Test - Tips Manager MEL,Campaign,Standard,Active,2025-10-29T15:25:45+00:00,2025-10-01T17:00:00Z,2025-10-01T17:00:00Z,,Test
-39f08ea5-c85c-4033-bbb6-1e0f92340eb1,loc count,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-07T23:51:18+00:00,2025-10-07T23:51:18+00:00,,
-39f6e252-ae31-4365-9a41-cdd0024ab675,Remove Collapsible Header Phase 1 Campaign,Campaign,Standard,Active,2025-11-25T04:20:12+00:00,2025-11-18T02:00:00Z,2025-11-18T02:00:00Z,,
 d9c5f091-e955-41b1-8add-065fa735c35e,Align Location Number,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-08T22:43:58+00:00,2025-10-08T22:43:58+00:00,,
-1337afcb-76a0-4007-883e-407fcfcbc24a,locastion association array counter,Campaign,Standard,Active,2025-12-15T04:02:59+00:00,2025-12-08T01:28:58+00:00,2025-12-08T01:28:58+00:00,,
+39f08ea5-c85c-4033-bbb6-1e0f92340eb1,loc count,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-07T23:51:18+00:00,2025-10-07T23:51:18+00:00,,
+5f4fc10b-3d45-4add-8772-ea1234735e32,IPM Test - Tips Manager MEL,Campaign,Standard,Active,2025-10-29T15:25:45+00:00,2025-10-01T17:00:00Z,2025-10-01T17:00:00Z,,Test
+eff246e9-86eb-4e4b-b045-7da69e7c5e5c,Add Location Count,Campaign,Standard,Active,2025-10-29T15:25:45+00:00,2025-09-25T18:51:59+00:00,2025-09-25T18:51:59+00:00,,
 a36a24ce-b36e-4179-816a-991e6151b55e,Braze Location Sync for New Users,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-09T20:49:56+00:00,2025-10-09T20:49:56+00:00,,
+1337afcb-76a0-4007-883e-407fcfcbc24a,locastion association array counter,Campaign,Standard,Active,2025-12-15T04:02:59+00:00,2025-12-08T01:28:58+00:00,2025-12-08T01:28:58+00:00,,
 9c48e5ae-53ac-43da-938a-300b6bf8b073,TDS Single Location,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-29T15:25:46+00:00,,,
 eac9387c-9203-486e-85e7-a1efb624b84a,Link Preservation,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-14T17:57:24+00:00,2025-10-14T17:57:24+00:00,,
-e3d1a22b-3f67-48e4-84ba-b77267dc0caf,Copy of Copy of Link Preservation 3,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-16T18:31:10+00:00,2025-10-16T18:31:10+00:00,,
+39f6e252-ae31-4365-9a41-cdd0024ab675,Remove Collapsible Header Phase 1 Campaign,Campaign,Standard,Active,2025-11-25T04:20:12+00:00,2025-11-18T02:00:00Z,2025-11-18T02:00:00Z,,
 9c4f7c9b-dc18-44cb-b889-03fe55971543,Copy of Link Preservation,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-14T19:23:48+00:00,2025-10-14T19:23:48+00:00,,
+e3d1a22b-3f67-48e4-84ba-b77267dc0caf,Copy of Copy of Link Preservation 3,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-16T18:31:10+00:00,2025-10-16T18:31:10+00:00,,
 a149bf33-2197-48ed-be5b-f87006576f90,Copy of Copy of Copy of Link Preservation 3,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-16T18:32:43+00:00,2025-10-16T18:32:43+00:00,,
-b282c7e8-f59a-44d1-b97f-ad1f9ae80abb,Plus One,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-29T15:25:46+00:00,,,
 3bc06fda-2a69-4535-8700-656cea93fd3f,IPM Test Template,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-29T15:25:46+00:00,,,"Templates,Test"
 67800660-d82f-4fa6-9e47-1778c0c76e72,Incremental IQ Toast Submission Tracking,Campaign,Standard,Active,2025-11-05T19:27:56+00:00,2025-11-05T19:00:00Z,2025-11-05T19:00:00Z,,
-67c89bc0-ed1a-4743-a6fb-f9e9a5ddf4bf,Toast IQ IPM 1B Test,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-21T14:00:00Z,2025-10-21T14:00:00Z,,Test
-a7b0d4e6-6657-4507-a726-e88fe5c6c07a,ipm test for dani,Campaign,Standard,Active,2025-10-29T15:25:47+00:00,2025-10-29T15:25:47+00:00,,,
 c5f5c226-9226-44eb-89fa-e97d907bad34,Toast IQ - IPM 3B Test,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-21T15:00:00Z,2025-10-21T15:00:00Z,,"Templates,Test"
 21f02e4d-29c1-4f5a-b916-bc651fdaf53f,Toast IQ - IPM 2B Test,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-21T18:46:13+00:00,2025-10-21T18:46:13+00:00,,"Templates,Test"
-d8484802-3ace-48cb-afe1-3927dc3b011c,Segment Tester,Campaign,Standard,Active,2025-10-29T15:25:47+00:00,2025-10-29T15:25:47+00:00,,,
-e21f3c6f-dc23-4e4f-b725-4da4a72e8dfe,Message Personalization,Campaign,Standard,Active,2025-10-31T20:07:28+00:00,2025-10-31T20:07:28+00:00,,,
+67c89bc0-ed1a-4743-a6fb-f9e9a5ddf4bf,Toast IQ IPM 1B Test,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-21T14:00:00Z,2025-10-21T14:00:00Z,,Test
+a7b0d4e6-6657-4507-a726-e88fe5c6c07a,ipm test for dani,Campaign,Standard,Active,2025-10-29T15:25:47+00:00,2025-10-29T15:25:47+00:00,,,
+b282c7e8-f59a-44d1-b97f-ad1f9ae80abb,Plus One,Campaign,Standard,Active,2025-10-29T15:25:46+00:00,2025-10-29T15:25:46+00:00,,,
 927e504a-7914-4031-a9ef-ee1213ce460f,Segment Test,Campaign,Standard,Active,2025-11-04T18:46:21+00:00,2025-11-04T00:25:57+00:00,2025-11-04T00:25:57+00:00,,
+d8484802-3ace-48cb-afe1-3927dc3b011c,Segment Tester,Campaign,Standard,Active,2025-10-29T15:25:47+00:00,2025-10-29T15:25:47+00:00,,,
 a8c16b9f-8a8b-4b7a-8512-0b5139680ff9,"New Campaign - October 29, 2025",Campaign,Standard,Active,2025-11-12T20:59:15+00:00,2025-11-12T20:59:15+00:00,,,
+c68b22c3-7af7-40cd-a763-4f85d1abbfda,Tag Audience_Template,Campaign,Standard,Active,2025-11-07T04:00:31+00:00,2025-10-30T19:49:06+00:00,2025-10-30T19:49:06+00:00,,
 207d7f44-d9b4-4b14-afa7-ea71c77490d9,TDS Testing,Campaign,Standard,Active,2025-11-11T04:21:56+00:00,2025-11-03T18:00:00Z,2025-11-03T18:00:00Z,,
 91713926-8266-49b1-953b-d17208178996,Testing Liquid Audit,Campaign,Standard,Active,2025-11-04T02:49:56+00:00,2025-11-04T02:49:56+00:00,2025-11-04T02:49:56+00:00,,
-c68b22c3-7af7-40cd-a763-4f85d1abbfda,Tag Audience_Template,Campaign,Standard,Active,2025-11-07T04:00:31+00:00,2025-10-30T19:49:06+00:00,2025-10-30T19:49:06+00:00,,
+e21f3c6f-dc23-4e4f-b725-4da4a72e8dfe,Message Personalization,Campaign,Standard,Active,2025-10-31T20:07:28+00:00,2025-10-31T20:07:28+00:00,,,
 52e63f3a-2173-41fb-b08c-f4603354a961,Test of TDS Single Location,Campaign,Standard,Active,2025-11-07T04:00:31+00:00,2025-10-30T21:00:00Z,2025-10-30T21:00:00Z,,
-b218476f-f915-4e6a-88bf-8d473c57ea6a,IPM TDS Tag,Campaign,Standard,Active,2025-11-04T19:42:19+00:00,2025-11-04T19:34:12+00:00,2025-11-04T19:34:12+00:00,,
 dead9c6d-c007-4248-ac42-4262b4ffec16,Toast IQ Re-engagement IPM 2 test,Campaign,Standard,Active,2025-11-12T04:07:08+00:00,2025-11-04T17:00:00Z,2025-11-04T17:00:00Z,,"Templates,Test"
-bbd70c27-40b5-4783-96f6-de85752d836e,Toast IQ Re-engagement test 1,Campaign,Standard,Active,2025-11-04T22:36:19+00:00,2025-11-04T22:36:19+00:00,,,"Templates,Test"
-735d216a-abf7-4f26-a511-7e08f872f6a2,Test for IQ Re-engagement IPM 1,Campaign,Standard,Active,2025-11-12T04:07:08+00:00,2025-11-04T19:00:00Z,2025-11-04T19:00:00Z,,
-e3a4f619-6fe2-428c-ba35-c0ac0bb5ef9a,Testing Braze New Structure,Campaign,Standard,Active,2025-11-04T20:48:04+00:00,2025-11-04T20:48:04+00:00,2025-11-04T20:48:04+00:00,,
 5f05f795-50d2-4be2-812f-1f81c3d6d51d,Review User Validity,Campaign,Standard,Active,2025-11-12T04:07:08+00:00,2025-11-04T23:35:16+00:00,2025-11-04T23:35:16+00:00,,
-50e13bc4-e586-4181-bca1-793db8260909,Braze Walkthru,Campaign,Standard,Active,2025-11-05T22:14:37+00:00,2025-11-05T21:07:50+00:00,2025-11-05T21:07:50+00:00,,
-7a3ca9ce-078a-4631-b2f8-077015684477,Justin Test for IQ Re-engagement IPM 1,Campaign,Standard,Active,2025-11-12T04:07:08+00:00,2025-11-04T22:00:00Z,2025-11-04T22:00:00Z,,
-466576b9-9bc7-4557-b911-e7355b6cff10,IQ Nurture Submit,Campaign,Standard,Active,2025-11-05T22:49:09+00:00,2025-11-05T22:49:09+00:00,,,operational
-7c3a9c3a-3bf6-4d23-9e09-99322c5a86e9,Shop Inactive IPM Test,Campaign,Standard,Active,2025-11-22T04:18:15+00:00,2025-11-14T16:00:00Z,2025-11-14T16:00:00Z,,Test
 fa40eda2-6875-4615-ad87-a5740dfbb714,Audience Tagger,Campaign,Standard,Active,2025-11-22T04:18:15+00:00,2025-11-14T18:47:58+00:00,2025-11-14T18:47:58+00:00,,Template - DO NOT EDIT
+735d216a-abf7-4f26-a511-7e08f872f6a2,Test for IQ Re-engagement IPM 1,Campaign,Standard,Active,2025-11-12T04:07:08+00:00,2025-11-04T19:00:00Z,2025-11-04T19:00:00Z,,
+7a3ca9ce-078a-4631-b2f8-077015684477,Justin Test for IQ Re-engagement IPM 1,Campaign,Standard,Active,2025-11-12T04:07:08+00:00,2025-11-04T22:00:00Z,2025-11-04T22:00:00Z,,
+b218476f-f915-4e6a-88bf-8d473c57ea6a,IPM TDS Tag,Campaign,Standard,Active,2025-11-04T19:42:19+00:00,2025-11-04T19:34:12+00:00,2025-11-04T19:34:12+00:00,,
+e3a4f619-6fe2-428c-ba35-c0ac0bb5ef9a,Testing Braze New Structure,Campaign,Standard,Active,2025-11-04T20:48:04+00:00,2025-11-04T20:48:04+00:00,2025-11-04T20:48:04+00:00,,
+50e13bc4-e586-4181-bca1-793db8260909,Braze Walkthru,Campaign,Standard,Active,2025-11-05T22:14:37+00:00,2025-11-05T21:07:50+00:00,2025-11-05T21:07:50+00:00,,
+466576b9-9bc7-4557-b911-e7355b6cff10,IQ Nurture Submit,Campaign,Standard,Active,2025-11-05T22:49:09+00:00,2025-11-05T22:49:09+00:00,,,operational
 401ff527-9049-45a1-8f1f-514ae62d9659,Audience Tagger for Webhook,Campaign,Standard,Active,2025-11-16T18:36:33+00:00,2025-11-16T18:38:58+00:00,2025-11-16T18:38:58+00:00,,Template - DO NOT EDIT
-335d862c-15d8-4923-9a70-6b9c0e44e832,Copy of Audience Tagger 1,Campaign,Standard,Active,2025-11-16T20:51:35+00:00,2025-11-16T20:52:59+00:00,2025-11-16T20:52:59+00:00,,Template - DO NOT EDIT
 b226ceaf-c7c7-4e75-9776-fe4549df58ec,Copy of Audience Tagger,Campaign,Standard,Active,2025-11-16T20:19:45+00:00,2025-11-16T20:21:59+00:00,2025-11-16T20:21:59+00:00,,
-856377d3-ed75-4bc4-a3e4-e46c97829a57,Copy of Copy of Audience Tagger_11_17,Campaign,Standard,Active,2025-11-17T20:50:26+00:00,2025-11-17T20:52:45+00:00,2025-11-17T20:52:45+00:00,,
-d75411f7-9482-4d63-aba1-5af7a1fc977f,Copy of Copy of Audience Tagger_11_18,Campaign,Standard,Active,2025-11-19T03:14:41+00:00,2025-11-19T03:14:10+00:00,2025-11-19T03:14:10+00:00,,Template - DO NOT EDIT
-e2b2ff84-b409-47a0-9ba8-31a2df0d4874,Remove Collapsible Header Phase 2 Campaign,Campaign,Standard,Active,2025-12-01T04:00:22+00:00,2025-12-04T00:00:00Z,2025-12-04T00:00:00Z,,
+335d862c-15d8-4923-9a70-6b9c0e44e832,Copy of Audience Tagger 1,Campaign,Standard,Active,2025-11-16T20:51:35+00:00,2025-11-16T20:52:59+00:00,2025-11-16T20:52:59+00:00,,Template - DO NOT EDIT
 9f7f9d7f-5000-49d4-950a-b435eea6d5df,Copy of Audience Tagger 78,Campaign,Standard,Active,2025-11-16T21:20:30+00:00,2025-11-16T21:14:02+00:00,2025-11-16T21:14:02+00:00,,Template - DO NOT EDIT
-d00ff3e6-179f-4505-8e99-fba7d2c4dc57,Copy of Audience Tagger_11_18,Campaign,Standard,Active,2025-11-18T20:30:19+00:00,2025-11-18T21:00:00Z,2025-11-18T21:00:00Z,,Template - DO NOT EDIT
+e2b2ff84-b409-47a0-9ba8-31a2df0d4874,Remove Collapsible Header Phase 2 Campaign,Campaign,Standard,Active,2025-12-01T04:00:22+00:00,2025-12-04T00:00:00Z,2025-12-04T00:00:00Z,,
+856377d3-ed75-4bc4-a3e4-e46c97829a57,Copy of Copy of Audience Tagger_11_17,Campaign,Standard,Active,2025-11-17T20:50:26+00:00,2025-11-17T20:52:45+00:00,2025-11-17T20:52:45+00:00,,
 25e08db8-0fd2-4c77-bce4-a89707beacfe,Tagger_1120_2222,Campaign,Standard,Active,2025-11-28T04:05:56+00:00,2025-11-20T23:18:09+00:00,2025-11-20T23:18:09+00:00,,Template - DO NOT EDIT
+d75411f7-9482-4d63-aba1-5af7a1fc977f,Copy of Copy of Audience Tagger_11_18,Campaign,Standard,Active,2025-11-19T03:14:41+00:00,2025-11-19T03:14:10+00:00,2025-11-19T03:14:10+00:00,,Template - DO NOT EDIT
+d00ff3e6-179f-4505-8e99-fba7d2c4dc57,Copy of Audience Tagger_11_18,Campaign,Standard,Active,2025-11-18T20:30:19+00:00,2025-11-18T21:00:00Z,2025-11-18T21:00:00Z,,Template - DO NOT EDIT
 829a52e2-041e-40ee-87dd-e6bd30a34277,Copy of Copy of Audience Tagger_11_18,Campaign,Standard,Active,2025-11-29T20:56:24+00:00,2025-11-29T20:56:24+00:00,2025-11-29T20:56:24+00:00,,Template - DO NOT EDIT
 1bb94f6f-c2a9-4451-a5ad-1e47a412940b,Custom Name,Campaign,Standard,Active,2025-11-30T22:46:35+00:00,2025-11-30T22:46:03+00:00,2025-11-30T22:46:03+00:00,,Template - DO NOT EDIT
-212af14a-a777-4083-8761-e061ca6601df,newy of Audience Tagger_11_18,Campaign,Standard,Active,2025-12-03T16:52:02+00:00,2025-12-03T16:52:02+00:00,2025-12-03T16:52:02+00:00,,Template - DO NOT EDIT
-5922afd2-bac0-48d0-9be0-02ba7f252b93,v1Copy of Copy of Audience Tagger_11_18,Campaign,Standard,Active,2025-12-04T18:27:48+00:00,2025-12-04T18:27:22+00:00,2025-12-04T18:27:22+00:00,,Template - DO NOT EDIT
 9cb4ae70-c414-4498-b992-f552e0983894,125Copy of Copy of Audience Tagger_11_18,Campaign,Standard,Active,2025-12-12T04:18:29+00:00,2025-12-04T18:39:33+00:00,2025-12-04T18:39:33+00:00,,Template - DO NOT EDIT
+212af14a-a777-4083-8761-e061ca6601df,newy of Audience Tagger_11_18,Campaign,Standard,Active,2025-12-03T16:52:02+00:00,2025-12-03T16:52:02+00:00,2025-12-03T16:52:02+00:00,,Template - DO NOT EDIT
 0a2f2f73-b388-4485-8dc8-bc39198aeecb,111Copy of 125Copy of Copy of Audience Tagger_11_18,Campaign,Standard,Active,2025-12-05T19:12:51+00:00,2025-12-05T19:12:51+00:00,2025-12-05T19:12:51+00:00,,Template - DO NOT EDIT
-4f499d20-7909-40c3-8ca9-d5a3db2ebc9a,Enrollment List - Shop Inactive Nurture,Campaign,Standard,Active,2026-02-12T12:18:18+00:00,2026-02-12T12:18:18+00:00,2026-02-12T12:18:18+00:00,,"Template - DO NOT EDIT,catalog_tracker"
+4f499d20-7909-40c3-8ca9-d5a3db2ebc9a,Enrollment List - Shop Inactive Nurture,Campaign,Standard,Active,2026-02-17T12:19:44+00:00,2026-02-17T12:19:44+00:00,2026-02-17T12:19:44+00:00,,"Template - DO NOT EDIT,catalog_tracker"
 e37b7c87-a4c5-4b4b-affb-6b536aea7e39,location_normalization_operational,Campaign,Standard,Active,2025-12-13T04:00:11+00:00,2025-12-05T21:48:12+00:00,2025-12-05T21:48:12+00:00,,operational
+bbd70c27-40b5-4783-96f6-de85752d836e,Toast IQ Re-engagement test 1,Campaign,Standard,Active,2025-11-04T22:36:19+00:00,2025-11-04T22:36:19+00:00,,,"Templates,Test"
 4ea73214-fb02-46c1-a57b-58869c5f82bc,Test normalization,Campaign,Standard,Active,2025-12-13T04:00:11+00:00,2025-12-06T02:18:06+00:00,2025-12-06T02:18:06+00:00,,
-d39d3c60-3cd6-47a4-b607-895a4b9e357b,22222Copy of Enrollment List - Shop Inactive Nurture,Campaign,Standard,Active,2025-12-13T04:00:11+00:00,2025-12-05T23:48:14+00:00,2025-12-05T23:48:14+00:00,,Template - DO NOT EDIT
 90973e8d-3dd7-4274-a421-faba2561d53d,Copy of location_normalization_operational,Campaign,Standard,Active,2025-12-05T22:31:10+00:00,2025-12-05T22:31:10+00:00,,,operational
+d39d3c60-3cd6-47a4-b607-895a4b9e357b,22222Copy of Enrollment List - Shop Inactive Nurture,Campaign,Standard,Active,2025-12-13T04:00:11+00:00,2025-12-05T23:48:14+00:00,2025-12-05T23:48:14+00:00,,Template - DO NOT EDIT
 50d295e1-5a16-43cf-99ae-c6117cdd554a,"New Campaign - December 8, 2025",Campaign,Standard,Active,2025-12-09T01:21:04+00:00,2025-12-09T01:20:34+00:00,2025-12-09T01:20:34+00:00,,
 269ba683-ae9c-4bf3-a5d7-89092ef59565,Copy of Enrollment List - Shop Inactive Nurture,Campaign,Standard,Active,2025-12-13T04:00:11+00:00,2025-12-06T00:37:56+00:00,2025-12-06T00:37:56+00:00,,Template - DO NOT EDIT
 61b12acd-24e5-4426-801f-dc78ad24fbe2,Check Loc DB,Campaign,Standard,Active,2025-12-18T04:18:35+00:00,2025-12-10T21:16:41+00:00,2025-12-10T21:16:41+00:00,,Template - DO NOT EDIT
@@ -332,364 +330,370 @@ d39d3c60-3cd6-47a4-b607-895a4b9e357b,22222Copy of Enrollment List - Shop Inactiv
 277ae0b5-72f5-4e5d-be2e-2f83677a852b,21 Loc Check,Campaign,Standard,Active,2025-12-18T04:18:35+00:00,2025-12-10T23:19:04+00:00,2025-12-10T23:19:04+00:00,,Template - DO NOT EDIT
 cfd029ca-630f-4834-a044-3b3f7570e612,Decision Split - Sites Activated?,Campaign,Standard,Active,2026-01-08T14:22:07+00:00,2026-01-08T14:14:52+00:00,2026-01-08T14:14:52+00:00,,Template - DO NOT EDIT
 7b9944c0-589e-4017-a15f-5df566f2a8f3,Test Template - Ads IPM 1,Campaign,Standard,Active,2026-01-14T04:03:05+00:00,2026-01-06T18:00:00Z,2026-01-06T18:00:00Z,,"Templates,Test"
-81cff1e1-96de-45eb-abd5-98e5252e8ee3,Core Segment - SMB Live <4 Tickets,Campaign,Standard,Active,2026-02-12T12:19:46+00:00,2026-02-12T12:19:45+00:00,2026-02-12T12:19:45+00:00,,"Template - DO NOT EDIT,catalog_tracker"
-cee2f86c-b27f-4fbb-bc57-42c7752ae205,Test API Webhook,Campaign,Standard,Active,2026-01-06T23:29:12+00:00,2025-12-16T20:00:00Z,2025-12-16T20:00:00Z,,
+81cff1e1-96de-45eb-abd5-98e5252e8ee3,Core Segment - SMB Live <4 Tickets,Campaign,Standard,Active,2026-02-17T12:19:57+00:00,2026-02-17T12:19:57+00:00,2026-02-17T12:19:57+00:00,,"Template - DO NOT EDIT,catalog_tracker"
+7c3a9c3a-3bf6-4d23-9e09-99322c5a86e9,Shop Inactive IPM Test,Campaign,Standard,Active,2025-11-22T04:18:15+00:00,2025-11-14T16:00:00Z,2025-11-14T16:00:00Z,,Test
 5c80b1de-5199-47c2-adcd-01f048aeaccb,DS Premium Enrollment - New Biz,Campaign,Standard,Active,2026-01-06T23:18:40+00:00,2026-01-06T21:16:22+00:00,2026-01-06T21:16:22+00:00,,Template - DO NOT EDIT
-a02fb1dd-dce1-41ee-b92b-e486a1df9321,Justin test123,Campaign,Standard,Active,2025-12-16T22:10:49+00:00,2025-12-16T22:10:49+00:00,2025-12-16T22:10:49+00:00,,Template - DO NOT EDIT
-94941ee8-e65f-48a0-835d-c5caf424ae02,DUPE Enrollment List - Toast Go 3 Retargeting,Campaign,Standard,Active,2025-12-24T04:05:39+00:00,2025-12-16T22:15:24+00:00,2025-12-16T22:15:24+00:00,,Template - DO NOT EDIT
 bd67c3db-2a70-4ff1-9f90-133546e75312,TG3e IPM Test,Campaign,Standard,Active,2025-12-24T04:05:39+00:00,2025-12-16T22:00:00Z,2025-12-16T22:00:00Z,,Test
+94941ee8-e65f-48a0-835d-c5caf424ae02,DUPE Enrollment List - Toast Go 3 Retargeting,Campaign,Standard,Active,2025-12-24T04:05:39+00:00,2025-12-16T22:15:24+00:00,2025-12-16T22:15:24+00:00,,Template - DO NOT EDIT
+a02fb1dd-dce1-41ee-b92b-e486a1df9321,Justin test123,Campaign,Standard,Active,2025-12-16T22:10:49+00:00,2025-12-16T22:10:49+00:00,2025-12-16T22:10:49+00:00,,Template - DO NOT EDIT
 e6005495-ac4d-42da-a06a-c390ee43a0fd,DS Prem - Decision Split - OO activated?,Campaign,Standard,Active,2026-01-08T14:22:20+00:00,2026-01-08T12:20:16+00:00,2026-01-08T12:20:16+00:00,,Template - DO NOT EDIT
 af2f56ec-f4a7-4fef-a4b8-08c3efa9fea8,DS Prem - Decision Split - Has first OO order?,Campaign,Standard,Active,2025-12-25T04:05:40+00:00,2025-12-17T21:13:31+00:00,2025-12-17T21:13:31+00:00,,Template - DO NOT EDIT
 9c139e45-bc57-46bc-aa8f-5be2aed2fe9d,DS Prem - Decision Split - Has first TDS order?,Campaign,Standard,Active,2025-12-17T21:03:12+00:00,2025-12-17T21:03:12+00:00,,,Template - DO NOT EDIT
+5922afd2-bac0-48d0-9be0-02ba7f252b93,v1Copy of Copy of Audience Tagger_11_18,Campaign,Standard,Active,2025-12-04T18:27:48+00:00,2025-12-04T18:27:22+00:00,2025-12-04T18:27:22+00:00,,Template - DO NOT EDIT
 167e70c6-c6e9-42b2-817a-595bf305528c,DS Prem - Decision Split - BMA Setup Started?,Campaign,Standard,Active,2025-12-17T19:55:53+00:00,2025-12-17T19:55:53+00:00,,,Template - DO NOT EDIT
-b88aa1e4-a817-4d80-bc50-48f07b4791c8,DS Prem - Decision Split - BMA Activated?,Campaign,Standard,Active,2025-12-17T19:56:25+00:00,2025-12-17T19:56:25+00:00,,,Template - DO NOT EDIT
 d6b96497-2b1e-4927-92c3-68510a6c50fd,Jus test,Campaign,Standard,Active,2025-12-25T04:05:40+00:00,2025-12-17T20:46:56+00:00,2025-12-17T20:46:56+00:00,,Template - DO NOT EDIT
+b88aa1e4-a817-4d80-bc50-48f07b4791c8,DS Prem - Decision Split - BMA Activated?,Campaign,Standard,Active,2025-12-17T19:56:25+00:00,2025-12-17T19:56:25+00:00,,,Template - DO NOT EDIT
 e9f45920-b08b-48b6-a86f-3d0606bc8250,loloCopy of Jus test,Campaign,Standard,Active,2025-12-17T21:11:14+00:00,2025-12-17T21:11:14+00:00,2025-12-17T21:11:14+00:00,,Template - DO NOT EDIT
-a9f147b1-4508-4701-89da-b6d8ae55b90f,Toast Ads Activation Enrollment,Campaign,Standard,Active,2026-01-09T15:50:40+00:00,2026-01-09T12:21:31+00:00,2026-01-09T12:21:31+00:00,,Template - DO NOT EDIT
 b812af4c-52a6-4e43-9489-3f676afab9be,DS Prem IPM Testing,Campaign,Standard,Active,2026-01-12T04:05:13+00:00,2026-01-05T00:00:00Z,2026-01-05T00:00:00Z,,"Templates,Test"
 1d6bb2b4-971c-4b18-b29b-2a1888e23234,2025 Form W-2 Braze Campaign (phase 1),Campaign,Standard,Active,2026-01-27T04:04:40+00:00,2026-01-19T08:00:00Z,2026-01-19T08:00:00Z,,
-816bdf56-b4e0-423a-adb2-3d027acd5810,Copy of DS Prem IPM Testing,Campaign,Standard,Active,2026-01-05T21:41:44+00:00,2026-01-05T21:41:44+00:00,,,"Templates,Test"
-a458ccd0-224f-4103-90a3-6f84f14af232,New fields Tagger_11_18,Campaign,Standard,Active,2026-01-06T23:28:55+00:00,2026-01-05T21:47:22+00:00,2026-01-05T21:47:22+00:00,,Template - DO NOT EDIT
 fd03a48a-4206-4bd6-83da-03a5045b6569,Tester Copy of DS Premium Enrollment - New Biz,Campaign,Standard,Active,2026-01-06T23:28:32+00:00,2026-01-06T19:37:36+00:00,2026-01-06T19:37:36+00:00,,Template - DO NOT EDIT
+816bdf56-b4e0-423a-adb2-3d027acd5810,Copy of DS Prem IPM Testing,Campaign,Standard,Active,2026-01-05T21:41:44+00:00,2026-01-05T21:41:44+00:00,,,"Templates,Test"
 03bf3c66-7136-499b-a1ee-424be7a244a1,Justin DS Premium Enrollment - New Biz,Campaign,Standard,Active,2026-01-06T20:37:59+00:00,2026-01-06T20:37:59+00:00,2026-01-06T20:37:59+00:00,,Template - DO NOT EDIT
-250df1a7-3204-44c4-a92d-f97f4824e9ae,DS Premium Enrollment - New Biz_v2,Campaign,Standard,Active,2026-02-12T12:20:17+00:00,2026-02-12T12:20:17+00:00,2026-02-12T12:20:17+00:00,,"Template - DO NOT EDIT,catalog_tracker"
-9c11b8b0-a63e-4841-b3e9-ba049205a228,Testing 1_6,Campaign,Standard,Active,2026-01-06T22:43:35+00:00,2026-01-06T22:43:34+00:00,2026-01-06T22:43:34+00:00,,Template - DO NOT EDIT
+a458ccd0-224f-4103-90a3-6f84f14af232,New fields Tagger_11_18,Campaign,Standard,Active,2026-01-06T23:28:55+00:00,2026-01-05T21:47:22+00:00,2026-01-05T21:47:22+00:00,,Template - DO NOT EDIT
 c12f7cee-640f-4aab-8bc6-965a434c0b6f,Copy of Justin DS Premium Enrollment - New Biz,Campaign,Standard,Active,2026-01-06T23:28:23+00:00,2026-01-06T20:48:04+00:00,2026-01-06T20:48:04+00:00,,Template - DO NOT EDIT
+9c11b8b0-a63e-4841-b3e9-ba049205a228,Testing 1_6,Campaign,Standard,Active,2026-01-06T22:43:35+00:00,2026-01-06T22:43:34+00:00,2026-01-06T22:43:34+00:00,,Template - DO NOT EDIT
+250df1a7-3204-44c4-a92d-f97f4824e9ae,DS Premium Enrollment - New Biz_v2,Campaign,Standard,Active,2026-02-17T12:21:04+00:00,2026-02-17T12:21:04+00:00,2026-02-17T12:21:04+00:00,,"Template - DO NOT EDIT,catalog_tracker"
 50598796-42a8-43bf-8b01-2489187a16b4,Testing Liquid,Campaign,Standard,Active,2026-01-06T23:28:08+00:00,2026-01-06T23:25:21+00:00,2026-01-06T23:25:21+00:00,,Template - DO NOT EDIT
-66e9db4a-12ea-4ae6-a274-a257984da1c7,Toast Ads Activation Enrollment_V2,Campaign,Standard,Active,2026-02-12T14:18:20+00:00,2026-02-12T14:18:20+00:00,2026-02-12T14:18:20+00:00,,catalog_tracker
-fb855660-1300-41be-aea1-7ec8ce73c6bc,Toast Ads Activation - Data check,Campaign,Standard,Active,2026-01-20T04:03:53+00:00,2026-01-12T21:28:21+00:00,2026-01-12T21:28:21+00:00,,Template - DO NOT EDIT
-fc9cb922-b471-4564-b72d-2abedc770bf0,2025 Form W-2 Braze Campaign (phase 2),Campaign,Standard,Active,2026-02-09T04:06:57+00:00,2026-02-01T08:00:00Z,2026-02-01T08:00:00Z,,catalog_tracker
+66e9db4a-12ea-4ae6-a274-a257984da1c7,Toast Ads Activation Enrollment_V2,Campaign,Standard,Active,2026-02-17T14:20:51+00:00,2026-02-17T14:20:51+00:00,2026-02-17T14:20:51+00:00,,catalog_tracker
 fcf7b679-603a-46eb-95ce-08f5bf9e462b,Test of DS Premium Enrollment - New Biz_v2,Campaign,Standard,Active,2026-01-17T04:18:27+00:00,2026-01-09T17:19:04+00:00,2026-01-09T17:19:04+00:00,,Template - DO NOT EDIT
-9ce2b804-be35-4a52-a581-cc88cbe1fb22,BetaTest,Campaign,Standard,Active,2026-01-27T22:37:59+00:00,2026-01-27T22:14:29+00:00,2026-01-27T22:14:29+00:00,,
+cee2f86c-b27f-4fbb-bc57-42c7752ae205,Test API Webhook,Campaign,Standard,Active,2026-01-06T23:29:12+00:00,2025-12-16T20:00:00Z,2025-12-16T20:00:00Z,,
+a9f147b1-4508-4701-89da-b6d8ae55b90f,Toast Ads Activation Enrollment,Campaign,Standard,Active,2026-01-09T15:50:40+00:00,2026-01-09T12:21:31+00:00,2026-01-09T12:21:31+00:00,,Template - DO NOT EDIT
 b7a7fce5-96e7-4cf8-b747-f4493964b413,SMS TEST EVENT,Campaign,Standard,Active,2026-01-22T18:51:27+00:00,2026-01-22T18:51:27+00:00,,,
-d1ea771f-d16f-4f99-9087-5c45c65062e4,BetaTest_1,Campaign,Standard,Active,2026-01-27T22:46:01+00:00,2026-01-27T22:46:00+00:00,2026-01-27T22:46:00+00:00,,
-95c8b03e-f788-4d65-97d4-1d2c09919e4a,Upsell SMS Test Campaign,Campaign,Standard,Active,2026-01-22T20:45:22+00:00,2026-01-22T20:45:22+00:00,,,upsell
+fc9cb922-b471-4564-b72d-2abedc770bf0,2025 Form W-2 Braze Campaign (phase 2),Campaign,Standard,Active,2026-02-09T04:06:57+00:00,2026-02-01T08:00:00Z,2026-02-01T08:00:00Z,,catalog_tracker
+9ce2b804-be35-4a52-a581-cc88cbe1fb22,BetaTest,Campaign,Standard,Active,2026-01-27T22:37:59+00:00,2026-01-27T22:14:29+00:00,2026-01-27T22:14:29+00:00,,
 32ee0985-a6bc-4dd7-a1cb-01ec808ec7c4,Beta Test 4,Campaign,Standard,Active,2026-01-28T02:39:42+00:00,2026-01-28T02:20:01+00:00,2026-01-28T02:20:01+00:00,,
+95c8b03e-f788-4d65-97d4-1d2c09919e4a,Upsell SMS Test Campaign,Campaign,Standard,Active,2026-01-22T20:45:22+00:00,2026-01-22T20:45:22+00:00,,,upsell
+d1ea771f-d16f-4f99-9087-5c45c65062e4,BetaTest_1,Campaign,Standard,Active,2026-01-27T22:46:01+00:00,2026-01-27T22:46:00+00:00,2026-01-27T22:46:00+00:00,,
 c320a03d-3a78-4b61-b4e0-098202b143cb,Beta_Copy of Toast Ads Activation Enrollment_V2,Campaign,Standard,Active,2026-01-28T02:54:34+00:00,2026-01-28T02:47:22+00:00,2026-01-28T02:47:22+00:00,,
-0be215fa-048a-44fe-b497-18d74d81325a,Test 1 Copy of Toast Ads Activation Enrollment_V2,Campaign,Standard,Active,2026-02-06T04:06:13+00:00,2026-01-29T19:00:23+00:00,2026-01-29T19:00:23+00:00,,
 7b2ac46d-0b34-45c2-9611-42a202b7de55,V2 API Webhook,Campaign,Standard,Active,2026-01-29T02:45:04+00:00,2026-01-29T02:00:00Z,2026-01-29T02:00:00Z,,
+0be215fa-048a-44fe-b497-18d74d81325a,Test 1 Copy of Toast Ads Activation Enrollment_V2,Campaign,Standard,Active,2026-02-06T04:06:13+00:00,2026-01-29T19:00:23+00:00,2026-01-29T19:00:23+00:00,,
 fc78151c-d86b-4e83-9e33-7aea934a8025,Beta Testing for Audience,Campaign,Standard,Active,2026-02-06T04:06:13+00:00,2026-01-29T19:19:10+00:00,2026-01-29T19:19:10+00:00,,
-40b60da7-7d2f-474e-802d-8d04020b6cd6,Copy of Copy of Audience Tagger_11_18,Campaign,Standard,Active,2026-02-06T21:20:32+00:00,2026-02-02T21:14:03+00:00,2026-02-02T21:14:03+00:00,,Template - DO NOT EDIT
 ead4fdc8-604c-4351-a03c-d666185e08d7,Lastest Version Copy of Beta Testing for Audience,Campaign,Standard,Active,2026-02-06T04:06:14+00:00,2026-02-06T04:06:14+00:00,,,
-cc301239-3146-4756-a382-416058ab94ea,Enrollment List - Complete the Suite Instant Deposit to Toast Checking,Campaign,Standard,Active,2026-02-12T15:25:31+00:00,2026-02-12T15:25:31+00:00,2026-02-12T15:25:31+00:00,,"Template - DO NOT EDIT,catalog_tracker"
-3220f061-372c-47e5-95b8-cdd699832806,DE Testing Skip Audience,Campaign,Standard,Active,2026-02-09T21:52:38+00:00,2026-02-09T21:52:37+00:00,2026-02-09T21:52:37+00:00,,Template - DO NOT EDIT
-97b80075-1523-4f98-a804-2f1c083fe1e5,Enrollment List - Complete the Suite Toast Capital to Toast Checking,Campaign,Standard,Active,2026-02-12T15:25:04+00:00,2026-02-12T15:25:02+00:00,2026-02-12T15:25:02+00:00,,"Template - DO NOT EDIT,catalog_tracker"
-15334e8f-82bd-4bcf-8846-7876d4eabe74,Enrollment List - Complete the Suite Marketing Essentials,Campaign,Standard,Active,2026-02-09T00:56:02+00:00,2026-02-09T00:56:01+00:00,2026-02-09T00:56:01+00:00,,"Template - DO NOT EDIT,catalog_tracker"
-695a942a-ed39-44df-bc33-8fc5ab904a92,Demo Canvas 1,Canvas,Standard,Active,2026-01-08T16:50:59+00:00,2022-09-13T17:00:00Z,,2022-09-13T17:00:00Z,
+3220f061-372c-47e5-95b8-cdd699832806,DE Testing Skip Audience,Campaign,Standard,Active,2026-02-13T16:18:38+00:00,2026-02-13T16:18:38+00:00,2026-02-13T16:18:38+00:00,,Template - DO NOT EDIT
+40b60da7-7d2f-474e-802d-8d04020b6cd6,Copy of Copy of Audience Tagger_11_18,Campaign,Standard,Active,2026-02-06T21:20:32+00:00,2026-02-02T21:14:03+00:00,2026-02-02T21:14:03+00:00,,Template - DO NOT EDIT
+cc301239-3146-4756-a382-416058ab94ea,Enrollment List - Complete the Suite Instant Deposit to Toast Checking,Campaign,Standard,Active,2026-02-17T15:21:11+00:00,2026-02-17T15:21:11+00:00,2026-02-17T15:21:11+00:00,,"Template - DO NOT EDIT,catalog_tracker"
+15334e8f-82bd-4bcf-8846-7876d4eabe74,Enrollment List - Complete the Suite Marketing Essentials,Campaign,Standard,Active,2026-02-16T04:03:46+00:00,2026-02-09T00:56:01+00:00,2026-02-09T00:56:01+00:00,,"Template - DO NOT EDIT,catalog_tracker"
+4b4d84fd-8872-400e-815a-ceffa260e092,Payroll security campaign,Campaign,Standard,Active,2026-02-13T15:26:09+00:00,2026-02-17T19:00:00Z,2026-02-17T19:00:00Z,,
+c3a4da6c-6668-42d4-9355-450968afed27,Skip Activation - New Biz Audience,Campaign,Standard,Active,2026-02-17T19:00:06+00:00,2026-02-17T18:42:35+00:00,2026-02-17T18:42:35+00:00,,
+31e3f462-cf92-4eea-a4af-76c1801b30bf,DE Testing Skip Upsell audience,Campaign,Standard,Active,2026-02-13T17:54:05+00:00,2026-02-13T17:54:05+00:00,2026-02-13T17:54:05+00:00,,Template - DO NOT EDIT
+97b80075-1523-4f98-a804-2f1c083fe1e5,Enrollment List - Complete the Suite Toast Capital to Toast Checking,Campaign,Standard,Active,2026-02-17T15:21:23+00:00,2026-02-17T15:21:23+00:00,2026-02-17T15:21:23+00:00,,"Template - DO NOT EDIT,catalog_tracker"
+fb855660-1300-41be-aea1-7ec8ce73c6bc,Toast Ads Activation - Data check,Campaign,Standard,Active,2026-01-20T04:03:53+00:00,2026-01-12T21:28:21+00:00,2026-01-12T21:28:21+00:00,,Template - DO NOT EDIT
 b16bc01f-b2c9-46ee-b76b-2e0733741e81,Demo Canvas 2,Canvas,Standard,Active,2026-01-08T16:50:59+00:00,2022-09-13T17:00:00Z,,2022-09-13T17:00:00Z,
+695a942a-ed39-44df-bc33-8fc5ab904a92,Demo Canvas 1,Canvas,Standard,Active,2026-01-08T16:50:59+00:00,2022-09-13T17:00:00Z,,2022-09-13T17:00:00Z,
 f6c9b7fd-120c-47b7-91fa-94ddef8142f0,[UAT] Online Ordering Adoption - Emerging/RSM,Canvas,Standard,Active,2026-01-08T16:50:59+00:00,2022-09-09T15:00:00Z,,2022-09-09T15:00:00Z,"Tealium,UAT"
-dafb09d2-c77c-48f6-9f7d-025b8a6a3c45,[UAT] Online Ordering Adoption - Growth SMB,Canvas,Standard,Active,2026-01-08T16:50:59+00:00,2022-09-08T16:00:00Z,,2022-09-08T16:00:00Z,"Tealium,UAT"
-7d85fb3f-2654-4e34-85de-101ac84d4fb8,[do not use - to delete],Canvas,Standard,Active,2026-01-08T16:50:59+00:00,2026-01-08T16:50:59+00:00,,,
 fa2ed669-1837-462e-9989-b18e3df4f00c,Online Ordering Adoption - Emerging/RSM,Canvas,Standard,Active,2026-01-08T16:50:59+00:00,2026-01-08T16:50:59+00:00,,,"Tealium,UAT"
 86931f2f-08e4-40b6-b850-03b5995bd55c,Online Ordering Adoption - Segment B: Growth SMB,Canvas,Standard,Active,2026-01-08T16:51:00+00:00,2022-10-06T21:00:00Z,,2022-10-06T21:00:00Z,"Adoption,Online_Ordering,Tealium"
 82548bb6-ad4a-440d-8da8-589d809824d9,Online Ordering Adoption - Segments A & C / Emerging SMB & RSM Assigned,Canvas,Standard,Active,2026-01-08T16:51:00+00:00,2022-10-06T21:00:00Z,,2022-10-06T21:00:00Z,"Adoption,Online_Ordering,Tealium"
-da7e213e-89b3-42da-b970-00269226d29d,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P1,Canvas,Standard,Active,2026-01-08T16:51:01+00:00,2026-01-08T16:51:01+00:00,,,"Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
+dafb09d2-c77c-48f6-9f7d-025b8a6a3c45,[UAT] Online Ordering Adoption - Growth SMB,Canvas,Standard,Active,2026-01-08T16:50:59+00:00,2022-09-08T16:00:00Z,,2022-09-08T16:00:00Z,"Tealium,UAT"
 7dc02a16-8d76-45d9-aca1-e696f7ba57a0,UAT [1.2v2] Online Ordering Adoption - Segment B: Growth SMB,Canvas,Standard,Active,2026-01-08T16:51:01+00:00,2022-10-13T20:00:00Z,,2022-10-13T20:00:00Z,UAT
-0a4503fa-d355-4d32-a85f-0cfe25f46579,[yy.mm.dd]-Outage-ToastSys-[SHARD#] P1,Canvas,Standard,Active,2026-01-08T16:51:01+00:00,2026-01-08T16:51:01+00:00,,,"Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
-2be0f831-464b-432d-9d10-dd726c9e5dec,[1.2v2] Online Ordering Adoption - Segment B: Growth SMB,Canvas,Standard,Active,2026-01-08T16:51:01+00:00,2023-04-25T15:00:00Z,,2023-04-25T15:00:00Z,"Adoption,Online_Ordering"
-c3cc8b94-4b48-45c3-9246-38d29d9acc39,Copy of [yy.mm.dd]-Outage-ToastSys-[SHARD#] P1,Canvas,Standard,Active,2026-01-08T16:51:01+00:00,2026-01-08T16:51:01+00:00,,,"Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
 089d8679-c868-45b5-94ff-c76fe5ae215e,UAT [1.2v2] Online Ordering Adoption - Segments A & C / Emerging SMB & RSM Assigned,Canvas,Standard,Active,2026-01-08T16:51:01+00:00,2022-10-13T20:00:00Z,,2022-10-13T20:00:00Z,UAT
-7773be03-0336-4fed-9e79-b8e22bf3bff0,March2023NL,Canvas,Standard,Active,2026-01-08T16:51:02+00:00,2023-03-08T22:00:00Z,,2023-03-08T22:00:00Z,Newsletter
 c21881c5-7272-42a1-bfbd-d99221d6a3b3,[1.2v2] Online Ordering Adoption - Segments A & C / Emerging SMB & RSM Assigned,Canvas,Standard,Active,2026-01-08T16:51:00+00:00,2023-04-25T15:00:00Z,,2023-04-25T15:00:00Z,"Adoption,Online_Ordering"
-c0d30b27-26e6-4208-b7ae-d04d916c0666,April2023NL,Canvas,Standard,Active,2026-01-08T16:51:02+00:00,2023-04-05T15:00:00Z,,2023-04-05T15:00:00Z,Newsletter
+0a4503fa-d355-4d32-a85f-0cfe25f46579,[yy.mm.dd]-Outage-ToastSys-[SHARD#] P1,Canvas,Standard,Active,2026-01-08T16:51:01+00:00,2026-01-08T16:51:01+00:00,,,"Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
+c3cc8b94-4b48-45c3-9246-38d29d9acc39,Copy of [yy.mm.dd]-Outage-ToastSys-[SHARD#] P1,Canvas,Standard,Active,2026-01-08T16:51:01+00:00,2026-01-08T16:51:01+00:00,,,"Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
+2be0f831-464b-432d-9d10-dd726c9e5dec,[1.2v2] Online Ordering Adoption - Segment B: Growth SMB,Canvas,Standard,Active,2026-01-08T16:51:01+00:00,2023-04-25T15:00:00Z,,2023-04-25T15:00:00Z,"Adoption,Online_Ordering"
+7773be03-0336-4fed-9e79-b8e22bf3bff0,March2023NL,Canvas,Standard,Active,2026-01-08T16:51:02+00:00,2023-03-08T22:00:00Z,,2023-03-08T22:00:00Z,Newsletter
 4683afdd-7fd3-4d6b-90e7-18d38c379b9a,May2023NL,Canvas,Standard,Active,2026-01-08T16:51:02+00:00,2023-05-07T16:00:00Z,,2023-05-07T16:00:00Z,Newsletter
-8441e49c-ec1a-48a0-b87f-eb7984bf7297,June2023NL,Canvas,Standard,Active,2026-01-08T16:51:03+00:00,2023-06-10T16:00:00Z,,2023-06-10T16:00:00Z,Newsletter
+c0d30b27-26e6-4208-b7ae-d04d916c0666,April2023NL,Canvas,Standard,Active,2026-01-08T16:51:02+00:00,2023-04-05T15:00:00Z,,2023-04-05T15:00:00Z,Newsletter
 3c03a9e6-2141-4e08-841c-2fca3f355643,Upsell  Canvas Payroll,Canvas,Standard,Active,2026-01-08T16:51:03+00:00,2024-02-06T21:00:00Z,,2024-02-06T21:00:00Z,
 63a9ef4e-83b4-43ff-af49-9d858d7178ef,TMOP Adoption,Canvas,Standard,Active,2026-01-08T16:51:02+00:00,2026-01-08T16:51:02+00:00,,,"Adoption,Online_Ordering"
-f1a619cb-176e-4251-8b1a-31e9f3ed0410,ELO V1 End of Life June 2023 SMS,Canvas,Standard,Active,2026-01-08T16:51:03+00:00,2023-06-20T20:00:00Z,,2023-06-20T20:00:00Z,"Online_Ordering,Paused1108"
-c45a18d3-f8af-46b3-87df-c7aac7b6138f,Test Online Ordering Adoption - CDP Use Case,Canvas,Standard,Active,2026-01-08T16:51:02+00:00,2026-01-08T16:51:02+00:00,,,"Adoption,Online_Ordering"
+8441e49c-ec1a-48a0-b87f-eb7984bf7297,June2023NL,Canvas,Standard,Active,2026-01-08T16:51:03+00:00,2023-06-10T16:00:00Z,,2023-06-10T16:00:00Z,Newsletter
 8ce5328a-866b-432f-bd93-bedad0b08fa4,Upsell Canvas XtraCHEF,Canvas,Standard,Active,2026-01-08T16:51:03+00:00,2026-01-08T16:51:03+00:00,,,"Adoption,Online_Ordering"
+f1a619cb-176e-4251-8b1a-31e9f3ed0410,ELO V1 End of Life June 2023 SMS,Canvas,Standard,Active,2026-01-08T16:51:03+00:00,2023-06-20T20:00:00Z,,2023-06-20T20:00:00Z,"Online_Ordering,Paused1108"
+7d85fb3f-2654-4e34-85de-101ac84d4fb8,[do not use - to delete],Canvas,Standard,Active,2026-01-08T16:50:59+00:00,2026-01-08T16:50:59+00:00,,,
 09d2a2ac-1c1a-4f2b-8b45-36521d88e630,OLD Capital Application Abandonment Retargeting,Canvas,Standard,Active,2026-01-08T16:51:03+00:00,2023-07-20T19:00:00Z,,2023-07-20T19:00:00Z,
 2d33a41c-f387-4c76-bad1-d131971d144c,Service & Maintenance Contact Alpha Release - IPM,Canvas,Standard,Active,2026-01-08T16:51:04+00:00,2023-06-23T22:00:00Z,,2023-06-23T22:00:00Z,Paused1108
-31a4a44a-62fd-463b-a613-1bc51ddabd8e,July2023NL,Canvas,Standard,Active,2026-01-08T16:51:04+00:00,2023-07-08T16:00:00Z,,2023-07-08T16:00:00Z,Newsletter
 7819db01-f679-4113-af78-55cc08fe938a,Community Demand Generation Test - SMS,Canvas,Standard,Active,2026-01-08T16:51:04+00:00,2023-07-07T20:00:00Z,,2023-07-07T20:00:00Z,
+31a4a44a-62fd-463b-a613-1bc51ddabd8e,July2023NL,Canvas,Standard,Active,2026-01-08T16:51:04+00:00,2023-07-08T16:00:00Z,,2023-07-08T16:00:00Z,Newsletter
 241868b8-22e4-4f8e-9e5f-8084e4fecfda,V3 Community Demand Generation Test - SMS,Canvas,Standard,Active,2026-01-08T16:51:04+00:00,2023-07-17T16:00:00Z,,2023-07-17T16:00:00Z,"Capital,Paused1108"
 a746a7dc-f400-4cf3-915f-ec6224e64703,Capital Application Abandonment Retargeting,Canvas,Standard,Active,2026-01-08T16:51:04+00:00,2023-09-20T18:00:00Z,,2023-09-20T18:00:00Z,Capital
-5912bdaa-9156-474b-9c1c-dbe9cda609d2,ELO V1 End of Life Sept. 5 2023 SMS,Canvas,Standard,Active,2026-01-08T16:51:04+00:00,2023-09-05T10:00:00Z,,2023-09-05T10:00:00Z,
 ba895058-3801-4c16-9ebf-4e72c49d5f06,S&M Contact GA Launch,Canvas,Standard,Active,2026-01-08T16:51:04+00:00,2023-09-19T15:00:00Z,,2023-09-19T15:00:00Z,"Online_Ordering,Paused1108"
+5912bdaa-9156-474b-9c1c-dbe9cda609d2,ELO V1 End of Life Sept. 5 2023 SMS,Canvas,Standard,Active,2026-01-08T16:51:04+00:00,2023-09-05T10:00:00Z,,2023-09-05T10:00:00Z,
 89ba5bbb-b382-43a7-93de-b400cdf525f3,Copy of UAT Toast Shop Product View  Retargeting - Toast Go 2,Canvas,Standard,Active,2026-01-08T16:51:05+00:00,2023-08-23T17:00:00Z,,2023-08-23T17:00:00Z,UAT
-48affa95-00fe-4121-81ef-f301cdbdb337,[V2] ELO V1 End of Life Sept. 5 2023 SMS,Canvas,Standard,Active,2026-01-08T16:51:05+00:00,2023-09-05T21:00:00Z,,2023-09-05T21:00:00Z,"Online_Ordering,Paused1108"
+c45a18d3-f8af-46b3-87df-c7aac7b6138f,Test Online Ordering Adoption - CDP Use Case,Canvas,Standard,Active,2026-01-08T16:51:02+00:00,2026-01-08T16:51:02+00:00,,,"Adoption,Online_Ordering"
 bc35d266-e7f3-4ee8-a4e0-b515c725312e,Copy of Capital Application Abandonment Retargeting,Canvas,Standard,Active,2026-01-08T16:51:05+00:00,2026-01-08T16:51:05+00:00,,,Capital
-6a4bf0ac-c984-4ccb-882d-99eda6289706,Copy of Capital Application Abandonment Retargeting,Canvas,Standard,Active,2026-01-08T16:51:06+00:00,2026-01-08T16:51:06+00:00,,,Capital
+48affa95-00fe-4121-81ef-f301cdbdb337,[V2] ELO V1 End of Life Sept. 5 2023 SMS,Canvas,Standard,Active,2026-01-08T16:51:05+00:00,2023-09-05T21:00:00Z,,2023-09-05T21:00:00Z,"Online_Ordering,Paused1108"
 7a154405-4f69-4f39-b8f1-a72750aa2ca7,CandE Activation Jouney,Canvas,Standard,Active,2026-01-08T16:51:05+00:00,2026-01-08T16:51:05+00:00,,,
+6a4bf0ac-c984-4ccb-882d-99eda6289706,Copy of Capital Application Abandonment Retargeting,Canvas,Standard,Active,2026-01-08T16:51:06+00:00,2026-01-08T16:51:06+00:00,,,Capital
 d45dc813-6b4a-4bca-9ec9-27ccda2a02f1,Copy of Capital Application Abandonment Retargeting,Canvas,Standard,Active,2026-01-08T16:51:06+00:00,2026-01-08T16:51:06+00:00,,,Capital
 7a076ed5-7c4f-4dcf-a51b-72e875c91fdd,[TG1 Cx] ELO V1 End of Life Sept. 14 2023 SMS,Canvas,Standard,Active,2026-01-08T16:51:05+00:00,2023-09-14T21:00:00Z,,2023-09-14T21:00:00Z,"Online_Ordering,Paused1108"
 29f0001c-7ee7-4a75-b0f1-a5e49abced46,Capital Application Abandonment Retargeting - V2,Canvas,Standard,Active,2026-01-08T16:51:06+00:00,2023-11-21T14:00:00Z,,2023-11-21T14:00:00Z,"Capital,Paused1108"
-c7f072e5-c721-498e-a3fd-bd4012d28866,[V3] ELO V1 End of Life Sept. 27 2023 SMS,Canvas,Standard,Active,2026-01-08T16:51:06+00:00,2023-09-28T00:00:00Z,,2023-09-28T00:00:00Z,"Online_Ordering,Paused1108"
 e990cabe-467e-4018-be3c-865bb2d3cbfb,[V4] ELO V1 End of Life 10/3/23 SMS,Canvas,Standard,Active,2026-01-08T16:51:06+00:00,2023-10-03T20:00:00Z,,2023-10-03T20:00:00Z,"Online_Ordering,Paused1108"
-b208a94b-ccef-4a24-a7ca-32fd2e472509,[Temp Manual Campaign] CandE - Batch,Canvas,Standard,Active,2026-01-08T16:51:07+00:00,2023-11-22T15:00:00Z,,2023-11-22T15:00:00Z,"Activation,Online_Ordering,Paused1108"
-60e9e123-783c-4fc3-8c63-896ee95315cc,[Temp Basic Flow] Upsell  Canvas Payroll,Canvas,Standard,Active,2026-01-08T16:51:07+00:00,2023-11-21T15:00:00Z,,2023-11-21T15:00:00Z,"Online_Ordering,Paused1108"
 2ce932f7-7180-43ff-98ad-c1affdf89fa1,Toast Now SMS Test,Canvas,Standard,Active,2026-01-08T16:51:07+00:00,2023-10-17T17:00:00Z,,2023-10-17T17:00:00Z,Paused1108
+da7e213e-89b3-42da-b970-00269226d29d,[yy.mm.dd]-Outage-Payment-[CHASE/ETC]-P1,Canvas,Standard,Active,2026-01-08T16:51:01+00:00,2026-01-08T16:51:01+00:00,,,"Outage Comms,OutageP1 - Acknowledgement,Template - DO NOT EDIT"
+b208a94b-ccef-4a24-a7ca-32fd2e472509,[Temp Manual Campaign] CandE - Batch,Canvas,Standard,Active,2026-01-08T16:51:07+00:00,2023-11-22T15:00:00Z,,2023-11-22T15:00:00Z,"Activation,Online_Ordering,Paused1108"
 7577d509-5122-45f3-ac3f-c1d2b6ef7a1f,[V5] ELO V1 End of Life 10/17/23 SMS,Canvas,Standard,Active,2026-01-08T16:51:07+00:00,2023-10-18T00:00:00Z,,2023-10-18T00:00:00Z,"Online_Ordering,Paused1108"
 ce6d3743-a080-4e9b-be0e-3fa845f3f879,Capital Application Abandonment Retargeting - V3,Canvas,Standard,Active,2026-01-08T16:51:07+00:00,2024-06-26T16:00:00Z,,2024-06-26T16:00:00Z,"Capital,Paused1108"
 1e71b7bb-ac8d-41d3-b3a2-e50967220e01,"2-Way SMS Test: "" 1 or 2  ""  Response",Canvas,Standard,Active,2026-01-08T16:51:08+00:00,2023-12-05T17:00:00Z,,2023-12-05T17:00:00Z,
+c7f072e5-c721-498e-a3fd-bd4012d28866,[V3] ELO V1 End of Life Sept. 27 2023 SMS,Canvas,Standard,Active,2026-01-08T16:51:06+00:00,2023-09-28T00:00:00Z,,2023-09-28T00:00:00Z,"Online_Ordering,Paused1108"
 b4f3d851-f1e8-489a-a9c7-bfb60f5e4ef3,"2-Way SMS Test: "" 3  ""  Response",Canvas,Standard,Active,2026-01-08T16:51:08+00:00,2026-01-08T16:51:08+00:00,,,
 784c839b-4280-4fdc-aa4c-36d32f0970d9,UAT Toast Now Activation - Non-Safari Mobile IPM,Canvas,Standard,Active,2026-01-08T16:51:08+00:00,2023-12-01T14:00:00Z,,2023-12-01T14:00:00Z,
-8f20b9c3-5622-48b0-9599-ddffa05249e8,Toast Tables Activation - Upsell,Canvas,Standard,Active,2026-02-12T14:15:02+00:00,2026-02-12T14:00:00Z,,2026-02-12T14:00:00Z,Activation
 65690880-992a-4c69-9649-2227ad2b7f5a,Toast Now Activation - Non-Safari Mobile IPM,Canvas,Standard,Active,2026-01-08T16:51:08+00:00,2023-12-08T18:00:00Z,,2023-12-08T18:00:00Z,
-14935a44-3b9d-47bf-95d0-318125c344b1,2-Way SMS Initial Message,Canvas,Standard,Active,2026-01-08T16:51:08+00:00,2023-12-05T18:00:00Z,,2023-12-05T18:00:00Z,
 0769e4bb-5951-4d5f-8900-b77ddfea597a,Surcharging SMS,Canvas,Standard,Active,2026-01-08T16:51:08+00:00,2023-12-01T22:00:00Z,,2023-12-01T22:00:00Z,
+14935a44-3b9d-47bf-95d0-318125c344b1,2-Way SMS Initial Message,Canvas,Standard,Active,2026-01-08T16:51:08+00:00,2023-12-05T18:00:00Z,,2023-12-05T18:00:00Z,
+60e9e123-783c-4fc3-8c63-896ee95315cc,[Temp Basic Flow] Upsell  Canvas Payroll,Canvas,Standard,Active,2026-01-08T16:51:07+00:00,2023-11-21T15:00:00Z,,2023-11-21T15:00:00Z,"Online_Ordering,Paused1108"
+6ed14069-6524-48df-b14a-ab782eb1d16f,CandE Activation - New Biz Batch (1/10/24 Update),Canvas,Standard,Active,2026-02-17T19:21:43+00:00,2026-02-17T17:00:00Z,,2026-02-17T17:00:00Z,Activation
+4e4da185-542f-4365-8d3c-31eba136e171,CandE Activation - New Biz Pageview (1/10/24 Update),Canvas,Standard,Active,2026-01-21T19:53:28+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,Activation
 5517b5f0-0442-4e92-885b-1655c48c0e6e,TG1 Retirement - 2/20/24,Canvas,Standard,Active,2026-01-08T16:51:10+00:00,2024-02-27T20:00:00Z,,2024-02-27T20:00:00Z,
-54e19765-9d6b-4c05-899f-c6585f0a8237,TG1 Retirement - 3/19/24,Canvas,Standard,Active,2026-01-08T16:51:11+00:00,2024-03-19T20:00:00Z,,2024-03-19T20:00:00Z,
-6ed14069-6524-48df-b14a-ab782eb1d16f,CandE Activation - New Biz Batch (1/10/24 Update),Canvas,Standard,Active,2026-02-12T19:24:35+00:00,2026-02-12T17:00:00Z,,2026-02-12T17:00:00Z,Activation
+f96509f5-4de9-408a-b152-01b765e16f39,CandE Activation - Upsell (1/10/24 Update),Canvas,Standard,Active,2026-02-17T14:15:03+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,Activation
 7e641abd-8119-4d2c-9f76-165cb8f2422b,Toast Shop Abandon Cart - Toast Go 2,Canvas,Standard,Active,2026-02-06T17:13:46+00:00,2026-02-06T16:00:00Z,,2026-02-06T16:00:00Z,"upsell,upsell/toast shop"
-f96509f5-4de9-408a-b152-01b765e16f39,CandE Activation - Upsell (1/10/24 Update),Canvas,Standard,Active,2026-02-12T14:15:01+00:00,2026-02-12T14:00:00Z,,2026-02-12T14:00:00Z,Activation
-4e4da185-542f-4365-8d3c-31eba136e171,CandE Activation - New Biz Pageview (1/10/24 Update),Canvas,Standard,Active,2026-01-21T19:53:28+00:00,2026-02-12T20:00:00Z,,2026-02-12T20:00:00Z,Activation
-dfa1250b-4861-41a9-9d71-b82c074afcf7,Toast Tables Activation - New Biz Event,Canvas,Standard,Active,2026-01-08T16:51:09+00:00,2026-02-11T00:00:00Z,,2026-02-11T00:00:00Z,Activation
-eedf303c-1676-47a5-a383-69a3ec5c6fec,Toast Tables Activation - New Biz Batch,Canvas,Standard,Active,2026-02-12T14:15:03+00:00,2026-02-12T14:00:00Z,,2026-02-12T14:00:00Z,Activation
+eedf303c-1676-47a5-a383-69a3ec5c6fec,Toast Tables Activation - New Biz Batch,Canvas,Standard,Active,2026-02-17T14:15:02+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,Activation
 6e6713fa-df5e-4330-9ba7-a4c8cc97d29f,split AB check,Canvas,Standard,Active,2026-01-08T16:51:11+00:00,2024-03-21T17:00:00Z,,2024-03-21T17:00:00Z,
+54e19765-9d6b-4c05-899f-c6585f0a8237,TG1 Retirement - 3/19/24,Canvas,Standard,Active,2026-01-08T16:51:11+00:00,2024-03-19T20:00:00Z,,2024-03-19T20:00:00Z,
 c622a407-f152-45d8-86d9-565d6042c62b,Toast Shop Abandon Cart - General,Canvas,Standard,Active,2026-01-08T16:51:11+00:00,2024-08-26T13:00:00Z,,2024-08-26T13:00:00Z,"upsell,upsell/toast shop"
-6993eaba-97fb-4873-93ed-59917185e522,Upsell Product Signals Test- Employees Added Variant,Canvas,Standard,Active,2026-01-08T16:51:11+00:00,2024-05-27T18:00:00Z,,2024-05-27T18:00:00Z,upsell
-be9bf7b9-4514-40c1-9eab-ef83f908a94d,TG1 Retirement - 4/1/24,Canvas,Standard,Active,2026-01-08T16:51:11+00:00,2024-04-02T00:00:00Z,,2024-04-02T00:00:00Z,
 d1ccd8c7-a679-4508-9339-e2c6288674f0,Upsell Product Signals Test - Catering in Menu Item,Canvas,Standard,Active,2026-01-08T16:51:12+00:00,2026-01-08T16:51:12+00:00,,,
-bfa44a99-6308-449f-ab8e-e41d20c3556f,DS Pro Activation - New Biz Batch,Canvas,Standard,Active,2026-02-12T19:24:43+00:00,2026-02-12T17:00:00Z,,2026-02-12T17:00:00Z,Activation
-0810c296-4a0f-48ca-933b-827be35ad4b1,Upsell Product Signals GTC Test - Employees Added,Canvas,Standard,Active,2026-01-08T16:51:12+00:00,2024-12-05T21:00:00Z,,2024-12-05T21:00:00Z,upsell
+6993eaba-97fb-4873-93ed-59917185e522,Upsell Product Signals Test- Employees Added Variant,Canvas,Standard,Active,2026-01-08T16:51:11+00:00,2024-05-27T18:00:00Z,,2024-05-27T18:00:00Z,upsell
 9ec2fdc8-b014-4aa9-830d-4c4a08bea97e,Menu Break/Fix SMS Test,Canvas,Standard,Active,2026-01-08T16:51:12+00:00,2024-05-30T15:00:00Z,,2024-05-30T15:00:00Z,
+0810c296-4a0f-48ca-933b-827be35ad4b1,Upsell Product Signals GTC Test - Employees Added,Canvas,Standard,Active,2026-01-08T16:51:12+00:00,2024-12-05T21:00:00Z,,2024-12-05T21:00:00Z,upsell
+bfa44a99-6308-449f-ab8e-e41d20c3556f,DS Pro Activation - New Biz Batch,Canvas,Standard,Active,2026-02-17T19:23:17+00:00,2026-02-17T17:00:00Z,,2026-02-17T17:00:00Z,Activation
 702a64dc-b568-43fd-9478-667273dcebde,1st Time Shop Visitor Test,Canvas,Standard,Active,2026-01-08T16:51:12+00:00,2026-01-08T16:51:12+00:00,,,
-7c47352a-9a5b-4da0-a366-ea0460692aa5,Event Alert,Canvas,Standard,Active,2026-01-08T16:51:12+00:00,2026-01-08T16:51:12+00:00,,,
 4e0f592e-0837-400a-b962-ad53891308a4,Toast Shop Inactive Cohort - TG2 Promo Test,Canvas,Standard,Active,2026-01-08T16:51:12+00:00,2024-04-17T14:00:00Z,,2024-04-17T14:00:00Z,
+7c47352a-9a5b-4da0-a366-ea0460692aa5,Event Alert,Canvas,Standard,Active,2026-01-08T16:51:12+00:00,2026-01-08T16:51:12+00:00,,,
+be9bf7b9-4514-40c1-9eab-ef83f908a94d,TG1 Retirement - 4/1/24,Canvas,Standard,Active,2026-01-08T16:51:11+00:00,2024-04-02T00:00:00Z,,2024-04-02T00:00:00Z,
 f2cf08da-b4df-4ac9-adf3-161812c23609,Copy of Toast Shop Product View  Retargeting - Toast Go 2_v1,Canvas,Standard,Active,2026-01-08T16:51:13+00:00,2026-01-08T16:51:13+00:00,,,"Online_Ordering,Paused1108"
-70dae358-3d25-40d5-85b3-7ae95a11b3cc,DS Essentials Activation - New Biz Batch,Canvas,Standard,Active,2026-02-12T19:28:41+00:00,2026-02-12T17:00:00Z,,2026-02-12T17:00:00Z,Activation
+70dae358-3d25-40d5-85b3-7ae95a11b3cc,DS Essentials Activation - New Biz Batch,Canvas,Standard,Active,2026-02-17T19:29:28+00:00,2026-02-17T17:00:00Z,,2026-02-17T17:00:00Z,Activation
 8118c4c6-e6cf-4b5f-ac2c-e43663ef638a,Copy of Event Alert,Canvas,Standard,Active,2026-01-08T16:51:13+00:00,2026-01-08T16:51:13+00:00,,,
+dfa1250b-4861-41a9-9d71-b82c074afcf7,Toast Tables Activation - New Biz Event,Canvas,Standard,Active,2026-01-08T16:51:09+00:00,2026-02-17T03:00:00Z,,2026-02-17T03:00:00Z,Activation
 1ccdd249-ed70-433b-aac1-b3bac0e4d734,Toast Shop Inactive Cohort - TG2 Promo Test - 2nd Email,Canvas,Standard,Active,2026-01-08T16:51:13+00:00,2024-04-29T18:00:00Z,,2024-04-29T18:00:00Z,
 6982dfab-428e-4290-b5b7-8b1ce708f628,Copy of Menu Break/Fix SMS Test,Canvas,Standard,Active,2026-01-08T16:51:13+00:00,2026-01-08T16:51:13+00:00,,,
-92738c21-5361-43e0-a493-c78dcb1d227b,(5/1 Update) Toast Shop Product Page Retargeting - xtraCHEF,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/toast shop"
 17941ab0-ccd4-43b5-a844-35dfc17f78ab,(5/1 Update) Toast Shop Product Page Retargeting - Payroll,Canvas,Standard,Active,2026-01-08T16:51:13+00:00,2024-12-09T20:00:00Z,,2024-12-09T20:00:00Z,"upsell,upsell/toast shop"
-96da8d37-daf2-42bd-9ccf-e12f916a47fe,(5/1 Update) Toast Shop Product Page Retargeting - CandE,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2025-03-21T18:00:00Z,,2025-03-21T18:00:00Z,"upsell,upsell/toast shop"
+92738c21-5361-43e0-a493-c78dcb1d227b,(5/1 Update) Toast Shop Product Page Retargeting - xtraCHEF,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"upsell,upsell/toast shop"
+a6bd7cc0-de17-4fb0-939a-5533b0f3b21f,EMAIL_IPM_POS_MM-DD-YYYY_Action_Based_Template,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2026-01-08T16:51:14+00:00,,,
 7940af0c-af0f-4b62-a20a-d4f74fa3a991,User Targeting Referral Test - IPM,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2024-05-28T21:00:00Z,,2024-05-28T21:00:00Z,
 f9ef43a5-9536-4cb9-a17f-13aaa6d1782a,TG1 Retirement - 5/2/24,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2024-05-03T02:00:00Z,,2024-05-03T02:00:00Z,
-a6bd7cc0-de17-4fb0-939a-5533b0f3b21f,EMAIL_IPM_POS_MM-DD-YYYY_Action_Based_Template,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2026-01-08T16:51:14+00:00,,,
-4b352010-603c-4243-aaea-e99da9d2eeee,Toast Retail PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2025-02-10T20:00:00Z,,2025-02-10T20:00:00Z,"upsell,upsell/toast shop"
+96da8d37-daf2-42bd-9ccf-e12f916a47fe,(5/1 Update) Toast Shop Product Page Retargeting - CandE,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2025-03-21T18:00:00Z,,2025-03-21T18:00:00Z,"upsell,upsell/toast shop"
 d2ed7c72-cebe-40d6-8f91-ede2feaf8a5c,(5/13 Update) Toast Shop Product View  Retargeting - Toast Go 2,Canvas,Standard,Active,2026-01-13T15:40:57+00:00,2026-01-13T15:00:00Z,,2026-01-13T15:00:00Z,"upsell,upsell/Retargeting,upsell/toast shop"
 014458b2-6e06-4c97-b5bd-34d1d7d87b5a,Tips Manager PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2025-11-11T20:00:00Z,,2025-11-11T20:00:00Z,"upsell,upsell/toast shop"
-5c1dfa4c-2e43-4620-b084-7fb21728efff,Toast Shop Abandon Cart - KDS,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2026-02-12T21:00:00Z,,2026-02-12T21:00:00Z,"upsell,upsell/toast shop"
-cc1302de-16dd-4ff7-906b-44babc61d9bc,Upsell Product Signals Test- Employees Added - Control,Canvas,Standard,Active,2026-01-08T16:51:15+00:00,2024-05-27T18:00:00Z,,2024-05-27T18:00:00Z,upsell
+5c1dfa4c-2e43-4620-b084-7fb21728efff,Toast Shop Abandon Cart - KDS,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"upsell,upsell/toast shop"
 764ad7e6-65f0-46d7-a313-0f4cff2b0f8d,TG1 Retirement - 5/17/24,Canvas,Standard,Active,2026-01-08T16:51:15+00:00,2024-05-17T22:00:00Z,,2024-05-17T22:00:00Z,
+cc1302de-16dd-4ff7-906b-44babc61d9bc,Upsell Product Signals Test- Employees Added - Control,Canvas,Standard,Active,2026-01-08T16:51:15+00:00,2024-05-27T18:00:00Z,,2024-05-27T18:00:00Z,upsell
+ae5dc29b-6ec7-4cb2-91fa-c24bec76726a,DS Essentials Activation - Prelive,Canvas,Standard,Active,2026-02-17T19:28:45+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,Activation
+02969b68-6342-4af7-8931-e7cca002b08e,DS Pro Activation - Prelive,Canvas,Standard,Active,2026-02-17T19:22:00+00:00,2026-02-17T17:00:00Z,,2026-02-17T17:00:00Z,Activation
 d359f86c-4786-4e24-a4c0-546f5bb0a2e0,TG1 Retirement - 5/29/24,Canvas,Standard,Active,2026-01-08T16:51:15+00:00,2024-05-30T02:00:00Z,,2024-05-30T02:00:00Z,
 65d55dad-d9aa-4a72-abaf-0e119acb5575,NSA On Hold Post RID - IPM Booking Link Test,Canvas,Standard,Active,2026-01-08T16:51:16+00:00,2024-06-12T09:00:00Z,,2024-06-12T09:00:00Z,
 6735f00f-29a2-4960-afab-d9aa29d893a6,Location<>User Operation,Canvas,Standard,Active,2026-01-08T16:51:16+00:00,2024-06-04T17:00:00Z,,2024-06-04T17:00:00Z,
-ae5dc29b-6ec7-4cb2-91fa-c24bec76726a,DS Essentials Activation - Prelive,Canvas,Standard,Active,2026-02-12T19:28:01+00:00,2026-02-12T17:00:00Z,,2026-02-12T17:00:00Z,Activation
-02969b68-6342-4af7-8931-e7cca002b08e,DS Pro Activation - Prelive,Canvas,Standard,Active,2026-02-12T19:20:55+00:00,2026-02-10T14:00:00Z,,2026-02-10T14:00:00Z,Activation
 2eed04ae-3387-4156-b3ee-854c54c777e7,"New Canvas - June 6, 2024",Canvas,Standard,Active,2026-01-08T16:51:16+00:00,2026-01-08T16:51:16+00:00,,,
-7f210db5-ccd7-42e6-8849-d2b1ff6d608c,Upsell Product Signal Test: Catering Menu Item,Canvas,Standard,Active,2026-01-08T16:51:16+00:00,2024-06-12T20:00:00Z,,2024-06-12T20:00:00Z,upsell
 653fe579-7a7f-4635-b8d1-24c63aa9c2d2,CJ Test - CandE Activation,Canvas,Standard,Active,2026-01-08T16:51:16+00:00,2026-01-08T16:51:16+00:00,,,Activation
+8f20b9c3-5622-48b0-9599-ddffa05249e8,Toast Tables Activation - Upsell,Canvas,Standard,Active,2026-02-17T14:15:07+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,Activation
 014c5deb-93a2-4aea-9888-20e49953529d,"New Canvas - June 10, 2024",Canvas,Standard,Active,2026-01-08T16:51:17+00:00,2024-06-24T02:00:00Z,,2024-06-24T02:00:00Z,
 420fc9a0-ce39-48e4-a450-45c984e10667,Tenured Cx Toast Shop Test,Canvas,Standard,Active,2026-01-08T16:51:17+00:00,2024-06-12T21:00:00Z,,2024-06-12T21:00:00Z,
+4b352010-603c-4243-aaea-e99da9d2eeee,Toast Retail PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:14+00:00,2025-02-10T20:00:00Z,,2025-02-10T20:00:00Z,"upsell,upsell/toast shop"
 518a5dc9-adfe-438e-a5d3-315f901b893f,CandE Free Trial Activation - Welcome,Canvas,Standard,Active,2026-01-08T16:51:17+00:00,2026-01-08T16:51:17+00:00,,,Activation
-e1c08331-c8a5-4570-a9be-b30827904318,Upsell - Next Best Product Test - Payroll > Capital,Canvas,Standard,Active,2026-01-26T17:04:52+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/toast shop"
-a5cc8c17-0bb3-4336-a343-2b0f28de46dd,Tenured Cx Toast Shop Test - 20% off 6/20-7/3,Canvas,Standard,Active,2026-01-08T16:51:18+00:00,2024-06-21T04:00:00Z,,2024-06-21T04:00:00Z,
-582daa4a-6acd-4606-b41f-05fb0133cfc2,Upsell Product Signal Test: Time Sheet Export - Variant,Canvas,Standard,Active,2026-01-08T16:51:18+00:00,2024-07-24T16:00:00Z,,2024-07-24T16:00:00Z,upsell
+7f210db5-ccd7-42e6-8849-d2b1ff6d608c,Upsell Product Signal Test: Catering Menu Item,Canvas,Standard,Active,2026-01-08T16:51:16+00:00,2024-06-12T20:00:00Z,,2024-06-12T20:00:00Z,upsell
+e1c08331-c8a5-4570-a9be-b30827904318,Upsell - Next Best Product Test - Payroll > Capital,Canvas,Standard,Active,2026-01-26T17:04:52+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"upsell,upsell/toast shop"
 e8e39ef5-b1b8-49dc-8d8c-8d974b9e8246,Copy of Capital Application Abandonment Retargeting - V3,Canvas,Standard,Active,2026-01-08T16:51:18+00:00,2026-01-08T16:51:18+00:00,,,"Capital,Paused1108"
-08044c5f-3800-4659-b5f6-cc6efbdce44a,Marketing Essentials Activation Post Live,Canvas,Standard,Active,2026-02-12T19:39:37+00:00,2026-02-12T17:00:00Z,,2026-02-12T17:00:00Z,Activation
+a5cc8c17-0bb3-4336-a343-2b0f28de46dd,Tenured Cx Toast Shop Test - 20% off 6/20-7/3,Canvas,Standard,Active,2026-01-08T16:51:18+00:00,2024-06-21T04:00:00Z,,2024-06-21T04:00:00Z,
 6591e653-8347-4029-a2ba-6d5c411d2bdb,Upsell Product Signals Test- Timesheet Edit Variant,Canvas,Standard,Active,2026-01-08T16:51:18+00:00,2026-01-08T16:51:18+00:00,,,upsell
-f2a1f744-bf96-437e-89c3-384f776aca38,Braze Capital Operational_V2,Canvas,Standard,Active,2026-01-08T16:51:18+00:00,2026-01-08T16:51:18+00:00,,,
 5430be68-7237-4df2-82c2-3c62ea0148d5,Upsell Product Signals Test- Timesheet Edit Control,Canvas,Standard,Active,2026-01-08T16:51:18+00:00,2026-01-08T16:51:18+00:00,,,upsell
 4bde64f2-31bd-4fba-832c-437655c6a872,Copy of Capital Application Abandonment Retargeting - V3,Canvas,Standard,Active,2026-01-08T16:51:19+00:00,2026-01-08T16:51:19+00:00,,,"Capital,Paused1108"
+582daa4a-6acd-4606-b41f-05fb0133cfc2,Upsell Product Signal Test: Time Sheet Export - Variant,Canvas,Standard,Active,2026-01-08T16:51:18+00:00,2024-07-24T16:00:00Z,,2024-07-24T16:00:00Z,upsell
+08044c5f-3800-4659-b5f6-cc6efbdce44a,Marketing Essentials Activation Post Live,Canvas,Standard,Active,2026-02-17T19:37:48+00:00,2026-02-17T17:00:00Z,,2026-02-17T17:00:00Z,Activation
 b8978226-51ac-443c-a21e-e73cd3824425,"New Canvas - June 23, 2024",Canvas,Standard,Active,2026-01-08T16:51:19+00:00,2024-06-24T02:00:00Z,,2024-06-24T02:00:00Z,
-48d47601-b56b-445f-9a32-26390f8b22c0,Signal Testing - Weekly Timesheet Export  - 7 Day Dellay,Canvas,Standard,Active,2026-01-08T16:51:19+00:00,2026-01-08T16:51:19+00:00,,,
-c8b6a22e-bcff-426b-aaa4-72a75504c5a3,GTC Validation Test,Canvas,Standard,Active,2026-01-08T16:51:19+00:00,2026-01-08T16:51:19+00:00,,,
-31e025d5-f4fe-46cd-a4c9-4220b9ac63fa,Capital Application Abandonment Retargeting - V4,Canvas,Standard,Active,2026-01-08T16:51:19+00:00,2026-02-12T21:00:00Z,,2026-02-12T21:00:00Z,"Capital,Paused1108"
+31e025d5-f4fe-46cd-a4c9-4220b9ac63fa,Capital Application Abandonment Retargeting - V4,Canvas,Standard,Active,2026-01-08T16:51:19+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"Capital,Paused1108"
 7a6e913d-15a1-4972-9974-57b856b8aef8,Katie Test Canvas,Canvas,Standard,Active,2026-01-08T16:51:20+00:00,2026-01-08T16:51:20+00:00,,,
+48d47601-b56b-445f-9a32-26390f8b22c0,Signal Testing - Weekly Timesheet Export  - 7 Day Dellay,Canvas,Standard,Active,2026-01-08T16:51:19+00:00,2026-01-08T16:51:19+00:00,,,
+b3b0f0f9-4633-454e-8b80-235458861c5f,Capital Dashboard Page View Retargeting,Canvas,Standard,Active,2026-01-08T16:51:20+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,Capital
 dbff24b8-1b31-4b98-b6d7-ba3f25f3c511,Upsell Product Signal Test: Time Sheet Export - Control,Canvas,Standard,Active,2026-01-08T16:51:20+00:00,2024-07-15T20:00:00Z,,2024-07-15T20:00:00Z,upsell
-b3b0f0f9-4633-454e-8b80-235458861c5f,Capital Dashboard Page View Retargeting,Canvas,Standard,Active,2026-01-08T16:51:20+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,Capital
-a56cf6c8-27fa-4dbf-8728-dbc878179596,Toast Tables PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:20+00:00,2025-07-07T19:00:00Z,,2025-07-07T19:00:00Z,"upsell,upsell/toast shop"
-ecf7c23a-9641-40c0-82a0-6511355439cb,Sling PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:20+00:00,2026-02-12T19:00:00Z,,2026-02-12T19:00:00Z,"upsell,upsell/toast shop"
-31d3b662-efe7-4365-92cd-17eae16f7cc8,Copy of Marketing Essentials Activation Post Live,Canvas,Standard,Active,2026-01-08T16:51:21+00:00,2026-01-08T16:51:21+00:00,,,Activation
-5d3d5a60-97ce-4b8c-95de-e2d897735a5a,Activation _Controller_Suppresion,Canvas,Standard,Active,2026-02-12T16:00:05+00:00,2026-02-12T16:00:00Z,,2026-02-12T16:00:00Z,
+ecf7c23a-9641-40c0-82a0-6511355439cb,Sling PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:20+00:00,2026-02-17T18:00:00Z,,2026-02-17T18:00:00Z,"upsell,upsell/toast shop"
+5d3d5a60-97ce-4b8c-95de-e2d897735a5a,Activation _Controller_Suppresion,Canvas,Standard,Active,2026-02-17T16:00:28+00:00,2026-02-17T16:00:00Z,,2026-02-17T16:00:00Z,
+695ed825-5d07-4d58-aca9-60903c54db22,Marketing Suites PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:21+00:00,2026-02-17T18:00:00Z,,2026-02-17T18:00:00Z,"upsell,upsell/toast shop"
+f2a1f744-bf96-437e-89c3-384f776aca38,Braze Capital Operational_V2,Canvas,Standard,Active,2026-01-08T16:51:18+00:00,2026-01-08T16:51:18+00:00,,,
 124dd586-c2a0-4a77-bda4-98e5cd8768a6,Copy of DS Pro Activation - New Biz Batch,Canvas,Standard,Active,2026-01-08T16:51:21+00:00,2026-01-08T16:51:21+00:00,,,Activation
-695ed825-5d07-4d58-aca9-60903c54db22,Marketing Suites PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:21+00:00,2026-02-12T19:00:00Z,,2026-02-12T19:00:00Z,"upsell,upsell/toast shop"
-b2989cbf-0fd5-439d-847d-de67cf6ed4a0,Cart_Abandon Formatter,Canvas,Standard,Active,2026-01-08T16:51:22+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,
+b2989cbf-0fd5-439d-847d-de67cf6ed4a0,Cart_Abandon Formatter,Canvas,Standard,Active,2026-01-08T16:51:22+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,
+31d3b662-efe7-4365-92cd-17eae16f7cc8,Copy of Marketing Essentials Activation Post Live,Canvas,Standard,Active,2026-01-08T16:51:21+00:00,2026-01-08T16:51:21+00:00,,,Activation
 7194a555-a5a2-493f-8588-1560dd214828,Upsell Product Signals GTC Test - Timesheet Export,Canvas,Standard,Active,2026-01-08T16:51:22+00:00,2024-08-11T17:00:00Z,,2024-08-11T17:00:00Z,upsell
+79e6392e-5ec8-48af-90c2-5da941a71a39,Upsell - Next Best Product Test - xtraCHEFF > Capital,Canvas,Standard,Active,2026-01-26T17:03:50+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"upsell,upsell/toast shop"
+c8b6a22e-bcff-426b-aaa4-72a75504c5a3,GTC Validation Test,Canvas,Standard,Active,2026-01-08T16:51:19+00:00,2026-01-08T16:51:19+00:00,,,
+a56cf6c8-27fa-4dbf-8728-dbc878179596,Toast Tables PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:20+00:00,2025-07-07T19:00:00Z,,2025-07-07T19:00:00Z,"upsell,upsell/toast shop"
 99dab58f-bc76-435a-a81d-fcadbf75c0a4,PQO_Webhook,Canvas,Standard,Active,2026-01-08T16:51:22+00:00,2024-07-27T21:00:00Z,,2024-07-27T21:00:00Z,
-79e6392e-5ec8-48af-90c2-5da941a71a39,Upsell - Next Best Product Test - xtraCHEFF > Capital,Canvas,Standard,Active,2026-01-26T17:03:50+00:00,2026-02-12T21:00:00Z,,2026-02-12T21:00:00Z,"upsell,upsell/toast shop"
-372fbd6b-f977-45aa-ae36-8f8cdbe151f1,Event_Tester_Template,Canvas,Standard,Active,2026-01-08T16:51:22+00:00,2024-08-25T07:00:00Z,,2024-08-25T07:00:00Z,
 87740696-15d7-441f-8e41-ac34304a1ba9,Template_Toast Shop Abandon Cart,Canvas,Standard,Active,2026-01-08T16:51:22+00:00,2026-01-08T16:51:22+00:00,,,"Template - DO NOT EDIT,upsell/toast shop"
-cef8c2d8-f62f-4639-a2d0-515e68d356d1,Toast Shop Abandon Cart - Kiosk,Canvas,Standard,Active,2026-01-08T16:51:22+00:00,2026-02-12T16:00:00Z,,2026-02-12T16:00:00Z,upsell/toast shop
-b27df3d7-a495-4feb-be81-4dea3189fab4,Event_Tracker_Cart_ID,Canvas,Standard,Active,2026-01-08T16:51:23+00:00,2024-08-06T16:00:00Z,,2024-08-06T16:00:00Z,
-756fadd2-5b09-46a1-80b0-a35849a4e57d,Event_Tracker_Location_GUID,Canvas,Standard,Active,2026-01-08T16:51:23+00:00,2024-08-12T01:00:00Z,,2024-08-12T01:00:00Z,
+372fbd6b-f977-45aa-ae36-8f8cdbe151f1,Event_Tester_Template,Canvas,Standard,Active,2026-01-08T16:51:22+00:00,2024-08-25T07:00:00Z,,2024-08-25T07:00:00Z,
 54703f8a-63a1-4ca6-a829-edadc21833e8,Event_Tester_Template_Grab_Event_Properties,Canvas,Standard,Active,2026-01-08T16:51:22+00:00,2024-08-03T04:00:00Z,,2024-08-03T04:00:00Z,
-d8fe531b-b863-49b4-b993-49e181b54110,deprecated_Event_Tracker_Cart_ID,Canvas,Standard,Active,2026-01-08T16:51:23+00:00,2024-08-06T16:00:00Z,,2024-08-06T16:00:00Z,
-a2315be8-933b-46fe-944f-700ed84935c7,Copy of Event_Tracker_Timestamp,Canvas,Standard,Active,2026-01-08T16:51:23+00:00,2024-08-07T23:00:00Z,,2024-08-07T23:00:00Z,
+cef8c2d8-f62f-4639-a2d0-515e68d356d1,Toast Shop Abandon Cart - Kiosk,Canvas,Standard,Active,2026-01-08T16:51:22+00:00,2026-02-17T17:00:00Z,,2026-02-17T17:00:00Z,upsell/toast shop
+756fadd2-5b09-46a1-80b0-a35849a4e57d,Event_Tracker_Location_GUID,Canvas,Standard,Active,2026-01-08T16:51:23+00:00,2024-08-12T01:00:00Z,,2024-08-12T01:00:00Z,
+b27df3d7-a495-4feb-be81-4dea3189fab4,Event_Tracker_Cart_ID,Canvas,Standard,Active,2026-01-08T16:51:23+00:00,2024-08-06T16:00:00Z,,2024-08-06T16:00:00Z,
 1e70fdc2-b47e-46b1-ba95-4003fa7e041a,Event_Tracker_Timestamp,Canvas,Standard,Active,2026-01-08T16:51:23+00:00,2024-08-07T04:00:00Z,,2024-08-07T04:00:00Z,
-c4621368-df28-47d5-a40d-ec0a29bee332,Upsell Product Signals Test- 50+ Active Employees Variant - 50+,Canvas,Standard,Active,2026-02-12T15:00:25+00:00,2025-12-10T15:00:00Z,,2025-12-10T15:00:00Z,upsell
-779dd12e-78f4-402e-94f2-ee58ab711593,Braze Enablement | PDP Template,Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2026-01-08T16:51:24+00:00,,,Templates
-e263d34c-26a8-4bc3-a794-eea15b9f6f65,basic_property_Event_Tracker_Location_GUID,Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2024-08-12T02:00:00Z,,2024-08-12T02:00:00Z,
+a2315be8-933b-46fe-944f-700ed84935c7,Copy of Event_Tracker_Timestamp,Canvas,Standard,Active,2026-01-08T16:51:23+00:00,2024-08-07T23:00:00Z,,2024-08-07T23:00:00Z,
+64277197-ba96-4c4c-ad6c-0f83a452c1ac,Upsell Product Signals Test-Active on Invoicing Variant,Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2024-09-04T19:00:00Z,,2024-09-04T19:00:00Z,upsell
+d8fe531b-b863-49b4-b993-49e181b54110,deprecated_Event_Tracker_Cart_ID,Canvas,Standard,Active,2026-01-08T16:51:23+00:00,2024-08-06T16:00:00Z,,2024-08-06T16:00:00Z,
 c0c3ca32-84f4-4966-924c-24f33d0ceb03,Toast Shop Product Page Retargeting - CandE (FREE TRIAL ONLY),Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2025-01-21T20:00:00Z,,2025-01-21T20:00:00Z,"upsell,upsell/toast shop"
+c4621368-df28-47d5-a40d-ec0a29bee332,Upsell Product Signals Test- 50+ Active Employees Variant - 50+,Canvas,Standard,Active,2026-02-17T15:00:35+00:00,2025-12-10T15:00:00Z,,2025-12-10T15:00:00Z,upsell
 2207328f-38cb-4d4c-95e0-777fad25e583,basic_property_Event_Tracker_Location_GUID_v2,Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2024-08-12T02:00:00Z,,2024-08-12T02:00:00Z,
-422aaece-ac10-48d9-80a2-59f185ca4a09,PDP Template | Toast Tables  Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2026-01-08T16:51:24+00:00,,,"Activation,Adoption,Templates"
+e263d34c-26a8-4bc3-a794-eea15b9f6f65,basic_property_Event_Tracker_Location_GUID,Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2024-08-12T02:00:00Z,,2024-08-12T02:00:00Z,
+779dd12e-78f4-402e-94f2-ee58ab711593,Braze Enablement | PDP Template,Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2026-01-08T16:51:24+00:00,,,Templates
 b77eaa8b-9a60-4208-ade9-993707b06af9,basic_property_Event_Tracker_Location_GUID_v3,Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2024-08-12T02:00:00Z,,2024-08-12T02:00:00Z,
 9eeb8c9a-05f8-48e7-905b-16118c952d51,basic_property_Event_Tracker_Location_GUID_v4,Canvas,Standard,Active,2026-01-08T16:51:25+00:00,2024-10-16T01:00:00Z,,2024-10-16T01:00:00Z,
-64277197-ba96-4c4c-ad6c-0f83a452c1ac,Upsell Product Signals Test-Active on Invoicing Variant,Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2024-09-04T19:00:00Z,,2024-09-04T19:00:00Z,upsell
 dea292e4-0066-4f13-a99e-08c13e89afe2,Copy of Copy of Event_Tracker_Timestamp,Canvas,Standard,Active,2026-01-08T16:51:25+00:00,2024-08-15T04:00:00Z,,2024-08-15T04:00:00Z,
 8e5ee5da-7421-41dc-bbef-6e0ecdb5b8ea,Refferal Reward Claim SMS Test,Canvas,Standard,Active,2026-01-08T16:51:25+00:00,2024-08-13T14:00:00Z,,2024-08-13T14:00:00Z,
-b31fb1ce-8224-4f32-86b9-3d45554e8f4f,Upsell Product Signals Test- 50+ Active Employees - Control,Canvas,Standard,Active,2026-01-08T16:51:25+00:00,2026-01-08T16:51:25+00:00,,,upsell
 17f1c461-c96a-4a22-be25-b1d12560e7a5,Upsell Product Signals Test-Active on Invoicing Control,Canvas,Standard,Active,2026-01-08T16:51:25+00:00,2024-08-14T19:00:00Z,,2024-08-14T19:00:00Z,upsell
-b6b95bb5-e344-4cf6-8745-7a46a2b1fc16,Upsell Product Signals Test- 50+ Active Employees Variant  Under 20,Canvas,Standard,Active,2026-02-12T15:06:15+00:00,2025-12-05T15:00:00Z,,2025-12-05T15:00:00Z,upsell
-83b762bf-2bf6-47bb-a533-cc17447e8ea5,Upsell Product Signals Test- High Table Count - Variant,Canvas,Standard,Active,2026-01-08T16:51:27+00:00,2026-01-08T16:51:27+00:00,,,upsell
-3d3a09ba-c9c1-4f20-a7d6-e7b2d734e07e,Upsell Product Signals Test- 50+ Active Employees Variant 20-49,Canvas,Standard,Active,2026-02-12T15:10:09+00:00,2025-06-10T14:00:00Z,,2025-06-10T14:00:00Z,upsell
+3d3a09ba-c9c1-4f20-a7d6-e7b2d734e07e,Upsell Product Signals Test- 50+ Active Employees Variant 20-49,Canvas,Standard,Active,2026-02-17T15:10:07+00:00,2025-06-10T14:00:00Z,,2025-06-10T14:00:00Z,upsell
+b31fb1ce-8224-4f32-86b9-3d45554e8f4f,Upsell Product Signals Test- 50+ Active Employees - Control,Canvas,Standard,Active,2026-01-08T16:51:25+00:00,2026-01-08T16:51:25+00:00,,,upsell
+b6b95bb5-e344-4cf6-8745-7a46a2b1fc16,Upsell Product Signals Test- 50+ Active Employees Variant  Under 20,Canvas,Standard,Active,2026-02-17T15:05:20+00:00,2025-12-05T15:00:00Z,,2025-12-05T15:00:00Z,upsell
 0190e9c1-fdab-424a-b611-ea2f5acd1e4a,Copy of Braze Enablement | PDP Template,Canvas,Standard,Active,2026-01-08T16:51:27+00:00,2026-01-08T16:51:27+00:00,,,Templates
-35f4d6f3-3c49-48ff-995b-d410bd22424f,Copy of Test_28,Canvas,Standard,Active,2026-01-08T16:51:28+00:00,2024-08-24T19:00:00Z,,2024-08-24T19:00:00Z,
-001e2209-edb7-4ff7-84b5-20f8b4ef1731,Copy of Braze Enablement | PDP Template,Canvas,Standard,Active,2026-01-08T16:51:28+00:00,2026-01-08T16:51:28+00:00,,,Templates
 cbb671a0-d126-48ee-a759-fcf0a7d3160a,Copy of Test_27,Canvas,Standard,Active,2026-01-08T16:51:28+00:00,2024-08-23T22:00:00Z,,2024-08-23T22:00:00Z,
-744e4816-2a6c-4ffb-9b8c-124f4eed27a2,PDP Retargeting | Toast Team Management Suite  Retargeting Campaign,Canvas,Standard,Active,2026-01-26T17:07:08+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/toast shop"
+422aaece-ac10-48d9-80a2-59f185ca4a09,PDP Template | Toast Tables  Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:24+00:00,2026-01-08T16:51:24+00:00,,,"Activation,Adoption,Templates"
+35f4d6f3-3c49-48ff-995b-d410bd22424f,Copy of Test_28,Canvas,Standard,Active,2026-01-08T16:51:28+00:00,2024-08-24T19:00:00Z,,2024-08-24T19:00:00Z,
+744e4816-2a6c-4ffb-9b8c-124f4eed27a2,PDP Retargeting | Toast Team Management Suite  Retargeting Campaign,Canvas,Standard,Active,2026-01-26T17:07:08+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"upsell,upsell/toast shop"
 16e16349-3bde-46dd-aca4-3548f96eaf0c,Cart_Abandon_Transformation,Canvas,Standard,Active,2026-01-08T16:51:29+00:00,2024-08-25T00:00:00Z,,2024-08-25T00:00:00Z,operational
-2297a88f-65af-4a5c-a764-17ab2fdf2240,Cart_abandon_webhook,Canvas,Standard,Active,2026-01-08T16:51:29+00:00,2024-08-24T21:00:00Z,,2024-08-24T21:00:00Z,
-b7999c53-418d-4a1a-82a0-8e7f3f28033f,Copy of Cart_Abandon_Transformation,Canvas,Standard,Active,2026-01-08T16:51:29+00:00,2024-08-25T01:00:00Z,,2024-08-25T01:00:00Z,operational
+001e2209-edb7-4ff7-84b5-20f8b4ef1731,Copy of Braze Enablement | PDP Template,Canvas,Standard,Active,2026-01-08T16:51:28+00:00,2026-01-08T16:51:28+00:00,,,Templates
 8341a8c4-c705-4092-9942-880bfdba47ad,Cart_Abandon_Transformation_V2,Canvas,Standard,Active,2026-01-08T16:51:29+00:00,2024-08-27T19:00:00Z,,2024-08-27T19:00:00Z,operational
-52f63556-1e0c-4ebd-8e0e-cb81099b68ba,"New Canvas - August 25, 2024",Canvas,Standard,Active,2026-01-08T16:51:29+00:00,2024-08-25T07:00:00Z,,2024-08-25T07:00:00Z,
 73d52b8c-f911-4859-b875-51b3753f300a,Abandon Cart Loop,Canvas,Standard,Active,2026-01-08T16:51:29+00:00,2024-08-28T16:00:00Z,,2024-08-28T16:00:00Z,
-1cee3e49-2df0-4609-9a98-5700091ef751,Toast Shop Abandon Cart - General v2,Canvas,Standard,Active,2026-01-26T17:09:31+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/toast shop"
-bbbb2645-56b3-4923-953c-60bd3b78913a,PDP Retargeting | Toast Benchmarking VIA RM Suite Retargeting Campaign,Canvas,Standard,Active,2026-01-26T17:06:27+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/toast shop"
-94e3cd26-1c05-4797-9b43-afd2a1124b1d,Toast Web Retargeting | Toast Benchmarking Lite -> RM Suite Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:30+00:00,2026-02-12T20:00:00Z,,2026-02-12T20:00:00Z,"upsell,upsell/toast shop"
-4061a2d0-a947-4531-a6ec-08e8e000608b,Digital Storefront Suites PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:30+00:00,2026-02-12T21:00:00Z,,2026-02-12T21:00:00Z,"upsell,upsell/toast shop"
-d0f9a124-ab1e-439b-ba75-21d8af77511c,Toast Shop Abandon Cart - Flex,Canvas,Standard,Active,2026-01-08T16:51:30+00:00,2026-02-12T21:00:00Z,,2026-02-12T21:00:00Z,upsell/toast shop
-6c2f6a08-1e4a-44c9-974d-57b4f7ce53b8,Upsell Product Signals Test - 400+ SKUS Variant,Canvas,Standard,Active,2026-01-08T16:51:30+00:00,2024-09-12T19:00:00Z,,2024-09-12T19:00:00Z,upsell
+b7999c53-418d-4a1a-82a0-8e7f3f28033f,Copy of Cart_Abandon_Transformation,Canvas,Standard,Active,2026-01-08T16:51:29+00:00,2024-08-25T01:00:00Z,,2024-08-25T01:00:00Z,operational
+2297a88f-65af-4a5c-a764-17ab2fdf2240,Cart_abandon_webhook,Canvas,Standard,Active,2026-01-08T16:51:29+00:00,2024-08-24T21:00:00Z,,2024-08-24T21:00:00Z,
+bbbb2645-56b3-4923-953c-60bd3b78913a,PDP Retargeting | Toast Benchmarking VIA RM Suite Retargeting Campaign,Canvas,Standard,Active,2026-01-26T17:06:27+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"upsell,upsell/toast shop"
+52f63556-1e0c-4ebd-8e0e-cb81099b68ba,"New Canvas - August 25, 2024",Canvas,Standard,Active,2026-01-08T16:51:29+00:00,2024-08-25T07:00:00Z,,2024-08-25T07:00:00Z,
+1cee3e49-2df0-4609-9a98-5700091ef751,Toast Shop Abandon Cart - General v2,Canvas,Standard,Active,2026-01-26T17:09:31+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"upsell,upsell/toast shop"
+94e3cd26-1c05-4797-9b43-afd2a1124b1d,Toast Web Retargeting | Toast Benchmarking Lite -> RM Suite Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:30+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"upsell,upsell/toast shop"
+4061a2d0-a947-4531-a6ec-08e8e000608b,Digital Storefront Suites PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:30+00:00,2026-02-17T18:00:00Z,,2026-02-17T18:00:00Z,"upsell,upsell/toast shop"
+d0f9a124-ab1e-439b-ba75-21d8af77511c,Toast Shop Abandon Cart - Flex,Canvas,Standard,Active,2026-01-08T16:51:30+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,upsell/toast shop
+c8feaca0-c26d-4037-a4ba-15ac80f7e70b,Milestone - 1 Year Anniversary RS,Canvas,Standard,Active,2026-02-16T22:07:38+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"Adoption,Milestone"
 3d059959-0f97-43ba-bcf3-42277e99a2a7,Milestone - 10 Employees,Canvas,Standard,Active,2026-01-08T16:51:30+00:00,2026-01-08T16:51:30+00:00,,,"Milestone,upsell"
-c8feaca0-c26d-4037-a4ba-15ac80f7e70b,Milestone - 1 Year Anniversary RS,Canvas,Standard,Active,2026-02-12T22:07:33+00:00,2026-02-12T20:00:00Z,,2026-02-12T20:00:00Z,"Adoption,Milestone"
 cdb62510-69e4-4e17-8894-183b0894607b,Upsell Product Signals Test - 400+ SKUS Control,Canvas,Standard,Active,2026-01-08T16:51:31+00:00,2024-09-12T19:00:00Z,,2024-09-12T19:00:00Z,upsell
-a02deaff-ac6a-4f38-a600-81b60afd10f2,New Toast Customer Toast Shop Awareness - 14 Day Live Content Card,Canvas,Standard,Active,2026-02-12T22:00:37+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/toast shop"
-72162f4e-3352-421b-8478-5f1a98057f84,PDP Exception Event User Exit,Canvas,Standard,Active,2026-01-08T16:51:31+00:00,2026-01-08T16:51:31+00:00,,,operational
+6c2f6a08-1e4a-44c9-974d-57b4f7ce53b8,Upsell Product Signals Test - 400+ SKUS Variant,Canvas,Standard,Active,2026-01-08T16:51:30+00:00,2024-09-12T19:00:00Z,,2024-09-12T19:00:00Z,upsell
+aa30d5df-cc97-40bb-873a-3d46471a72e7,Upsell Product Signals Test - Order Over 1K Control,Canvas,Standard,Active,2026-02-16T20:05:23+00:00,2025-03-11T19:00:00Z,,2025-03-11T19:00:00Z,upsell
 5590ae31-9537-40b8-a9f3-d77d9d9ccff3,Upsell Product Signals Test - Order Over 1K Variant,Canvas,Standard,Active,2026-01-08T16:51:31+00:00,2024-09-24T19:00:00Z,,2024-09-24T19:00:00Z,upsell
-aa30d5df-cc97-40bb-873a-3d46471a72e7,Upsell Product Signals Test - Order Over 1K Control,Canvas,Standard,Active,2026-02-12T20:05:38+00:00,2025-03-11T19:00:00Z,,2025-03-11T19:00:00Z,upsell
-dd7d3a1b-ffdc-41a2-ba9a-98556c007c56,Refferal Reward Claim SMS Send #2 9/26/24,Canvas,Standard,Active,2026-01-08T16:51:31+00:00,2024-09-26T14:00:00Z,,2024-09-26T14:00:00Z,
+a02deaff-ac6a-4f38-a600-81b60afd10f2,New Toast Customer Toast Shop Awareness - 14 Day Live Content Card,Canvas,Standard,Active,2026-02-16T22:00:42+00:00,2026-02-16T22:00:00Z,,2026-02-16T22:00:00Z,"upsell,upsell/toast shop"
+72162f4e-3352-421b-8478-5f1a98057f84,PDP Exception Event User Exit,Canvas,Standard,Active,2026-01-08T16:51:31+00:00,2026-01-08T16:51:31+00:00,,,operational
 59101cbe-5019-41c1-b122-1b56e905008b,C&E Pro-Holiday Campaign,Canvas,Standard,Active,2026-01-08T16:51:31+00:00,2026-01-08T16:51:31+00:00,,,upsell/toast shop
-f57d293f-6151-4cf3-9562-5f25173877db,Toast Web Users Targeting Test - Referral Generation 5k,Canvas,Standard,Active,2026-01-08T16:51:32+00:00,2024-10-16T23:00:00Z,,2024-10-16T23:00:00Z,
-59eadd44-ad92-4266-affa-f3bbe3caf7ec,Upsell Product Signals Test - Sling Free Trial Variant,Canvas,Standard,Active,2026-02-12T20:00:06+00:00,2026-02-12T20:00:00Z,,2026-02-12T20:00:00Z,upsell
 d0b676d5-4e8a-490a-a385-c45cecada682,Cart Abandonment | Event Meta,Canvas,Standard,Active,2026-01-08T16:51:32+00:00,2024-11-08T01:00:00Z,,2024-11-08T01:00:00Z,
+f57d293f-6151-4cf3-9562-5f25173877db,Toast Web Users Targeting Test - Referral Generation 5k,Canvas,Standard,Active,2026-01-08T16:51:32+00:00,2024-10-16T23:00:00Z,,2024-10-16T23:00:00Z,
 5f243ddb-c211-4c0f-aa8c-284e8709ea73,Upsell Product Signals Test - Catering Related Dinning Option Variant,Canvas,Standard,Active,2026-01-08T16:51:32+00:00,2026-01-08T16:51:32+00:00,,,upsell
-bfa24c55-94b0-48fe-b3a4-22a12ded8cde,MOPS Test CandE Holiday IPM Placement,Canvas,Standard,Active,2026-01-08T16:51:32+00:00,2024-10-11T15:00:00Z,,2024-10-11T15:00:00Z,Test
+dd7d3a1b-ffdc-41a2-ba9a-98556c007c56,Refferal Reward Claim SMS Send #2 9/26/24,Canvas,Standard,Active,2026-01-08T16:51:31+00:00,2024-09-26T14:00:00Z,,2024-09-26T14:00:00Z,
 da07ca3b-5e40-4161-8efb-3248d5795266,C&E Essentials-Holiday Campaign,Canvas,Standard,Active,2026-01-08T16:51:32+00:00,2024-10-14T13:00:00Z,,2024-10-14T13:00:00Z,upsell/toast shop
-582e1353-6e32-4d7f-ae2b-a5370f350e98,C&E Essentials-Holiday Campaign Resend,Canvas,Standard,Active,2026-01-08T16:51:33+00:00,2024-10-21T13:00:00Z,,2024-10-21T13:00:00Z,upsell/toast shop
-b9e51d9f-e147-4b5a-86da-89ef9208ea38,C&E Pro Pre-Holiday Campaign Re-send,Canvas,Standard,Active,2026-01-08T16:51:33+00:00,2024-10-21T13:00:00Z,,2024-10-21T13:00:00Z,upsell/toast shop
+bfa24c55-94b0-48fe-b3a4-22a12ded8cde,MOPS Test CandE Holiday IPM Placement,Canvas,Standard,Active,2026-01-08T16:51:32+00:00,2024-10-11T15:00:00Z,,2024-10-11T15:00:00Z,Test
+59eadd44-ad92-4266-affa-f3bbe3caf7ec,Upsell Product Signals Test - Sling Free Trial Variant,Canvas,Standard,Active,2026-02-16T20:00:32+00:00,2026-02-16T20:00:00Z,,2026-02-16T20:00:00Z,upsell
 c420b2e2-62ac-4ff7-afce-a27c86d7109e,operational_catalog,Canvas,Standard,Active,2026-01-08T16:51:33+00:00,2024-10-17T23:00:00Z,,2024-10-17T23:00:00Z,
+b9e51d9f-e147-4b5a-86da-89ef9208ea38,C&E Pro Pre-Holiday Campaign Re-send,Canvas,Standard,Active,2026-01-08T16:51:33+00:00,2024-10-21T13:00:00Z,,2024-10-21T13:00:00Z,upsell/toast shop
+582e1353-6e32-4d7f-ae2b-a5370f350e98,C&E Essentials-Holiday Campaign Resend,Canvas,Standard,Active,2026-01-08T16:51:33+00:00,2024-10-21T13:00:00Z,,2024-10-21T13:00:00Z,upsell/toast shop
 76d2b781-5a59-46ce-90cb-60de22cc571e,liquid_catalog_segmentation,Canvas,Standard,Active,2026-01-08T16:51:33+00:00,2024-10-18T00:00:00Z,,2024-10-18T00:00:00Z,
 369f1d06-27fc-4e82-a63d-47d2d51cb4ba,Toast Web Users Targeting Test - Referral Generation 10,Canvas,Standard,Active,2026-01-08T16:51:33+00:00,2024-10-21T19:00:00Z,,2024-10-21T19:00:00Z,
-ebba5105-97ab-42e2-80cb-f1a073fd8a5e,Milestone - 1 Year Anniversary Upsell,Canvas,Standard,Active,2026-01-08T16:51:34+00:00,2026-01-08T16:51:34+00:00,,,"Adoption,Milestone"
-b20274df-fa18-434e-9384-00658397e3a8,Upsell Product Signals Test - Sling Free Trial Control,Canvas,Standard,Active,2026-01-08T16:51:33+00:00,2024-10-21T19:00:00Z,,2024-10-21T19:00:00Z,upsell
-d078335a-bbdf-49bb-966f-39e1545bd28b,Example of Cart_Add Conversion and Exit,Canvas,Standard,Active,2026-01-08T16:51:34+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,
-c1ac5d87-ee85-4eff-8449-d09cebe088ec,Toast Web Users Targeting Test - Referral Generation 20k,Canvas,Standard,Active,2026-01-08T16:51:34+00:00,2024-11-05T19:00:00Z,,2024-11-05T19:00:00Z,
-879d844f-0230-4e21-9c38-1400478c4371,Copy of Cart Abandonment | Event Meta,Canvas,Standard,Active,2026-01-08T16:51:34+00:00,2024-11-08T00:00:00Z,,2024-11-08T00:00:00Z,
 b2b29ab3-e1f5-433e-b848-06d19045c2c1,Upsell Product Signals Test - 50+ Table Count Variant,Canvas,Standard,Active,2026-01-08T16:51:33+00:00,2026-01-08T16:51:33+00:00,,,upsell
+b20274df-fa18-434e-9384-00658397e3a8,Upsell Product Signals Test - Sling Free Trial Control,Canvas,Standard,Active,2026-01-08T16:51:33+00:00,2024-10-21T19:00:00Z,,2024-10-21T19:00:00Z,upsell
+d078335a-bbdf-49bb-966f-39e1545bd28b,Example of Cart_Add Conversion and Exit,Canvas,Standard,Active,2026-01-08T16:51:34+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,
+ebba5105-97ab-42e2-80cb-f1a073fd8a5e,Milestone - 1 Year Anniversary Upsell,Canvas,Standard,Active,2026-01-08T16:51:34+00:00,2026-01-08T16:51:34+00:00,,,"Adoption,Milestone"
+879d844f-0230-4e21-9c38-1400478c4371,Copy of Cart Abandonment | Event Meta,Canvas,Standard,Active,2026-01-08T16:51:34+00:00,2024-11-08T00:00:00Z,,2024-11-08T00:00:00Z,
 30ec46c5-27e8-4a8d-8a4e-b36ce4383d76,Event Meta Tracker,Canvas,Standard,Active,2026-01-08T16:51:34+00:00,2024-11-08T01:00:00Z,,2024-11-08T01:00:00Z,
-5c3e9495-5774-42a2-baf4-0311c58f1ba9,Event Meta Tracker V2,Canvas,Standard,Active,2026-02-12T01:15:02+00:00,2026-02-12T01:00:00Z,,2026-02-12T01:00:00Z,
+c1ac5d87-ee85-4eff-8449-d09cebe088ec,Toast Web Users Targeting Test - Referral Generation 20k,Canvas,Standard,Active,2026-01-08T16:51:34+00:00,2024-11-05T19:00:00Z,,2024-11-05T19:00:00Z,
+83b762bf-2bf6-47bb-a533-cc17447e8ea5,Upsell Product Signals Test- High Table Count - Variant,Canvas,Standard,Active,2026-01-08T16:51:27+00:00,2026-01-08T16:51:27+00:00,,,upsell
 2168a696-5ff6-44bf-93e2-b0ec471ed728,Copy of Event Meta Tracker V2,Canvas,Standard,Active,2026-01-08T16:51:35+00:00,2026-01-08T16:51:35+00:00,,,
+5c3e9495-5774-42a2-baf4-0311c58f1ba9,Event Meta Tracker V2,Canvas,Standard,Active,2026-02-17T01:15:01+00:00,2026-02-17T01:00:00Z,,2026-02-17T01:00:00Z,
 bc94915d-82de-4f68-9f1c-1388bb5c8b1a,Catalog Update,Canvas,Standard,Active,2026-01-08T16:51:35+00:00,2024-11-09T07:00:00Z,,2024-11-09T07:00:00Z,
-b9e0f988-2b6d-444c-90ff-f378a6d00eaa,Community Partial Registration Nurture,Canvas,Standard,Active,2026-01-08T16:51:35+00:00,2026-02-12T05:00:00Z,,2026-02-12T05:00:00Z,Community
-9ad7121c-bc39-45fc-a558-1d5030468408,Community Welcome Nurture,Canvas,Standard,Active,2026-01-08T16:51:35+00:00,2026-02-12T12:00:00Z,,2026-02-12T12:00:00Z,Community
-17a36c8b-a91c-4cba-8350-aa7f28aa91d3,Toast Web Users Targeting Test - Referral Generation 75k,Canvas,Standard,Active,2026-01-08T16:51:35+00:00,2024-12-10T20:00:00Z,,2024-12-10T20:00:00Z,
-47c67790-dae7-4b6f-8b1c-7eb8709d1e6e,Payroll Upsell - Growing Team,Canvas,Standard,Active,2026-02-12T01:08:36+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/Growing Team"
-3e40cafd-81ae-4cae-bdca-d499b0340766,Community Re-Engagement Nurture,Canvas,Standard,Active,2026-01-08T16:51:35+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,Community
+9ad7121c-bc39-45fc-a558-1d5030468408,Community Welcome Nurture,Canvas,Standard,Active,2026-01-08T16:51:35+00:00,2026-02-16T12:00:00Z,,2026-02-16T12:00:00Z,Community
 97548e24-65c0-4d82-968a-cc19bd43972e,Toast Retail Example,Canvas,Standard,Active,2026-01-08T16:51:36+00:00,2026-01-08T16:51:36+00:00,,,
+47c67790-dae7-4b6f-8b1c-7eb8709d1e6e,Payroll Upsell - Growing Team,Canvas,Standard,Active,2026-02-17T01:07:40+00:00,2026-02-17T06:00:00Z,,2026-02-17T06:00:00Z,"upsell,upsell/Growing Team"
+3e40cafd-81ae-4cae-bdca-d499b0340766,Community Re-Engagement Nurture,Canvas,Standard,Active,2026-01-08T16:51:35+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,Community
+17a36c8b-a91c-4cba-8350-aa7f28aa91d3,Toast Web Users Targeting Test - Referral Generation 75k,Canvas,Standard,Active,2026-01-08T16:51:35+00:00,2024-12-10T20:00:00Z,,2024-12-10T20:00:00Z,
 96ed22e9-635b-42d6-bff5-410fe556c796,Toast Web Users Targeting Test - Referral Generation 75k Cohort 1 emails 2-3,Canvas,Standard,Active,2026-01-08T16:51:36+00:00,2024-12-03T14:00:00Z,,2024-12-03T14:00:00Z,
-41615145-f393-4ace-b7aa-b6c104e9d16d,Payroll Upsell - Operational Needs,Canvas,Standard,Active,2026-02-12T01:12:40+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/Timesheets"
+41615145-f393-4ace-b7aa-b6c104e9d16d,Payroll Upsell - Operational Needs,Canvas,Standard,Active,2026-02-17T01:11:50+00:00,2026-02-17T18:00:00Z,,2026-02-17T18:00:00Z,"upsell,upsell/Timesheets"
 7021cc52-0564-494c-9bdf-2868ea0e4158,Payroll Growing Team Conversion Tracking,Canvas,Standard,Active,2026-01-08T16:51:36+00:00,2024-12-05T21:00:00Z,,2024-12-05T21:00:00Z,
-dffebf50-9fc7-41b7-ad59-244e285e8d2f,Payroll Growing Team Conversion Tracking,Canvas,Standard,Active,2026-02-12T20:05:13+00:00,2026-02-12T20:00:00Z,,2026-02-12T20:00:00Z,
+dffebf50-9fc7-41b7-ad59-244e285e8d2f,Payroll Growing Team Conversion Tracking,Canvas,Standard,Active,2026-02-16T20:05:05+00:00,2026-02-16T20:00:00Z,,2026-02-16T20:00:00Z,
+9ceb1729-9d9c-4ca9-9e98-6dcf201368ea,Toast Community | Re-Engagement,Canvas,Standard,Active,2026-01-08T16:51:37+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,
 fe004053-4451-42cd-9883-c9d93da3880d,Operational_Log_Alerts,Canvas,Standard,Active,2026-01-08T16:51:36+00:00,2025-02-03T23:00:00Z,,2025-02-03T23:00:00Z,operational
-9ceb1729-9d9c-4ca9-9e98-6dcf201368ea,Toast Community | Re-Engagement,Canvas,Standard,Active,2026-01-08T16:51:37+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,
+b9e0f988-2b6d-444c-90ff-f378a6d00eaa,Community Partial Registration Nurture,Canvas,Standard,Active,2026-01-08T16:51:35+00:00,2026-02-17T05:00:00Z,,2026-02-17T05:00:00Z,Community
 58ec0425-7eff-4b22-89fe-600bcf140c40,Q4 Toast Now App Download - Toast Web Users,Canvas,Standard,Active,2026-01-08T16:51:37+00:00,2024-12-23T21:00:00Z,,2024-12-23T21:00:00Z,Adoption
-506f6455-5ec0-4d23-ae7f-d67f93b573c3,Payroll Upsell - Marketing Engaged,Canvas,Standard,Active,2026-01-26T16:52:41+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/Payroll MEL"
 ff132549-cbc5-4ac4-aee0-aefbb0674aa0,Q4 Toast Now App Download - Toast Web Users - Non Email Openers,Canvas,Standard,Active,2026-01-08T16:51:37+00:00,2025-01-13T18:00:00Z,,2025-01-13T18:00:00Z,Adoption
 a9051c8b-6338-448f-81c7-57b1a8ac90d0,CA_Fire_Customer_Impact_010925,Canvas,Standard,Active,2026-01-08T16:51:37+00:00,2025-01-09T22:00:00Z,,2025-01-09T22:00:00Z,
-52c1ba90-6793-4667-ae76-0071d06bef8f,MSDM Location Array Catalog,Canvas,Standard,Active,2026-01-08T16:51:37+00:00,2025-01-18T19:00:00Z,,2025-01-18T19:00:00Z,operational
 e41d216b-0b2e-4f1c-8e62-f9c0c319a19c,Preprocess Data for CSV Import,Canvas,Standard,Active,2026-01-08T16:51:37+00:00,2026-01-08T16:51:37+00:00,,,
-f802b105-0493-460e-a6c0-286f024b6f56,MSDM Location Array Catalog_V2,Canvas,Standard,Active,2026-02-12T05:00:34+00:00,2026-02-12T05:00:00Z,,2026-02-12T05:00:00Z,operational
-15a393b8-a360-4a7b-bcfb-5bd16587849c,location_guid_to_user_guid_test,Canvas,Standard,Active,2026-01-08T16:51:38+00:00,2026-01-08T16:51:38+00:00,,,
+52c1ba90-6793-4667-ae76-0071d06bef8f,MSDM Location Array Catalog,Canvas,Standard,Active,2026-01-08T16:51:37+00:00,2025-01-18T19:00:00Z,,2025-01-18T19:00:00Z,operational
+f802b105-0493-460e-a6c0-286f024b6f56,MSDM Location Array Catalog_V2,Canvas,Standard,Active,2026-02-17T05:00:05+00:00,2026-02-17T05:00:00Z,,2026-02-17T05:00:00Z,operational
 58b4d740-d470-4a29-b232-6b86943ea54c,Location Guid Test,Canvas,Standard,Active,2026-01-08T16:51:38+00:00,2026-01-08T16:51:38+00:00,,,
+15a393b8-a360-4a7b-bcfb-5bd16587849c,location_guid_to_user_guid_test,Canvas,Standard,Active,2026-01-08T16:51:38+00:00,2026-01-08T16:51:38+00:00,,,
 8996ac59-65a8-4ebd-92eb-2fac4d364d73,location_guid_to_user_guid_test_01,Canvas,Standard,Active,2026-01-08T16:51:38+00:00,2025-01-22T18:00:00Z,,2025-01-22T18:00:00Z,
-5d9ab984-68c0-4231-8c4d-a1ec49fce878,Location GUID to User GUID,Canvas,Standard,Active,2026-01-08T16:51:38+00:00,2025-01-23T21:00:00Z,,2025-01-23T21:00:00Z,
 5c2c0984-515d-4c60-a3b4-bd42953502d8,Copy of Copy of location_guid_to_user_guid_test_01,Canvas,Standard,Active,2026-01-08T16:51:38+00:00,2025-01-23T02:00:00Z,,2025-01-23T02:00:00Z,
 4920bdd6-5437-429d-9985-f123b98bbd43,Copy of Test Location GUID to User GUID,Canvas,Standard,Active,2026-01-08T16:51:38+00:00,2025-01-23T22:00:00Z,,2025-01-23T22:00:00Z,
-a40d12e7-a070-455c-bad2-9803ffb6ea3e,Test Location GUID to User GUID,Canvas,Standard,Active,2026-01-08T16:51:38+00:00,2025-01-23T21:00:00Z,,2025-01-23T21:00:00Z,
-cb2edc36-3cfa-4403-9d50-d5f6a51562a8,Copy of Template - Marketing Engaged Nurture,Canvas,Standard,Active,2026-01-08T16:51:39+00:00,2026-01-08T16:51:39+00:00,,,"Template - DO NOT EDIT,upsell"
+506f6455-5ec0-4d23-ae7f-d67f93b573c3,Payroll Upsell - Marketing Engaged,Canvas,Standard,Active,2026-01-26T16:52:41+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"upsell,upsell/Payroll MEL"
 4680c596-229d-48ef-9a7c-4821b72e5557,Copy of Copy of Test Location GUID to User GUID,Canvas,Standard,Active,2026-01-08T16:51:39+00:00,2025-01-23T22:00:00Z,,2025-01-23T22:00:00Z,
-121cef2b-bfc2-4e53-bf67-f0960b160042,3PO Activation Post Live - Door Dash,Canvas,Standard,Active,2026-02-12T14:15:03+00:00,2026-02-12T14:00:00Z,,2026-02-12T14:00:00Z,Activation
+cb2edc36-3cfa-4403-9d50-d5f6a51562a8,Copy of Template - Marketing Engaged Nurture,Canvas,Standard,Active,2026-01-08T16:51:39+00:00,2026-01-08T16:51:39+00:00,,,"Template - DO NOT EDIT,upsell"
+121cef2b-bfc2-4e53-bf67-f0960b160042,3PO Activation Post Live - Door Dash,Canvas,Standard,Active,2026-02-17T14:15:04+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,Activation
+2f00f710-c40e-47b1-8323-52bcba0ca539,3PO Activation Post Live - Grub Hub,Canvas,Standard,Active,2026-02-17T14:30:08+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,Activation
 88606813-cc10-44bc-8649-15fdf81c73df,2025_Test Location GUID to User GUID,Canvas,Standard,Active,2026-01-08T16:51:39+00:00,2025-01-29T20:00:00Z,,2025-01-29T20:00:00Z,
-2f00f710-c40e-47b1-8323-52bcba0ca539,3PO Activation Post Live - Grub Hub,Canvas,Standard,Active,2026-02-12T14:30:12+00:00,2026-02-12T14:00:00Z,,2026-02-12T14:00:00Z,Activation
-9b350a04-d150-439f-a799-bffc2576c860,Retail MEL Audience Test - 400+SKUs,Canvas,Standard,Active,2026-01-08T16:51:39+00:00,2025-02-10T19:00:00Z,,2025-02-10T19:00:00Z,upsell
+176dd0a4-5bee-4762-99f2-c0071386c87f,Retail MEL Nurture,Canvas,Standard,Active,2026-01-08T16:51:39+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,upsell
 3239b96a-8489-4360-91d1-60c05111fc52,Referral Reward Claim SMS Send 2/17/25,Canvas,Standard,Active,2026-01-08T16:51:40+00:00,2026-01-08T16:51:40+00:00,,,
-176dd0a4-5bee-4762-99f2-c0071386c87f,Retail MEL Nurture,Canvas,Standard,Active,2026-01-08T16:51:39+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,upsell
+9b350a04-d150-439f-a799-bffc2576c860,Retail MEL Audience Test - 400+SKUs,Canvas,Standard,Active,2026-01-08T16:51:39+00:00,2025-02-10T19:00:00Z,,2025-02-10T19:00:00Z,upsell
+5d9ab984-68c0-4231-8c4d-a1ec49fce878,Location GUID to User GUID,Canvas,Standard,Active,2026-01-08T16:51:38+00:00,2025-01-23T21:00:00Z,,2025-01-23T21:00:00Z,
 0f9498e4-d166-454e-992d-ab45c819ab25,Copy of (5/1 Update) Toast Shop Product Page Retargeting - CandE,Canvas,Standard,Active,2026-01-08T16:51:40+00:00,2026-01-08T16:51:40+00:00,,,"upsell,upsell/toast shop"
-24487954-cbc6-48c0-8cd0-c0ff3d365a21,3PO Meta Canvas Controller,Canvas,Standard,Active,2026-01-08T16:51:40+00:00,2026-01-08T16:51:40+00:00,,,
 b8ac05df-7ab1-4063-94cb-7866eb10cd0e,CandE Nurture - Marketing Engaged,Canvas,Standard,Active,2026-01-08T16:51:40+00:00,2025-05-01T19:00:00Z,,2025-05-01T19:00:00Z,upsell
-dfe75c64-76fb-47e0-a36b-bc0160dc220a,3PO Activation Post Live - Uber Eats,Canvas,Standard,Active,2026-02-12T14:00:32+00:00,2026-02-12T14:00:00Z,,2026-02-12T14:00:00Z,Activation
+a40d12e7-a070-455c-bad2-9803ffb6ea3e,Test Location GUID to User GUID,Canvas,Standard,Active,2026-01-08T16:51:38+00:00,2025-01-23T21:00:00Z,,2025-01-23T21:00:00Z,
+dfe75c64-76fb-47e0-a36b-bc0160dc220a,3PO Activation Post Live - Uber Eats,Canvas,Standard,Active,2026-02-17T14:00:50+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,Activation
 2d4869a9-d84a-4824-b9f7-483cdabfce5d,CandE Nurture - Product Engaged,Canvas,Standard,Active,2026-01-08T16:51:40+00:00,2025-05-01T16:00:00Z,,2025-05-01T16:00:00Z,upsell
-b9b80706-2203-4a12-accd-42fe26dca09a,CandE Free Trial Activation - Exit,Canvas,Standard,Active,2026-01-08T16:51:41+00:00,2026-01-08T16:51:41+00:00,,,Activation
 4114d7c2-be74-4298-9805-3f661ad20295,Toast Tipoff Challenge - TWeb Users,Canvas,Standard,Active,2026-01-08T16:51:41+00:00,2025-03-05T17:00:00Z,,2025-03-05T17:00:00Z,
+24487954-cbc6-48c0-8cd0-c0ff3d365a21,3PO Meta Canvas Controller,Canvas,Standard,Active,2026-01-08T16:51:40+00:00,2026-01-08T16:51:40+00:00,,,
 d7c9fead-59ce-49fb-a24e-d0977a15d45c,Copy of Marketing Essentials Activation Post Live,Canvas,Standard,Active,2026-01-08T16:51:40+00:00,2026-01-08T16:51:40+00:00,,,Activation
 ae20bd5d-0481-4e31-b046-7caf93375d4d,CandE Free Trial Activation - Midpoint,Canvas,Standard,Active,2026-01-08T16:51:41+00:00,2026-01-08T16:51:41+00:00,,,Activation
-f2a80e04-1134-4837-842e-23df27f1ba5c,CandE Free Trial Activation - Welcome + Activation,Canvas,Standard,Active,2026-01-08T16:51:41+00:00,2026-01-08T16:51:41+00:00,,,Activation
+b9b80706-2203-4a12-accd-42fe26dca09a,CandE Free Trial Activation - Exit,Canvas,Standard,Active,2026-01-08T16:51:41+00:00,2026-01-08T16:51:41+00:00,,,Activation
 a3bce606-a647-4ce4-bd0a-a65db5f90f34,3PO Data Correction - 1 time use CB,Canvas,Standard,Active,2026-01-08T16:51:42+00:00,2025-03-03T22:00:00Z,,2025-03-03T22:00:00Z,Activation
-1696e74d-c2f4-43b7-a1cb-76a09784cedc,Toast Capital Test - Large Shop Purchase,Canvas,Standard,Active,2026-01-08T16:51:42+00:00,2026-01-08T16:51:42+00:00,,,Capital
 fdbdd24c-6b4b-41ec-a20a-9d5b6318e396,MOPS TEST CandE MEL,Canvas,Standard,Active,2026-01-08T16:51:42+00:00,2025-03-20T14:00:00Z,,2025-03-20T14:00:00Z,upsell
+ff26b99f-1fe8-4d87-bc1a-0a3d8d8922a3,3PO Upsell - Door Dash,Canvas,Standard,Active,2026-02-17T14:45:13+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,Activation
+45845ebd-49d2-4370-9a13-b4bc4314d8ee,3PO Upsell - Grub Hub,Canvas,Standard,Active,2026-02-17T15:00:27+00:00,2026-02-17T15:00:00Z,,2026-02-17T15:00:00Z,Activation
+14e613bb-1b90-4991-8670-0ce6eb53f7b0,3PO Upsell - Uber Eats,Canvas,Standard,Active,2026-02-17T14:30:05+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,Activation
+1696e74d-c2f4-43b7-a1cb-76a09784cedc,Toast Capital Test - Large Shop Purchase,Canvas,Standard,Active,2026-01-08T16:51:42+00:00,2026-01-08T16:51:42+00:00,,,Capital
 7240f7e2-6e9c-4e8a-817f-330447822340,TEST IPM CandE Nurture - Product Engaged,Canvas,Standard,Active,2026-01-08T16:51:42+00:00,2025-03-31T14:00:00Z,,2025-03-31T14:00:00Z,Test
-14e613bb-1b90-4991-8670-0ce6eb53f7b0,3PO Upsell - Uber Eats,Canvas,Standard,Active,2026-02-12T14:30:04+00:00,2026-02-12T14:00:00Z,,2026-02-12T14:00:00Z,Activation
-ff26b99f-1fe8-4d87-bc1a-0a3d8d8922a3,3PO Upsell - Door Dash,Canvas,Standard,Active,2026-02-12T14:45:05+00:00,2026-02-12T14:00:00Z,,2026-02-12T14:00:00Z,Activation
-45845ebd-49d2-4370-9a13-b4bc4314d8ee,3PO Upsell - Grub Hub,Canvas,Standard,Active,2026-02-12T15:00:36+00:00,2026-02-12T15:00:00Z,,2026-02-12T15:00:00Z,Activation
 82d01b01-19bd-4f22-965b-aa768237b3ac,Payroll MEL Toast Now Audience Test - Labor Cost View,Canvas,Standard,Active,2026-01-08T16:51:43+00:00,2025-04-07T18:00:00Z,,2025-04-07T18:00:00Z,upsell
 08016aea-fc59-49c3-ab29-b20954962106,MSDM Location Array Catalog_V3,Canvas,Standard,Active,2026-01-08T16:51:43+00:00,2026-01-08T16:51:43+00:00,,,operational
 2d6fdfdd-3f8f-424d-a065-cd458c9da8c9,pricing comms example,Canvas,Standard,Active,2026-01-08T16:51:43+00:00,2026-01-08T16:51:43+00:00,,,
 88c93ffb-6ff9-4ce5-931d-bdc908484d3e,Payroll MEL Toast Now Audience Test - Team Page Views RELAUNCH,Canvas,Standard,Active,2026-01-08T16:51:43+00:00,2025-04-08T16:00:00Z,,2025-04-08T16:00:00Z,upsell
-77965324-8ff5-48d3-8ded-b08df0e96342,Payroll Upsell - New Restaurant Opening (NRO),Canvas,Standard,Active,2026-02-12T17:00:22+00:00,2026-02-12T17:00:00Z,,2026-02-12T17:00:00Z,"upsell,upsell/Payroll NRO"
-3ac1224d-25de-4539-98d6-9ee01454fba5,V2 CandE Nurture - Product Engaged,Canvas,Standard,Active,2026-02-12T17:00:20+00:00,2026-02-12T17:00:00Z,,2026-02-12T17:00:00Z,upsell
-41b90673-7479-4bac-aec4-903e06d1bf29,V2 CandE Nurture - Marketing Engaged,Canvas,Standard,Active,2026-01-26T17:01:20+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,upsell
+3ac1224d-25de-4539-98d6-9ee01454fba5,V2 CandE Nurture - Product Engaged,Canvas,Standard,Active,2026-02-17T17:00:07+00:00,2026-02-17T17:00:00Z,,2026-02-17T17:00:00Z,upsell
+77965324-8ff5-48d3-8ded-b08df0e96342,Payroll Upsell - New Restaurant Opening (NRO),Canvas,Standard,Active,2026-02-17T17:00:16+00:00,2026-02-17T17:00:00Z,,2026-02-17T17:00:00Z,"upsell,upsell/Payroll NRO"
 456ecdf8-8aea-4670-8cef-8f64b5077611,May '25 LTO,Canvas,Standard,Active,2026-01-08T16:51:44+00:00,2025-05-05T18:00:00Z,,2025-05-05T18:00:00Z,
-b4fd8d9e-600a-4ebd-93ff-dde46c19c9f5,Off-Premise Sales - Marketing Suite,Canvas,Standard,Active,2026-01-08T16:51:44+00:00,2026-01-08T16:51:44+00:00,,,
-873a1b58-afbb-425e-b305-c2370eb263e8,Toast Web Retargeting - Integrations Page,Canvas,Standard,Active,2026-01-26T17:02:56+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/Retargeting"
+873a1b58-afbb-425e-b305-c2370eb263e8,Toast Web Retargeting - Integrations Page,Canvas,Standard,Active,2026-01-26T17:02:56+00:00,2026-02-17T16:00:00Z,,2026-02-17T16:00:00Z,"upsell,upsell/Retargeting"
 57db6d13-bab8-4016-a415-ae2838aad20a,Payroll PEL Re-Nurture,Canvas,Standard,Active,2026-01-08T16:51:45+00:00,2025-05-28T16:00:00Z,,2025-05-28T16:00:00Z,upsell
-de5ea1c8-7abb-4bfa-8ca1-5707d689b4ab,Tables MEL Audience Test - High Table Count + FOH View,Canvas,Standard,Active,2026-01-08T16:51:46+00:00,2025-08-05T13:00:00Z,,2025-08-05T13:00:00Z,upsell
-e849559d-bf4b-4fb2-8ab9-e08c0d15721e,[DRAFT] 3PO Upsell - Uber Eats - Canada,Canvas,Standard,Active,2026-01-08T16:51:46+00:00,2026-01-08T16:51:46+00:00,,,Activation
-8b3bf5bd-1c96-4964-8656-a1515e878c56,Tables Upsell - Marketing Engaged,Canvas,Standard,Active,2026-01-26T17:05:28+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,upsell
-f727b6a9-fdb1-4d93-b058-06d573ca5b02,For Testing Zero Copy,Canvas,Standard,Active,2026-01-08T16:51:46+00:00,2026-01-08T16:51:46+00:00,,,
+b4fd8d9e-600a-4ebd-93ff-dde46c19c9f5,Off-Premise Sales - Marketing Suite,Canvas,Standard,Active,2026-01-08T16:51:44+00:00,2026-01-08T16:51:44+00:00,,,
 dcd6c44d-965c-47b5-9d2a-1ee2e75d7e12,Off-Premise Sales - NO Marketing Suite,Canvas,Standard,Active,2026-01-08T16:51:45+00:00,2026-01-08T16:51:45+00:00,,,
+de5ea1c8-7abb-4bfa-8ca1-5707d689b4ab,Tables MEL Audience Test - High Table Count + FOH View,Canvas,Standard,Active,2026-01-08T16:51:46+00:00,2025-08-05T13:00:00Z,,2025-08-05T13:00:00Z,upsell
+8b3bf5bd-1c96-4964-8656-a1515e878c56,Tables Upsell - Marketing Engaged,Canvas,Standard,Active,2026-01-26T17:05:28+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,upsell
 3332a407-f3a6-4e7e-9247-528d2cce262d,Copy of [DRAFT] 3PO Upsell - Uber Eats - Canada,Canvas,Standard,Active,2026-01-08T16:51:46+00:00,2026-01-08T16:51:46+00:00,,,Activation
+f727b6a9-fdb1-4d93-b058-06d573ca5b02,For Testing Zero Copy,Canvas,Standard,Active,2026-01-08T16:51:46+00:00,2026-01-08T16:51:46+00:00,,,
 68d782bc-2180-46d9-b8c8-9aad40dccdc0,Copy of Tips Manager PDP Retargeting Campaign,Canvas,Standard,Active,2026-01-08T16:51:46+00:00,2026-01-08T16:51:46+00:00,,,"upsell,upsell/toast shop"
+e3ea94db-59f4-4658-8528-664df3231aee,Tips Manager Marketing Engaged Lead,Canvas,Standard,Active,2026-01-08T16:51:46+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,"upsell,upsell/toast shop"
+d10d4222-c5f8-417e-a203-dcf5959b0524,Toast IQ Adoption,Canvas,Standard,Active,2026-02-17T15:00:21+00:00,2026-02-17T15:00:00Z,,2026-02-17T15:00:00Z,
 a88e4efb-d008-432c-a258-12d74fd81f38,Copy of MSDM Location Array Catalog_V2,Canvas,Standard,Active,2026-01-08T16:51:47+00:00,2025-09-25T03:00:00Z,,2025-09-25T03:00:00Z,operational
-e3ea94db-59f4-4658-8528-664df3231aee,Tips Manager Marketing Engaged Lead,Canvas,Standard,Active,2026-01-08T16:51:46+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/toast shop"
 8c068655-bd4a-4545-b4a7-824a9a3af482,Copy of MSDM Location Array Catalog_V2,Canvas,Standard,Active,2026-01-08T16:51:47+00:00,2026-01-08T16:51:47+00:00,,,operational
-3c44d692-50b1-4e7f-b692-d9dafdd7198f,Copy of MSDM Location Array Catalog_V2,Canvas,Standard,Active,2026-01-08T16:51:47+00:00,2025-10-09T20:00:00Z,,2025-10-09T20:00:00Z,operational
-2810a0ad-83d7-455b-9074-1680059950b8,Digital Storefront Upgrade Nurture,Canvas,Standard,Active,2026-02-12T14:00:06+00:00,2026-02-12T14:00:00Z,,2026-02-12T14:00:00Z,"upsell,upsell/toast shop"
-785e17fc-f04c-48ed-aefb-a76defa08010,Copy of New Template Test,Canvas,Standard,Active,2026-01-08T16:51:48+00:00,2025-10-15T19:00:00Z,,2025-10-15T19:00:00Z,
-ac1102ce-8d68-4fa8-9788-d25fa3e4febb,ToastIQ - Renengagement,Canvas,Standard,Active,2026-02-12T15:15:05+00:00,2026-02-12T15:00:00Z,,2026-02-12T15:00:00Z,
-d10d4222-c5f8-417e-a203-dcf5959b0524,Toast IQ Adoption,Canvas,Standard,Active,2026-02-12T15:01:13+00:00,2026-02-12T15:00:00Z,,2026-02-12T15:00:00Z,
+ac1102ce-8d68-4fa8-9788-d25fa3e4febb,ToastIQ - Renengagement,Canvas,Standard,Active,2026-02-17T15:15:11+00:00,2026-02-17T15:00:00Z,,2026-02-17T15:00:00Z,
+2810a0ad-83d7-455b-9074-1680059950b8,Digital Storefront Upgrade Nurture,Canvas,Standard,Active,2026-02-17T14:01:08+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,"upsell,upsell/toast shop"
 4cfad2c6-0619-4f20-a767-610cf80625c2,Copy of Copy of New Template Test,Canvas,Standard,Active,2026-01-08T16:51:48+00:00,2026-01-08T16:51:48+00:00,,,
-449c6ffb-73a7-468f-8057-30ded6e5020e,Copy of IPM Test for Miles and Dani,Canvas,Standard,Active,2026-01-08T16:51:48+00:00,2025-11-03T20:00:00Z,,2025-11-03T20:00:00Z,
+3c44d692-50b1-4e7f-b692-d9dafdd7198f,Copy of MSDM Location Array Catalog_V2,Canvas,Standard,Active,2026-01-08T16:51:47+00:00,2025-10-09T20:00:00Z,,2025-10-09T20:00:00Z,operational
+785e17fc-f04c-48ed-aefb-a76defa08010,Copy of New Template Test,Canvas,Standard,Active,2026-01-08T16:51:48+00:00,2025-10-15T19:00:00Z,,2025-10-15T19:00:00Z,
+42798631-0a6a-4627-967e-4584650b24c0,Toast Shop Inactive Nurture,Canvas,Standard,Active,2026-02-17T15:00:15+00:00,2026-02-17T15:00:00Z,,2026-02-17T15:00:00Z,upsell
 4b2ab23e-f539-47e6-baf7-74f874fea3a9,IPM Test for Miles and Dani,Canvas,Standard,Active,2026-01-08T16:51:48+00:00,2025-11-03T17:00:00Z,,2025-11-03T17:00:00Z,
+449c6ffb-73a7-468f-8057-30ded6e5020e,Copy of IPM Test for Miles and Dani,Canvas,Standard,Active,2026-01-08T16:51:48+00:00,2025-11-03T20:00:00Z,,2025-11-03T20:00:00Z,
+05449686-d4a6-4dfa-8d5d-dcd0d62bc144,Incremental IQ Toast Submission Tracking v2,Canvas,Standard,Active,2026-02-04T16:58:08+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,operational
+f2a80e04-1134-4837-842e-23df27f1ba5c,CandE Free Trial Activation - Welcome + Activation,Canvas,Standard,Active,2026-01-08T16:51:41+00:00,2026-01-08T16:51:41+00:00,,,Activation
 4df54370-c9dc-4aeb-a35d-5042fa2bf91c,TDS Offers IPM November,Canvas,Standard,Active,2026-01-08T16:51:48+00:00,2025-11-05T22:00:00Z,,2025-11-05T22:00:00Z,Activation
-05449686-d4a6-4dfa-8d5d-dcd0d62bc144,Incremental IQ Toast Submission Tracking v2,Canvas,Standard,Active,2026-02-04T16:58:08+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,operational
-bb9b0f73-f3de-4387-81ff-d8e99ac61127,Copy of MSDM Location Array Catalog_V2,Canvas,Standard,Active,2026-01-08T16:51:48+00:00,2025-11-03T17:00:00Z,,2025-11-03T17:00:00Z,operational
-42798631-0a6a-4627-967e-4584650b24c0,Toast Shop Inactive Nurture,Canvas,Standard,Active,2026-02-12T15:00:59+00:00,2026-02-12T15:00:00Z,,2026-02-12T15:00:00Z,upsell
 98cfa35f-92bc-4eb2-8738-03105aa3f7e1,DS Prem DE Testing (do not use - only for reference),Canvas,Standard,Active,2026-01-08T16:51:49+00:00,2026-01-08T16:51:49+00:00,,,
-42ada6df-2403-4f22-b719-3318c7b33613,Toast Go 3 Retargeting,Canvas,Standard,Active,2026-01-26T16:57:55+00:00,2026-02-12T22:00:00Z,,2026-02-12T22:00:00Z,"upsell,upsell/Retargeting"
-5d13ecb6-21d5-4f52-8b73-525f6d149009,MSDM Location Array Catalog_V3,Canvas,Standard,Active,2026-02-12T06:52:03+00:00,2026-02-12T06:00:00Z,,2026-02-12T06:00:00Z,operational
-88555bf7-b6f7-419d-a06a-b7e903ab622c,Tips Manager Abandoned Demo,Canvas,Standard,Active,2025-12-18T20:55:38+00:00,2026-02-12T19:00:00Z,,2026-02-12T19:00:00Z,upsell/Retargeting
+42ada6df-2403-4f22-b719-3318c7b33613,Toast Go 3 Retargeting,Canvas,Standard,Active,2026-01-26T16:57:55+00:00,2026-02-17T18:00:00Z,,2026-02-17T18:00:00Z,"upsell,upsell/Retargeting"
+5d13ecb6-21d5-4f52-8b73-525f6d149009,MSDM Location Array Catalog_V3,Canvas,Standard,Active,2026-02-17T06:52:02+00:00,2026-02-17T06:00:00Z,,2026-02-17T06:00:00Z,operational
+51d43dc9-772f-4ac9-b348-e613048536db,DS Premium Activation Nurture (New Biz),Canvas,Standard,Active,2026-02-17T14:15:09+00:00,2026-02-17T14:00:00Z,,2026-02-17T14:00:00Z,"Activation,Activation/Digital Storefront"
+bb9b0f73-f3de-4387-81ff-d8e99ac61127,Copy of MSDM Location Array Catalog_V2,Canvas,Standard,Active,2026-01-08T16:51:48+00:00,2025-11-03T17:00:00Z,,2025-11-03T17:00:00Z,operational
+d3767641-7732-4e1f-b6a6-be30c4df434e,Toast Ads Activation Nurture,Canvas,Standard,Active,2026-02-17T16:45:18+00:00,2026-02-17T16:00:00Z,,2026-02-17T16:00:00Z,
+88555bf7-b6f7-419d-a06a-b7e903ab622c,Tips Manager Abandoned Demo,Canvas,Standard,Active,2025-12-18T20:55:38+00:00,2026-02-17T15:00:00Z,,2026-02-17T15:00:00Z,upsell/Retargeting
 392c7606-c5fa-4aba-ad76-65dfe6f0d39c,dani testing webhook for decision split,Canvas,Standard,Active,2025-12-17T21:25:07+00:00,2025-12-17T21:25:07+00:00,,,
 ebd220b2-c3eb-4b52-9391-fa07b862282f,Webhook Test,Canvas,Standard,Active,2026-01-08T16:51:50+00:00,2025-12-18T21:00:00Z,,2025-12-18T21:00:00Z,
-d3767641-7732-4e1f-b6a6-be30c4df434e,Toast Ads Activation Nurture,Canvas,Standard,Active,2026-02-12T16:45:02+00:00,2026-02-12T16:00:00Z,,2026-02-12T16:00:00Z,
 10f4ff7e-754c-41fd-b8ea-0db58eb80765,Testing Context Variables,Canvas,Standard,Active,2026-01-16T04:18:39+00:00,2026-01-07T20:00:00Z,,2026-01-07T20:00:00Z,
-4284bdb4-b5bc-43a8-9d8d-7fad722279ee,Complete the Suite - Instant Deposit to Toast Checking,Canvas,Standard,Active,2026-02-10T17:24:01+00:00,2026-02-10T17:24:01+00:00,,,"Capital,upsell"
 9bac8cda-fbe4-4f4d-ac18-5d6043294d17,Updated Webhooks,Canvas,Standard,Active,2026-01-07T20:47:39+00:00,2026-01-07T20:47:39+00:00,,,
-51d43dc9-772f-4ac9-b348-e613048536db,DS Premium Activation Nurture (New Biz),Canvas,Standard,Active,2026-02-12T14:15:04+00:00,2026-02-12T14:00:00Z,,2026-02-12T14:00:00Z,"Activation,Activation/Digital Storefront"
-3c417dce-1b3d-4c13-95b8-896c6f555cb2,Complete the Suite - Toast Capital to Toast Checking,Canvas,Standard,Active,2026-02-10T17:32:02+00:00,2026-02-10T17:32:02+00:00,,,"Capital,upsell"
+4284bdb4-b5bc-43a8-9d8d-7fad722279ee,Complete the Suite - Instant Deposit to Toast Checking,Canvas,Standard,Active,2026-02-10T17:24:01+00:00,2026-02-10T17:24:01+00:00,,,"Capital,upsell"
 b906742f-825c-4f0b-96de-a1b9f69a8db3,Complete the Suite - Surcharging to Toast Capital,Canvas,Standard,Active,2026-01-08T17:51:29+00:00,2026-01-08T17:51:29+00:00,,,"Capital,upsell"
+3c417dce-1b3d-4c13-95b8-896c6f555cb2,Complete the Suite - Toast Capital to Toast Checking,Canvas,Standard,Active,2026-02-10T17:32:02+00:00,2026-02-10T17:32:02+00:00,,,"Capital,upsell"
 7c5a998d-d49b-4e60-abc3-0e79e8e99b59,Flex 3 PDP Retargeting,Canvas,Standard,Active,2026-01-13T14:24:58+00:00,2026-01-13T14:24:58+00:00,,,upsell
 b739793d-d56c-4047-9ced-4ea62b287968,in line canvas segmentation template,Canvas,Standard,Active,2026-01-09T18:19:35+00:00,2026-01-09T18:19:35+00:00,,,
-ea4f578e-acf0-49b1-bd08-89dcf04c510c,Canvas for in line canvas segmentation - Toast Ads Activation,Canvas,Standard,Active,2026-01-09T19:27:24+00:00,2026-01-09T19:27:24+00:00,,,
+e849559d-bf4b-4fb2-8ab9-e08c0d15721e,[DRAFT] 3PO Upsell - Uber Eats - Canada,Canvas,Standard,Active,2026-01-08T16:51:46+00:00,2026-01-08T16:51:46+00:00,,,Activation
 40e49f3b-7c1c-4b1a-93ef-a959a9ef920e,Copy of Canvas for in line canvas segmentation - Toast Ads Activation,Canvas,Standard,Active,2026-01-12T19:16:11+00:00,2026-01-12T19:16:11+00:00,,,
 103ebaac-1f9c-48c2-8562-d696f67c2a60,Uber Eats Landing Page Retargeting,Canvas,Standard,Active,2026-01-13T14:34:06+00:00,2026-01-13T14:34:06+00:00,,,upsell/Retargeting
+c3325e3e-b73e-4406-a53c-46a64c408572,Skip the Dishes - Activation - New Biz,Canvas,Standard,Active,2026-02-13T18:18:12+00:00,2026-02-13T18:18:12+00:00,,,
 09e52b07-6c82-470b-a10f-8f39007a6fa3,Advertising PDP Retargeting,Canvas,Standard,Active,2026-01-13T14:40:45+00:00,2026-01-13T14:40:45+00:00,,,upsell/Retargeting
-c3325e3e-b73e-4406-a53c-46a64c408572,Skip the Dishes - Activation,Canvas,Standard,Active,2026-02-12T19:43:11+00:00,2026-02-12T19:43:11+00:00,,,
-f1f4e487-c98e-4a45-9aba-15e9e4c27cc0,Toast Shop Abandon Cart - Uber Eats,Canvas,Standard,Active,2026-01-13T14:36:40+00:00,2026-01-13T14:36:40+00:00,,,upsell/toast shop
+ea4f578e-acf0-49b1-bd08-89dcf04c510c,Canvas for in line canvas segmentation - Toast Ads Activation,Canvas,Standard,Active,2026-01-09T19:27:24+00:00,2026-01-09T19:27:24+00:00,,,
 fb4cb57a-f94c-4236-a84a-a5b7016b3b09,Upsell SMS Double Opt In,Canvas,Standard,Active,2026-01-22T02:59:35+00:00,2026-01-22T02:00:00Z,,2026-01-22T02:00:00Z,operational
+f1f4e487-c98e-4a45-9aba-15e9e4c27cc0,Toast Shop Abandon Cart - Uber Eats,Canvas,Standard,Active,2026-01-13T14:36:40+00:00,2026-01-13T14:36:40+00:00,,,upsell/toast shop
 d349d9c0-bdb0-4794-b920-ee5f34710d2e,Toast Go 3 Upgrade Audience Test - 2+ y/o TG2,Canvas,Standard,Active,2026-01-13T18:55:35+00:00,2026-01-13T18:55:35+00:00,,,upsell
 4fe4e01e-4df5-41f8-b5b6-047086a2b109,Agent Canary for Toast Ads Activation Enrollment_V2,Canvas,Standard,Active,2026-01-22T05:24:25+00:00,2026-01-22T03:00:00Z,,2026-01-22T03:00:00Z,
 b5a00c61-feeb-4def-b99a-06a0eb2187f0,Complete the Suite - Marketing Essentials,Canvas,Standard,Active,2026-01-26T20:04:20+00:00,2026-01-26T20:04:20+00:00,,,upsell
-c76ff85c-7fc6-4cab-9121-1b5c0309144d,Agent Canary for Toast Ads Activation Enrollment_V3,Canvas,Standard,Active,2026-01-22T05:24:13+00:00,2026-01-22T05:00:00Z,,2026-01-22T05:00:00Z,
 9950e98b-d1aa-497a-a5db-5a92d9833dba,Agent Canary for Toast Ads Activation Enrollment_V4,Canvas,Standard,Active,2026-02-08T04:04:41+00:00,2026-01-23T18:00:00Z,,2026-01-23T18:00:00Z,
+41b90673-7479-4bac-aec4-903e06d1bf29,V2 CandE Nurture - Marketing Engaged,Canvas,Standard,Active,2026-01-26T17:01:20+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,upsell
+856b79ae-d93e-4b7f-adf2-573fb614d87d,Test 2 SMS Double Opt In Flow,Canvas,Standard,Active,2026-02-17T19:45:32+00:00,2026-02-17T19:00:00Z,,2026-02-17T19:00:00Z,operational
 cb461e95-a144-43da-843e-6d3d695d4f0b,Double Test SMS Double Opt In Flow,Canvas,Standard,Active,2026-01-22T19:28:08+00:00,2026-01-22T19:28:08+00:00,,,operational
 0543740a-47f9-4989-95df-15fa3bf2d848,Copy of Template of in line canvas segmentation template,Canvas,Standard,Active,2026-01-28T03:01:44+00:00,2026-01-28T02:00:00Z,,2026-01-28T02:00:00Z,
 9a0b751c-0654-42f3-8ed7-bc8b8c5e1fd4,Test SMS Double Opt In Flow,Canvas,Standard,Active,2026-01-22T19:24:42+00:00,2026-01-22T19:00:00Z,,2026-01-22T19:00:00Z,operational
-856b79ae-d93e-4b7f-adf2-573fb614d87d,Test 2 SMS Double Opt In Flow,Canvas,Standard,Active,2026-01-23T18:50:12+00:00,2026-01-22T20:00:00Z,,2026-01-22T20:00:00Z,operational
 56c811d4-7525-4667-ad57-cd250f2e7c62,Copy of Template of in line canvas segmentation template,Canvas,Standard,Active,2026-02-03T20:49:57+00:00,2026-01-29T21:00:00Z,,2026-01-29T21:00:00Z,
 73f78b86-0bfe-4bf5-bed2-da76ccae8d3f,Ads Adoption,Canvas,Standard,Active,2026-02-06T21:32:07+00:00,2026-02-06T21:32:07+00:00,,,
 a2192818-14c3-4b29-b105-34ebc990ac77,Ads Re-Engagement,Canvas,Standard,Active,2026-02-06T21:32:38+00:00,2026-02-06T21:32:38+00:00,,,
+0da6965d-6253-4b94-8c4b-dc627edadc08,Skip the Dishes - Activation - Upsell,Canvas,Standard,Active,2026-02-13T18:29:10+00:00,2026-02-13T18:29:10+00:00,,,
+c76ff85c-7fc6-4cab-9121-1b5c0309144d,Agent Canary for Toast Ads Activation Enrollment_V3,Canvas,Standard,Active,2026-01-22T05:24:13+00:00,2026-01-22T05:00:00Z,,2026-01-22T05:00:00Z,
 1eb9f366-f871-492b-b3eb-559541f21d0c,Analytics Test of Toast Ads Activation Nurture,Canvas,Standard,Active,2026-02-03T20:46:00+00:00,2026-02-03T20:46:00+00:00,,,
